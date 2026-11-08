@@ -1,4 +1,4 @@
-# Assignment 4 — FINAL Human–Human Validation Report
+# Assignment 4 — Claim-level Agreement Status
 
 **Date:** 8 November 2026  
 **Status:** Human annotation and inter-rater agreement calculation completed; consensus adjudication and judge-versus-human validation are separate follow-up analyses.
@@ -34,6 +34,9 @@ This is a completed human–human inter-rater agreement calculation. The magnitu
 Including `unclear` as a distinct category yields **144 paired observations**, **62.50%** observed agreement and **Cohen's kappa = 0.2770**.
 
 ## 5. Interpretation and remaining validation work
+
+After discussion, the team reports that 39 of the 54 initially disputed or unclear cases were resolved and **15 remain unresolved**. The supplied CSV does not identify those 15 claim IDs. Its `final` labels are proposed decisions, **not a certified full consensus**. This aggregate update does not change the initial agreement statistics below.
+
 
 The two human annotation sets and their agreement calculation are complete. The results reveal **45 binary disagreements** (42 Reviewer A=yes / Reviewer B=no; 3 Reviewer A=no / Reviewer B=yes) and **9 unclear cases**. These should be adjudicated transparently, preserving both original annotations. This is a separate step from calculating human–human kappa.
 

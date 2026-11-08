@@ -2,9 +2,11 @@
 
 This package preserves the supplied experimental metrics. Publication does not certify scientific validation or independent reproduction.
 
-## Figure discrepancy
+## Figure correction and archived snapshots
 
-The supplied figures are historical execution snapshots and are not fully consistent with `results/main_results_DRAFT_not_for_submission.csv`. In particular, fig1 and fig2 show k5 completeness near 0.48 whereas the CSV reports 0.375; fig1 accuracy also differs from the CSV. Do not cite those images as verified plots of the exported table. The original images and numerical tables have been preserved rather than silently adjusted. The report embeds charts too; use the numerical table with this warning. Regeneration requires a documented choice of observations and metric definitions. Fig3 requires observation-level records that are absent from this ZIP to verify fully.
+The standalone `figures/fig1_metrics_by_k.png` and `figures/fig2_primary_by_condition.png` have been replaced with the supplied corrected images. Their SHA-256 hashes are `ca50745882cf0e6ad63cef04f45e78cb26e67374853d2d05e90f541a305e0ead` and `55be98a404a3d0b9d689f305ef3940f1e9d11626cb20586900738053ca6b994b`, respectively. Their plotted condition-level means and confidence intervals agree with the exported CSV at the displayed precision. Numerical tables were not changed.
+
+The report and executed notebook remain archived execution records and may embed older charts. In those earlier fig1/fig2 snapshots, k5 completeness was near 0.48 rather than the exported 0.375; the earlier fig1 accuracy also differed. Use the corrected standalone images with the exported table. Fig3 requires observation-level records absent from this package for full verification.
 
 ## Validation and reproduction
 
@@ -18,4 +20,4 @@ The supplied figures are historical execution snapshots and are not fully consis
 
 ## Remote publication
 
-The GitHub repository is private and initially empty. Its existing visibility is preserved. No commit, tag or release is claimed until upload and remote verification succeed.
+Initial publication was verified with release `v1.0.0`. These final corrections preserve the scientific results and prepare the `assignment-4` tag and requested public publication; consult GitHub for the verified commit, tag and current visibility.

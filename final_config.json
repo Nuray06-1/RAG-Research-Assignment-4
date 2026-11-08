@@ -1,0 +1,32 @@
+{
+  "retriever": "BAAI/bge-small-en-v1.5",
+  "retriever_short": "bge-small-en-v1.5",
+  "query_prefix": "Represent this sentence for searching relevant passages: ",
+  "generator": "Qwen/Qwen2.5-1.5B-Instruct",
+  "system_prompt": "You are a scientific research assistant. Answer the question using only the supplied evidence, and cite the source of each claim as [Source 1], [Source 2]. Partial evidence is still evidence: if the passages support part of the answer, give that part and say which part is missing. Reply with exactly INSUFFICIENT EVIDENCE only when none of the passages is relevant to the question. Do not invent facts, numbers or citations.",
+  "system_prompt_sha256": "480dbe2823abaa5ca5dcad34108c2153c46cda85d9a8ec2613d781a3ad818f53",
+  "no_retrieval_prompt": "You are a scientific research assistant answering from your existing knowledge only. No retrieval passages are available. Answer the question as accurately as possible, acknowledge uncertainty, and do not invent facts, numerical results, or source citations. If you cannot answer, reply exactly: INSUFFICIENT EVIDENCE.",
+  "judge": "microsoft/Phi-3.5-mini-instruct",
+  "max_new_tokens": 512,
+  "do_sample": false,
+  "passage_token_cap": 550,
+  "chunks_per_paper": 1,
+  "control_chunks": 5,
+  "control_algorithm": "top_ranked_paper_disjoint_token_windows_v1",
+  "control_span_max_tokens": 550,
+  "token_ceiling": 8192,
+  "seed": 42,
+  "conditions": [
+    "no_retrieval",
+    "random5",
+    "bm25_5",
+    "k1",
+    "k3",
+    "k5",
+    "k10",
+    "control"
+  ],
+  "benchmark_sha256": "2e62cd61ece5d17cb0e3213bfe4194a514881681880c12a6bc4dd2f6e70a733d",
+  "chunks_sha256": "6123a7ebe15112885963218e24582e9de07c8dad7dc35a8b37e31c6baecc02b5",
+  "selected_index_sha256": "30bf171fb5aa93a27460d583e955e5fbd0e7dcebeff98829a0b379723a1c704c"
+}

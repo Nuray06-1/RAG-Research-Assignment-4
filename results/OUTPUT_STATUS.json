@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-11-08T13:42:42.815887+00:00",
+  "numerical_results_reviewed": false,
+  "validation_complete": false,
+  "judge_exploratory": true,
+  "all_planned_generations_logged": true,
+  "all_ablation_runs_logged": true,
+  "error_analysis_complete": true,
+  "full_submission_ready": false,
+  "github_release_tag_verified": false,
+  "independent_reproduction_verified": false,
+  "moodle_upload_timestamp_self_reported": true,
+  "moodle_receipt_independently_verified": false,
+  "keypoints_verified_user_claim": false
+}

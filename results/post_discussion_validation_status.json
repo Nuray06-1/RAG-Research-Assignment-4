@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-11-08T13:37:09.049518+00:00",
+  "n_claims": 144,
+  "n_initial_agreements": 90,
+  "n_initial_disagreements_or_unclear": 54,
+  "n_reported_resolved_after_discussion": 39,
+  "n_reported_still_disputed": 15,
+  "unresolved_claim_ids_identified": false,
+  "all_final_column_labels_present": true,
+  "final_column_is_verified_consensus": false,
+  "initial_binary_cohens_kappa": 0.3034,
+  "initial_three_category_cohens_kappa": 0.277,
+  "judge_versus_consensus_validated": false,
+  "note": "39/15 split is team-reported; row-level identification is pending. 'final' contains proposed decisions, not certified consensus."
+}

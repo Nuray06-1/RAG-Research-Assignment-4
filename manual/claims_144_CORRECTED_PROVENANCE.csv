@@ -1,0 +1,865 @@
+row_order,claim_id,question_id,claim,reference_answer,label_human_annotator_A,label_model_prepass,label_adjudicated,adjudication_sided_with,adjudication_status,reason_group,adjudication_reason,adjudicated_by,differs_from_annotator_A
+1,12f778c0987d21436a26,Q02,"Static planning: Many RAG systems, like SU-Re, generate a fixed plan upfront, ignoring the evidence gathered during the process.","Conventional RAG struggles with incomplete evidence and multi-hop reasoning. FAIR-RAG uses Structured Evidence Assessment to identify information gaps and guide iterative retrieval. MultiHop-RAG exposes retrieval and reasoning limitations by introducing a benchmark with questions, ground-truth answers, and supporting evidence.
+Conventional RAG struggles with incomplete evidence.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG iteratively fills evidence gaps.
+MultiHop-RAG exposes retrieval and reasoning limitations.
+MultiHop-RAG provides questions, answers and evidence.",yes,no,no,model_prepass,disputed,Detail or mechanism not stated in the reference,"The claim replaces the stated limitations with a specific static-planning mechanism that the reference does not describe. The human 'no' rests on lack of support, not on proof that static planning is false.",human adjudicator (Denis),yes
+2,6cd2d1406a8954605e50,Q02,This approach works well for simple queries but struggles with complex ones requiring multi-step reasoning.,"Conventional RAG struggles with incomplete evidence and multi-hop reasoning. FAIR-RAG uses Structured Evidence Assessment to identify information gaps and guide iterative retrieval. MultiHop-RAG exposes retrieval and reasoning limitations by introducing a benchmark with questions, ground-truth answers, and supporting evidence.
+Conventional RAG struggles with incomplete evidence.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG iteratively fills evidence gaps.
+MultiHop-RAG exposes retrieval and reasoning limitations.
+MultiHop-RAG provides questions, answers and evidence.",yes,no,no,model_prepass,disputed,Detail or mechanism not stated in the reference,The reference confirms difficulty with multi-step reasoning but does not say the approach works well on simple queries. The second half of the claim is not established by the reference.,human adjudicator (Denis),yes
+3,b2a8941ca00545c500fa,Q03,These evaluations show that existing RAG methods perform unsatisfactorily in retrieving and answering multi-hop queries.,"Vendi-RAG evaluates retrieval diversity and answer quality on HotpotQA, MuSiQue and 2WikiMultiHopQA, comparing results with Adaptive-RAG. DF-RAG compares query-aware diversity against vanilla RAG and an Oracle upper bound, reporting gains of up to 9.5% and closing up to 91.3% of the Oracle gap in a specific setting. MultiHop-RAG separately benchmarks evidence retrieval and LLM generation.
+Vendi-RAG evaluates three multi-hop benchmarks.
+Vendi-RAG compares against Adaptive-RAG.
+DF-RAG compares against vanilla RAG and Oracle.
+DF-RAG evaluates query-aware diversity.
+MultiHop-RAG evaluates retrieval and generation separately.",yes,no,yes,annotator_A,resolved,Result or comparison not stated in the reference,Reporting comparisons and improvements does not show that all existing RAG methods perform unsatisfactorily. System accepts a general conclusion the reference does not draw; final = yes needs separate justification.,human adjudicator (Denis),no
+4,51b09d19476b47bb01c5,Q05,Auto-RAG**: This method involves an autoencoder architecture where the model learns to reconstruct its own inputs.,"FAIR-RAG identifies evidence gaps through Structured Evidence Assessment and generates targeted queries. Auto-RAG autonomously determines when and what to retrieve, continuing retrieval when evidence is insufficient. MAIN-RAG uses a multi-agent judging process and adaptive filtering to remove noisy or misleading retrieved documents.
+FAIR-RAG identifies gaps using SEA.
+FAIR-RAG generates targeted follow-up queries.
+Auto-RAG decides when and what to retrieve.
+Auto-RAG continues searching when evidence is insufficient.
+MAIN-RAG filters noisy evidence using agent-based evaluation.",no,no,no,n/a (both sets agreed),agreement,,,,no
+5,1ecf5d9fecc2d8b25e65,Q06,"No Explicit Gap Analysis**: Unlike FAIR-RAG, Auto-RAG does not incorporate explicit gap analysis during the retrieval process.","FAIR-RAG uses Structured Evidence Assessment to identify evidence gaps and generate targeted follow-up queries. Auto-RAG autonomously decides when and what to retrieve through reasoning. RQ-RAG trains an LLM to rewrite, decompose, and disambiguate queries. They differ in using gap-driven assessment, autonomous decisions, and learned query refinement, respectively.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG targets identified evidence gaps.
+Auto-RAG autonomously decides when and what to retrieve.
+RQ-RAG learns rewriting, decomposition and disambiguation.
+The adaptation target differs: FAIR-RAG audits evidence gaps, Auto-RAG controls retrieval decisions, and RQ-RAG learns query reformulation.",yes,no,yes,annotator_A,resolved,Inference from silence or broad generalisation,The reference describes different emphases but does not rule out gap analysis in Auto-RAG. Absence of a mention cannot be turned into evidence that the mechanism is absent.,human adjudicator (Denis),no
+6,2386db9e1cb04644ef9f,Q06,"It continuously learns from user interactions to optimize query formulation, making it more efficient at finding relevant information without explicit human intervention.","FAIR-RAG uses Structured Evidence Assessment to identify evidence gaps and generate targeted follow-up queries. Auto-RAG autonomously decides when and what to retrieve through reasoning. RQ-RAG trains an LLM to rewrite, decompose, and disambiguate queries. They differ in using gap-driven assessment, autonomous decisions, and learned query refinement, respectively.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG targets identified evidence gaps.
+Auto-RAG autonomously decides when and what to retrieve.
+RQ-RAG learns rewriting, decomposition and disambiguation.
+The adaptation target differs: FAIR-RAG audits evidence gaps, Auto-RAG controls retrieval decisions, and RQ-RAG learns query reformulation.",no,no,no,n/a (both sets agreed),agreement,,,,no
+7,4640f3f7394b6eb54471,Q06,"Auto-RAG**, on the other hand, does not explicitly mention any iterative or adaptive retrieval mechanisms.","FAIR-RAG uses Structured Evidence Assessment to identify evidence gaps and generate targeted follow-up queries. Auto-RAG autonomously decides when and what to retrieve through reasoning. RQ-RAG trains an LLM to rewrite, decompose, and disambiguate queries. They differ in using gap-driven assessment, autonomous decisions, and learned query refinement, respectively.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG targets identified evidence gaps.
+Auto-RAG autonomously decides when and what to retrieve.
+RQ-RAG learns rewriting, decomposition and disambiguation.
+The adaptation target differs: FAIR-RAG audits evidence gaps, Auto-RAG controls retrieval decisions, and RQ-RAG learns query reformulation.",no,no,no,n/a (both sets agreed),agreement,,,,no
+8,ba037c07e03c955ac23e,Q06,"Based on the provided sources, FAIR-RAG, Auto-RAG, and RQ-RAG differ in their approaches to iterative and adaptive retrieval as follows: FAIR-RAG uses a fixed set of instructions for five epochs to enhance its capacity for autonomous decision-making during iterative retrieval.","FAIR-RAG uses Structured Evidence Assessment to identify evidence gaps and generate targeted follow-up queries. Auto-RAG autonomously decides when and what to retrieve through reasoning. RQ-RAG trains an LLM to rewrite, decompose, and disambiguate queries. They differ in using gap-driven assessment, autonomous decisions, and learned query refinement, respectively.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG targets identified evidence gaps.
+Auto-RAG autonomously decides when and what to retrieve.
+RQ-RAG learns rewriting, decomposition and disambiguation.
+The adaptation target differs: FAIR-RAG audits evidence gaps, Auto-RAG controls retrieval decisions, and RQ-RAG learns query reformulation.",no,no,no,n/a (both sets agreed),agreement,,,,no
+9,50b646e66cfe5307f2af,Q07,This involves replacing parts of the retrieved evidence with speculative drafts based on the current state of the conversation.,"MAIN-RAG filters noisy documents using LLM-based judging and an adaptive threshold. Speculative RAG uses multi-perspective document sampling to reduce redundancy and verifies candidate drafts using confidence and reflection signals. Disco-RAG models discourse structure to improve evidence integration and robustness to irrelevant passages.
+MAIN-RAG evaluates and filters noisy documents.
+MAIN-RAG uses an adaptive judging threshold.
+Speculative RAG uses multi-perspective sampling.
+Speculative RAG verifies candidate drafts.
+Disco-RAG models discourse structure for robust integration.",no,no,no,n/a (both sets agreed),agreement,,,,no
+10,09bc611560065e8588a9,Q10,FAIR-RAG** focuses on fairness aspects during the training phase rather than directly measuring retrieval or generation quality post-training.,"MultiHop-RAG separately benchmarks retrieval and generation using supporting evidence, embedding comparisons and retrieval metrics such as Hits@K. RAG Foundry provides configurable multi-aspect evaluation across RAG pipeline components. FAIR-RAG evaluates answer quality using EM, F1, accuracy and LLM-as-Judge measures, while also analyzing component and architectural failures.
+MultiHop-RAG evaluates retrieval using metrics such as Hits@K.
+MultiHop-RAG evaluates generation separately.
+RAG Foundry supports multi-aspect evaluation.
+FAIR-RAG evaluates answer quality with multiple metrics.
+FAIR-RAG analyzes component and architectural failures.",no,no,no,n/a (both sets agreed),agreement,,,,no
+11,a870ea35ef5322d9177b,Q10,MultiHop-RAG** focuses on improving retrieval accuracy and providing a comprehensive dataset for RAG benchmarks.,"MultiHop-RAG separately benchmarks retrieval and generation using supporting evidence, embedding comparisons and retrieval metrics such as Hits@K. RAG Foundry provides configurable multi-aspect evaluation across RAG pipeline components. FAIR-RAG evaluates answer quality using EM, F1, accuracy and LLM-as-Judge measures, while also analyzing component and architectural failures.
+MultiHop-RAG evaluates retrieval using metrics such as Hits@K.
+MultiHop-RAG evaluates generation separately.
+RAG Foundry supports multi-aspect evaluation.
+FAIR-RAG evaluates answer quality with multiple metrics.
+FAIR-RAG analyzes component and architectural failures.",no,no,no,n/a (both sets agreed),agreement,,,,no
+12,c1dcc8e2674af89d4a20,Q10,"FAIR-RAG, on the other hand, is evaluated in [Source 3], focusing on its ability to generate plausible yet factually incorrect information (""hallucinations"") and its challenges in handling complex multi-hop reasoning tasks.","MultiHop-RAG separately benchmarks retrieval and generation using supporting evidence, embedding comparisons and retrieval metrics such as Hits@K. RAG Foundry provides configurable multi-aspect evaluation across RAG pipeline components. FAIR-RAG evaluates answer quality using EM, F1, accuracy and LLM-as-Judge measures, while also analyzing component and architectural failures.
+MultiHop-RAG evaluates retrieval using metrics such as Hits@K.
+MultiHop-RAG evaluates generation separately.
+RAG Foundry supports multi-aspect evaluation.
+FAIR-RAG evaluates answer quality with multiple metrics.
+FAIR-RAG analyzes component and architectural failures.",yes,no,no,model_prepass,disputed,Different evaluation focus,"The claim is topically related to answer errors, but the stated evaluation focus and Source 3 do not follow from the reference. Validation requires a match to the specific description of the evaluation.",human adjudicator (Denis),yes
+13,51b7bfc2ca85bf5bf1a1,Q13,"Strict Grounding**: The model synthesizes its answer solely from the provided evidence, embedding numerical citations after each piece of information to ensure full traceability.","FAIR-RAG uses Structured Evidence Assessment to audit evidence, identify confirmed facts and information gaps before generation. MAIN-RAG uses an LLM judging agent and adaptive filtering to remove noisy evidence and assess answer support. MASS-RAG uses specialized summarization, extraction and reasoning agents followed by synthesis to integrate complementary evidence. These methods aim to improve grounding but do not guarantee perfectly faithful answers.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG identifies evidence gaps before generation.
+MAIN-RAG uses judging and adaptive document filtering.
+MASS-RAG uses specialized evidence-processing agents.
+MASS-RAG synthesizes complementary evidence.",yes,no,yes,annotator_A,resolved,Overstatement or guarantee,"The claim adds mandatory citations and absolute grounding. The reference does not describe citations and explicitly says perfectly faithful answers are not guaranteed, so 'no' is better supported than System/final = yes.",human adjudicator (Denis),no
+14,e974c9d036054c24e716,Q13,FAIR-RAG uses a combination of keyword-based retrieval and neural ranking methods to enhance the precision of the generated answers.,"FAIR-RAG uses Structured Evidence Assessment to audit evidence, identify confirmed facts and information gaps before generation. MAIN-RAG uses an LLM judging agent and adaptive filtering to remove noisy evidence and assess answer support. MASS-RAG uses specialized summarization, extraction and reasoning agents followed by synthesis to integrate complementary evidence. These methods aim to improve grounding but do not guarantee perfectly faithful answers.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG identifies evidence gaps before generation.
+MAIN-RAG uses judging and adaptive document filtering.
+MASS-RAG uses specialized evidence-processing agents.
+MASS-RAG synthesizes complementary evidence.",yes,no,no,model_prepass,disputed,Detail or mechanism not stated in the reference,"A plausible retrieval mechanism, but it does not match the stated SEA mechanism and is not supported by the reference. Topical closeness to RAG is not enough for 'yes'.",human adjudicator (Denis),yes
+15,54a6bbf7dd3ac6160b6a,Q15,Supports complex reasoning through the use of a query-dependent GNN.,"GFM-RAG uses knowledge-graph indexing and single-step GNN reasoning to reduce repeated retrieval and LLM processing. Bridge-RAG uses a hierarchical abstract bridge tree and Cuckoo Filter for efficient entity lookup and multi-level context retrieval. Walk&Retrieve uses knowledge-graph walks and verbalization to construct relevant textual context, supporting zero-shot generation with a single LLM call.
+GFM-RAG performs single-step graph neural reasoning.
+GFM-RAG reduces iterative reasoning overhead.
+Bridge-RAG uses a hierarchical abstract tree and Cuckoo Filter.
+Walk&Retrieve uses graph traversal and knowledge verbalization.
+Walk&Retrieve supports zero-shot generation with one LLM call.",yes,no,yes,annotator_A,resolved,Detail or mechanism not stated in the reference,"The main claim about the GNN is supported; the 'query-dependent' refinement is not in the Q15 reference. Judged on the main idea 'yes' is acceptable; under the rule that every substantive detail must be checked, 'no'.",human adjudicator (Denis),no
+16,eba19b17662885698f79,Q17,"Enhanced Capacity**: Disco-RAG integrates and filters redundant information better than standard RAG, performing well at higher values of Top-k.","Longer contexts can provide more evidence but may increase noise, redundancy and computational costs. DF-RAG uses query-aware diversity to improve performance across context lengths, reporting gains over vanilla RAG. Disco-RAG remains robust as chunk sizes and retrieval breadth vary, while standard RAG can degrade from accumulated noise. SPD-RAG improves document coverage at lower cost than full-context processing, although full context achieves higher overall quality in its reported evaluation.
+In SPD-RAG’s Loong evaluation, the full-context baseline processes all task documents in one pass and attains the highest reported answer quality.
+DF-RAG improves performance across context lengths.
+Disco-RAG demonstrates robustness to retrieval noise.
+SPD-RAG compares document processing with full context.
+On the reported Loong evaluation, SPD-RAG achieves 85.4% of full-context answer quality while consuming 37.9% of its API cost.",yes,no,yes,annotator_A,resolved,Detail or mechanism not stated in the reference,The observed robustness agrees with the part about larger top-k but does not prove the stated redundancy-filtering mechanism. System accepts the overall effect; human rejects the added explanation of it.,human adjudicator (Denis),no
+17,06d66080391ec8aefcc3,Q20,"Multi-Hop-RAG** focuses on improving the interaction between agents in the retrieval process, ensuring more accurate and comprehensive answers.","Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",no,no,no,n/a (both sets agreed),agreement,,,,no
+18,350abe5f2917e8f48abe,Q20,"Each agent handles summarization, extraction, and reasoning over retrieved documents, combining their outputs through a synthesis stage to produce the final answer.","Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",yes,no,yes,annotator_A,resolved,Detail or mechanism not stated in the reference,"The Q20 reference does not list agent roles, and 'each agent handles all roles' is stronger than the idea of specialised agents. Other references mention MASS-RAG roles, but that does not support this claim under its own reference.",human adjudicator (Denis),no
+19,a18ae242592b79ede5bd,Q11,"Based on the provided evidence, Disco-RAG, SPD-RAG, and RAG over Tables address challenges in retrieving and reasoning over long or structured documents primarily by: 1.","Disco-RAG builds discourse trees within chunks and rhetorical graphs across chunks to preserve logical relationships. SPD-RAG uses dedicated document agents and centralized synthesis to improve coverage of evidence distributed across long documents. RAG over Tables (T-RAG) uses hierarchical memory indexing, multi-stage retrieval, and graph-aware prompting for reasoning across structured tables.
+Disco-RAG constructs intra-chunk discourse trees.
+Disco-RAG models inter-chunk rhetorical relationships.
+SPD-RAG uses document-specific agents.
+SPD-RAG synthesizes findings across documents.
+T-RAG uses hierarchical indexing, multi-stage retrieval and graph-aware prompting.",yes,unclear,no,neither,disputed,Incomplete introductory fragment,This is the lead-in to a list. System treats a general topical statement as a checkable fact; human marks the poorly segmented unit as unclear. final = no mixes an uncheckable lead-in with a false fact.,human adjudicator (Denis),yes
+20,0c37c2a4af4e76038508,Q02,The provided evidence does not directly address the limitations of conventional RAG systems as described in the question.,"Conventional RAG struggles with incomplete evidence and multi-hop reasoning. FAIR-RAG uses Structured Evidence Assessment to identify information gaps and guide iterative retrieval. MultiHop-RAG exposes retrieval and reasoning limitations by introducing a benchmark with questions, ground-truth answers, and supporting evidence.
+Conventional RAG struggles with incomplete evidence.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG iteratively fills evidence gaps.
+MultiHop-RAG exposes retrieval and reasoning limitations.
+MultiHop-RAG provides questions, answers and evidence.",no,no,no,n/a (both sets agreed),agreement,,,,no
+21,2e17b84ba964eca459ee,Q02,FAIR-RAG addresses the limitation of standard RAG systems by conducting a hybrid comparative query through multi-hop reasoning.,"Conventional RAG struggles with incomplete evidence and multi-hop reasoning. FAIR-RAG uses Structured Evidence Assessment to identify information gaps and guide iterative retrieval. MultiHop-RAG exposes retrieval and reasoning limitations by introducing a benchmark with questions, ground-truth answers, and supporting evidence.
+Conventional RAG struggles with incomplete evidence.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG iteratively fills evidence gaps.
+MultiHop-RAG exposes retrieval and reasoning limitations.
+MultiHop-RAG provides questions, answers and evidence.",no,no,no,n/a (both sets agreed),agreement,,,,no
+22,35dcae1b4414221c7999,Q02,This lack of flexibility makes it difficult to adapt to new information.,"Conventional RAG struggles with incomplete evidence and multi-hop reasoning. FAIR-RAG uses Structured Evidence Assessment to identify information gaps and guide iterative retrieval. MultiHop-RAG exposes retrieval and reasoning limitations by introducing a benchmark with questions, ground-truth answers, and supporting evidence.
+Conventional RAG struggles with incomplete evidence.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG iteratively fills evidence gaps.
+MultiHop-RAG exposes retrieval and reasoning limitations.
+MultiHop-RAG provides questions, answers and evidence.",yes,no,no,model_prepass,disputed,Detail or mechanism not stated in the reference,"The claim draws a separate causal conclusion about flexibility that the Q02 reference does not state, and 'This' depends on preceding context. The 'no' reflects the limits of the available evidence.",human adjudicator (Denis),yes
+23,54ede7caec9abcc629fd,Q02,"Redundancy**: Conventional RAG systems often retrieve redundant information, leading to unnecessary processing overhead.","Conventional RAG struggles with incomplete evidence and multi-hop reasoning. FAIR-RAG uses Structured Evidence Assessment to identify information gaps and guide iterative retrieval. MultiHop-RAG exposes retrieval and reasoning limitations by introducing a benchmark with questions, ground-truth answers, and supporting evidence.
+Conventional RAG struggles with incomplete evidence.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG iteratively fills evidence gaps.
+MultiHop-RAG exposes retrieval and reasoning limitations.
+MultiHop-RAG provides questions, answers and evidence.",no,no,no,n/a (both sets agreed),agreement,,,,no
+24,58e78126cf5819003a7f,Q02,"It ensures that the system's outputs respect certain fairness criteria, such as avoiding discrimination based on protected attributes like race, gender, etc.","Conventional RAG struggles with incomplete evidence and multi-hop reasoning. FAIR-RAG uses Structured Evidence Assessment to identify information gaps and guide iterative retrieval. MultiHop-RAG exposes retrieval and reasoning limitations by introducing a benchmark with questions, ground-truth answers, and supporting evidence.
+Conventional RAG struggles with incomplete evidence.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG iteratively fills evidence gaps.
+MultiHop-RAG exposes retrieval and reasoning limitations.
+MultiHop-RAG provides questions, answers and evidence.",no,no,no,n/a (both sets agreed),agreement,,,,no
+25,bad6c06f328044437bf8,Q02,"Source 1: ""Specifically, as shown in Algorithm 1, we first cluster the retrieved documents with regard to their relation to the posed question, where each cluster represents one perspective in the retrieval results (Line 2).","Conventional RAG struggles with incomplete evidence and multi-hop reasoning. FAIR-RAG uses Structured Evidence Assessment to identify information gaps and guide iterative retrieval. MultiHop-RAG exposes retrieval and reasoning limitations by introducing a benchmark with questions, ground-truth answers, and supporting evidence.
+Conventional RAG struggles with incomplete evidence.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG iteratively fills evidence gaps.
+MultiHop-RAG exposes retrieval and reasoning limitations.
+MultiHop-RAG provides questions, answers and evidence.",no,no,no,n/a (both sets agreed),agreement,,,,no
+26,cc1769bdbc3c34ac84c5,Q02,FAIR-RAG addresses the limitation of traditional RAG systems by introducing a hybrid comparative query that allows for simultaneous multi-hop reasoning.,"Conventional RAG struggles with incomplete evidence and multi-hop reasoning. FAIR-RAG uses Structured Evidence Assessment to identify information gaps and guide iterative retrieval. MultiHop-RAG exposes retrieval and reasoning limitations by introducing a benchmark with questions, ground-truth answers, and supporting evidence.
+Conventional RAG struggles with incomplete evidence.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG iteratively fills evidence gaps.
+MultiHop-RAG exposes retrieval and reasoning limitations.
+MultiHop-RAG provides questions, answers and evidence.",no,no,no,n/a (both sets agreed),agreement,,,,no
+27,f59095d510a42960858d,Q02,"Source 1: ""Our experiments show that quantized smaller LLMs can be good candidates for RAG pipelines, especially if efficiency is essential."" 3.","Conventional RAG struggles with incomplete evidence and multi-hop reasoning. FAIR-RAG uses Structured Evidence Assessment to identify information gaps and guide iterative retrieval. MultiHop-RAG exposes retrieval and reasoning limitations by introducing a benchmark with questions, ground-truth answers, and supporting evidence.
+Conventional RAG struggles with incomplete evidence.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG iteratively fills evidence gaps.
+MultiHop-RAG exposes retrieval and reasoning limitations.
+MultiHop-RAG provides questions, answers and evidence.",no,no,no,n/a (both sets agreed),agreement,,,,no
+28,a1669fa18d85783684f6,Q03,Downstream KB-level accuracy**: Assessments check if these recall improvements lead to better overall performance in the Knowledge Base (KB).,"Vendi-RAG evaluates retrieval diversity and answer quality on HotpotQA, MuSiQue and 2WikiMultiHopQA, comparing results with Adaptive-RAG. DF-RAG compares query-aware diversity against vanilla RAG and an Oracle upper bound, reporting gains of up to 9.5% and closing up to 91.3% of the Oracle gap in a specific setting. MultiHop-RAG separately benchmarks evidence retrieval and LLM generation.
+Vendi-RAG evaluates three multi-hop benchmarks.
+Vendi-RAG compares against Adaptive-RAG.
+DF-RAG compares against vanilla RAG and Oracle.
+DF-RAG evaluates query-aware diversity.
+MultiHop-RAG evaluates retrieval and generation separately.",no,no,no,n/a (both sets agreed),agreement,,,,no
+29,af281e10edd3705d164b,Q03,DF-RAG**: - Introduced a retrieval function balancing diversity and relevance.,"Vendi-RAG evaluates retrieval diversity and answer quality on HotpotQA, MuSiQue and 2WikiMultiHopQA, comparing results with Adaptive-RAG. DF-RAG compares query-aware diversity against vanilla RAG and an Oracle upper bound, reporting gains of up to 9.5% and closing up to 91.3% of the Oracle gap in a specific setting. MultiHop-RAG separately benchmarks evidence retrieval and LLM generation.
+Vendi-RAG evaluates three multi-hop benchmarks.
+Vendi-RAG compares against Adaptive-RAG.
+DF-RAG compares against vanilla RAG and Oracle.
+DF-RAG evaluates query-aware diversity.
+MultiHop-RAG evaluates retrieval and generation separately.",yes,no,yes,annotator_A,resolved,Detail or mechanism not stated in the reference,"The Q03 reference describes evaluation, while the claim asserts a specific method mechanism. It may agree with another reference on DF-RAG/MMR, but the local Q03 reference does not describe it.",human adjudicator (Denis),no
+30,baf421b3f7733e1fff3a,Q03,Maintained reasonable scalability with document corpus size.,"Vendi-RAG evaluates retrieval diversity and answer quality on HotpotQA, MuSiQue and 2WikiMultiHopQA, comparing results with Adaptive-RAG. DF-RAG compares query-aware diversity against vanilla RAG and an Oracle upper bound, reporting gains of up to 9.5% and closing up to 91.3% of the Oracle gap in a specific setting. MultiHop-RAG separately benchmarks evidence retrieval and LLM generation.
+Vendi-RAG evaluates three multi-hop benchmarks.
+Vendi-RAG compares against Adaptive-RAG.
+DF-RAG compares against vanilla RAG and Oracle.
+DF-RAG evaluates query-aware diversity.
+MultiHop-RAG evaluates retrieval and generation separately.",no,no,no,n/a (both sets agreed),agreement,,,,no
+31,c98ec5dadbfae4baecdb,Q03,"Pipeline Constraints**: Considerations include fixed retrieval depth, re-ranking budgets, and latency requirements.","Vendi-RAG evaluates retrieval diversity and answer quality on HotpotQA, MuSiQue and 2WikiMultiHopQA, comparing results with Adaptive-RAG. DF-RAG compares query-aware diversity against vanilla RAG and an Oracle upper bound, reporting gains of up to 9.5% and closing up to 91.3% of the Oracle gap in a specific setting. MultiHop-RAG separately benchmarks evidence retrieval and LLM generation.
+Vendi-RAG evaluates three multi-hop benchmarks.
+Vendi-RAG compares against Adaptive-RAG.
+DF-RAG compares against vanilla RAG and Oracle.
+DF-RAG evaluates query-aware diversity.
+MultiHop-RAG evaluates retrieval and generation separately.",no,no,no,n/a (both sets agreed),agreement,,,,no
+32,055067bcd5184c40db7c,Q05,"MAIN-RAG uses a combination of document ordering and a judge bar to prioritize and filter the most relevant documents, ensuring that the final answer is faithful to the verified sources.","FAIR-RAG identifies evidence gaps through Structured Evidence Assessment and generates targeted queries. Auto-RAG autonomously determines when and what to retrieve, continuing retrieval when evidence is insufficient. MAIN-RAG uses a multi-agent judging process and adaptive filtering to remove noisy or misleading retrieved documents.
+FAIR-RAG identifies gaps using SEA.
+FAIR-RAG generates targeted follow-up queries.
+Auto-RAG decides when and what to retrieve.
+Auto-RAG continues searching when evidence is insufficient.
+MAIN-RAG filters noisy evidence using agent-based evaluation.",yes,no,yes,annotator_A,resolved,Overstatement or guarantee,"Judging and filtering are supported, but a specific procedure and a promise of faithful output are added. A partly correct compound claim cannot be confirmed as a whole under strict checking against the reference.",human adjudicator (Denis),no
+33,1d2567df3f8b7e7f4e91,Q05,"However, it differs slightly in how it handles the retrieval phase.","FAIR-RAG identifies evidence gaps through Structured Evidence Assessment and generates targeted queries. Auto-RAG autonomously determines when and what to retrieve, continuing retrieval when evidence is insufficient. MAIN-RAG uses a multi-agent judging process and adaptive filtering to remove noisy or misleading retrieved documents.
+FAIR-RAG identifies gaps using SEA.
+FAIR-RAG generates targeted follow-up queries.
+Auto-RAG decides when and what to retrieve.
+Auto-RAG continues searching when evidence is insufficient.
+MAIN-RAG filters noisy evidence using agent-based evaluation.",no,unclear,no,annotator_A,resolved,Incomplete introductory fragment,"The claim contains no stand-alone description of a difference. System's 'no' and human's 'unclear' reflect different handling of a fragment, not a dispute about a technical fact.",human adjudicator (Denis),no
+34,445773ae275eb700e2af,Q05,FAIR-RAG** uses a multi-agent filtering retrieval-augmented generation approach.,"FAIR-RAG identifies evidence gaps through Structured Evidence Assessment and generates targeted queries. Auto-RAG autonomously determines when and what to retrieve, continuing retrieval when evidence is insufficient. MAIN-RAG uses a multi-agent judging process and adaptive filtering to remove noisy or misleading retrieved documents.
+FAIR-RAG identifies gaps using SEA.
+FAIR-RAG generates targeted follow-up queries.
+Auto-RAG decides when and what to retrieve.
+Auto-RAG continues searching when evidence is insufficient.
+MAIN-RAG filters noisy evidence using agent-based evaluation.",no,no,no,n/a (both sets agreed),agreement,,,,no
+35,a3a09e285640395da2dd,Q05,"Additionally, Auto-RAG attempts to provide itself with self-generated documents or answers to address potential issues with retrieving the necessary knowledge.","FAIR-RAG identifies evidence gaps through Structured Evidence Assessment and generates targeted queries. Auto-RAG autonomously determines when and what to retrieve, continuing retrieval when evidence is insufficient. MAIN-RAG uses a multi-agent judging process and adaptive filtering to remove noisy or misleading retrieved documents.
+FAIR-RAG identifies gaps using SEA.
+FAIR-RAG generates targeted follow-up queries.
+Auto-RAG decides when and what to retrieve.
+Auto-RAG continues searching when evidence is insufficient.
+MAIN-RAG filters noisy evidence using agent-based evaluation.",no,no,no,n/a (both sets agreed),agreement,,,,no
+36,aa5ab64d71da69e1106d,Q05,"MAIN-RAG**: Mainly, this refers to a mechanism that addresses the issue of insufficient or noisy evidence through multi-modal reasoning.","FAIR-RAG identifies evidence gaps through Structured Evidence Assessment and generates targeted queries. Auto-RAG autonomously determines when and what to retrieve, continuing retrieval when evidence is insufficient. MAIN-RAG uses a multi-agent judging process and adaptive filtering to remove noisy or misleading retrieved documents.
+FAIR-RAG identifies gaps using SEA.
+FAIR-RAG generates targeted follow-up queries.
+Auto-RAG decides when and what to retrieve.
+Auto-RAG continues searching when evidence is insufficient.
+MAIN-RAG filters noisy evidence using agent-based evaluation.",no,no,no,n/a (both sets agreed),agreement,,,,no
+37,3e0fca2b457482a9ae4a,Q06,"It allows for dynamic adjustments to queries based on user interaction, aiming to improve relevance over time.","FAIR-RAG uses Structured Evidence Assessment to identify evidence gaps and generate targeted follow-up queries. Auto-RAG autonomously decides when and what to retrieve through reasoning. RQ-RAG trains an LLM to rewrite, decompose, and disambiguate queries. They differ in using gap-driven assessment, autonomous decisions, and learned query refinement, respectively.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG targets identified evidence gaps.
+Auto-RAG autonomously decides when and what to retrieve.
+RQ-RAG learns rewriting, decomposition and disambiguation.
+The adaptation target differs: FAIR-RAG audits evidence gaps, Auto-RAG controls retrieval decisions, and RQ-RAG learns query reformulation.",no,no,no,n/a (both sets agreed),agreement,,,,no
+38,b61ca202bf9743dca4a2,Q06,"It mentions that RQ-RAG ""directly predicts reflection tokens to decide when to retrieve and evaluate the quality of the retrieved results,"" suggesting a more direct method of deciding when to retrieve based on feedback, possibly indicating some level of adaptivity but without specifying an iterative or adaptive retrieval strategy.","FAIR-RAG uses Structured Evidence Assessment to identify evidence gaps and generate targeted follow-up queries. Auto-RAG autonomously decides when and what to retrieve through reasoning. RQ-RAG trains an LLM to rewrite, decompose, and disambiguate queries. They differ in using gap-driven assessment, autonomous decisions, and learned query refinement, respectively.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG targets identified evidence gaps.
+Auto-RAG autonomously decides when and what to retrieve.
+RQ-RAG learns rewriting, decomposition and disambiguation.
+The adaptation target differs: FAIR-RAG audits evidence gaps, Auto-RAG controls retrieval decisions, and RQ-RAG learns query reformulation.",no,no,no,n/a (both sets agreed),agreement,,,,no
+39,cb52304c4775fcbaa109,Q06,"FAIR-RAG, Auto-RAG, and RQ-RAG differ in their approaches to iterative and adaptive retrieval: FAIR-RAG uses iterative refinement within iterations to generate new, highly-focused queries for each track.","FAIR-RAG uses Structured Evidence Assessment to identify evidence gaps and generate targeted follow-up queries. Auto-RAG autonomously decides when and what to retrieve through reasoning. RQ-RAG trains an LLM to rewrite, decompose, and disambiguate queries. They differ in using gap-driven assessment, autonomous decisions, and learned query refinement, respectively.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG targets identified evidence gaps.
+Auto-RAG autonomously decides when and what to retrieve.
+RQ-RAG learns rewriting, decomposition and disambiguation.
+The adaptation target differs: FAIR-RAG audits evidence gaps, Auto-RAG controls retrieval decisions, and RQ-RAG learns query reformulation.",yes,no,yes,annotator_A,resolved,Detail or mechanism not stated in the reference,The core idea of gap-driven queries is supported; architectural tracks and per-track queries are not defined in the reference. System allows an expanded paraphrase; human requires removing the unsupported detail.,human adjudicator (Denis),no
+40,3056ee36223b0e7d11c2,Q07,"Speculative RAG** incorporates speculative reasoning into its retrieval mechanism, aiming to improve upon the standard RAG approach by considering potential alternative explanations for retrieved evidence.","MAIN-RAG filters noisy documents using LLM-based judging and an adaptive threshold. Speculative RAG uses multi-perspective document sampling to reduce redundancy and verifies candidate drafts using confidence and reflection signals. Disco-RAG models discourse structure to improve evidence integration and robustness to irrelevant passages.
+MAIN-RAG evaluates and filters noisy documents.
+MAIN-RAG uses an adaptive judging threshold.
+Speculative RAG uses multi-perspective sampling.
+Speculative RAG verifies candidate drafts.
+Disco-RAG models discourse structure for robust integration.",no,no,no,n/a (both sets agreed),agreement,,,,no
+41,33cc4cfa01762ce4734c,Q07,"The model's performance is measured against closed-set tasks, focusing on accuracy and precision metrics.","MAIN-RAG filters noisy documents using LLM-based judging and an adaptive threshold. Speculative RAG uses multi-perspective document sampling to reduce redundancy and verifies candidate drafts using confidence and reflection signals. Disco-RAG models discourse structure to improve evidence integration and robustness to irrelevant passages.
+MAIN-RAG evaluates and filters noisy documents.
+MAIN-RAG uses an adaptive judging threshold.
+Speculative RAG uses multi-perspective sampling.
+Speculative RAG verifies candidate drafts.
+Disco-RAG models discourse structure for robust integration.",no,no,no,n/a (both sets agreed),agreement,,,,no
+42,5a9251d31703a64af4e0,Q07,"Disco-RAG**, on the other hand, integrates discourse-aware retrieval-augmented generation techniques.","MAIN-RAG filters noisy documents using LLM-based judging and an adaptive threshold. Speculative RAG uses multi-perspective document sampling to reduce redundancy and verifies candidate drafts using confidence and reflection signals. Disco-RAG models discourse structure to improve evidence integration and robustness to irrelevant passages.
+MAIN-RAG evaluates and filters noisy documents.
+MAIN-RAG uses an adaptive judging threshold.
+Speculative RAG uses multi-perspective sampling.
+Speculative RAG verifies candidate drafts.
+Disco-RAG models discourse structure for robust integration.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+43,86eb340fca42bd2541df,Q07,"It achieves high scores ranging from 62.07 to 58.91, demonstrating robustness to granularity shifts.","MAIN-RAG filters noisy documents using LLM-based judging and an adaptive threshold. Speculative RAG uses multi-perspective document sampling to reduce redundancy and verifies candidate drafts using confidence and reflection signals. Disco-RAG models discourse structure to improve evidence integration and robustness to irrelevant passages.
+MAIN-RAG evaluates and filters noisy documents.
+MAIN-RAG uses an adaptive judging threshold.
+Speculative RAG uses multi-perspective sampling.
+Speculative RAG verifies candidate drafts.
+Disco-RAG models discourse structure for robust integration.",yes,no,no,model_prepass,disputed,Result or comparison not stated in the reference,The Q07 reference contains neither these numbers nor the corresponding experiment. General robustness does not support a specific range of results.,human adjudicator (Denis),yes
+44,9b3d85d2a3681a72f6ab,Q08,"The key aspects include adapting judgment thresholds based on recall rates, utilizing temporal knowledge graphs, and employing structured navigational techniques to facilitate efficient search and retrieval processes.","GFM-RAG uses knowledge-graph indexing and a graph foundation model for single-step multi-hop reasoning. Bridge-RAG organizes entities, semantic abstracts, and document chunks into a hierarchical bridge tree with efficient Cuckoo Filter lookup. Walk&Retrieve uses breadth-first or random graph walks and verbalizes graph facts for LLM retrieval. Their main differences are learned graph reasoning, hierarchical indexing, and lightweight traversal.
+GFM-RAG uses graph-based reasoning.
+GFM-RAG performs single-step GNN reasoning.
+Bridge-RAG uses an abstract tree and Cuckoo Filter.
+Walk&Retrieve uses graph walks and verbalization.
+Their graph mechanisms differ: GFM-RAG uses learned GNN reasoning, Bridge-RAG uses hierarchical bridge-tree lookup, and Walk&Retrieve verbalizes graph walks.",no,no,no,n/a (both sets agreed),agreement,,,,no
+45,2b39d0f76d9444ae01b8,Q10,"Instead, it aims to ensure that the model treats different types of information equally across its outputs.","MultiHop-RAG separately benchmarks retrieval and generation using supporting evidence, embedding comparisons and retrieval metrics such as Hits@K. RAG Foundry provides configurable multi-aspect evaluation across RAG pipeline components. FAIR-RAG evaluates answer quality using EM, F1, accuracy and LLM-as-Judge measures, while also analyzing component and architectural failures.
+MultiHop-RAG evaluates retrieval using metrics such as Hits@K.
+MultiHop-RAG evaluates generation separately.
+RAG Foundry supports multi-aspect evaluation.
+FAIR-RAG evaluates answer quality with multiple metrics.
+FAIR-RAG analyzes component and architectural failures.",no,no,no,n/a (both sets agreed),agreement,,,,no
+46,3de7fe0bd9ea2ee8e7eb,Q10,"Specifically, it looks at the proportion of retrieved documents that appear in the final response and considers the overall coherence and relevance of the generated text.","MultiHop-RAG separately benchmarks retrieval and generation using supporting evidence, embedding comparisons and retrieval metrics such as Hits@K. RAG Foundry provides configurable multi-aspect evaluation across RAG pipeline components. FAIR-RAG evaluates answer quality using EM, F1, accuracy and LLM-as-Judge measures, while also analyzing component and architectural failures.
+MultiHop-RAG evaluates retrieval using metrics such as Hits@K.
+MultiHop-RAG evaluates generation separately.
+RAG Foundry supports multi-aspect evaluation.
+FAIR-RAG evaluates answer quality with multiple metrics.
+FAIR-RAG analyzes component and architectural failures.",no,no,no,n/a (both sets agreed),agreement,,,,no
+47,51eae5e3d53e7de50941,Q10,"Integration**: Integrates data creation, training, inference, and evaluation into a single workflow.","MultiHop-RAG separately benchmarks retrieval and generation using supporting evidence, embedding comparisons and retrieval metrics such as Hits@K. RAG Foundry provides configurable multi-aspect evaluation across RAG pipeline components. FAIR-RAG evaluates answer quality using EM, F1, accuracy and LLM-as-Judge measures, while also analyzing component and architectural failures.
+MultiHop-RAG evaluates retrieval using metrics such as Hits@K.
+MultiHop-RAG evaluates generation separately.
+RAG Foundry supports multi-aspect evaluation.
+FAIR-RAG evaluates answer quality with multiple metrics.
+FAIR-RAG analyzes component and architectural failures.",yes,no,yes,annotator_A,resolved,Detail or mechanism not stated in the reference,"The Q10 reference describes RAG Foundry's configurable multi-aspect evaluation of components, not a single workflow covering data creation, training, inference and evaluation. The question is whether this is an acceptable extension of the description.",human adjudicator (Denis),no
+48,b1378a339f564d44f30a,Q10,It facilitates the creation of data-augmented datasets for training and evaluating large language models in RAG settings.,"MultiHop-RAG separately benchmarks retrieval and generation using supporting evidence, embedding comparisons and retrieval metrics such as Hits@K. RAG Foundry provides configurable multi-aspect evaluation across RAG pipeline components. FAIR-RAG evaluates answer quality using EM, F1, accuracy and LLM-as-Judge measures, while also analyzing component and architectural failures.
+MultiHop-RAG evaluates retrieval using metrics such as Hits@K.
+MultiHop-RAG evaluates generation separately.
+RAG Foundry supports multi-aspect evaluation.
+FAIR-RAG evaluates answer quality with multiple metrics.
+FAIR-RAG analyzes component and architectural failures.",yes,no,no,model_prepass,disputed,Detail or mechanism not stated in the reference,Having an evaluation framework does not by itself support a function for creating training datasets. The 'no' follows from the content of the Q10 reference.,human adjudicator (Denis),yes
+49,bc718a067fcdc8384c6d,Q10,"While it does not explicitly state how FAIR-RAG evaluates retrieval and generation quality, it suggests that incorporating fairness considerations can lead to better overall performance, especially regarding equitable usage of retrieved sources.","MultiHop-RAG separately benchmarks retrieval and generation using supporting evidence, embedding comparisons and retrieval metrics such as Hits@K. RAG Foundry provides configurable multi-aspect evaluation across RAG pipeline components. FAIR-RAG evaluates answer quality using EM, F1, accuracy and LLM-as-Judge measures, while also analyzing component and architectural failures.
+MultiHop-RAG evaluates retrieval using metrics such as Hits@K.
+MultiHop-RAG evaluates generation separately.
+RAG Foundry supports multi-aspect evaluation.
+FAIR-RAG evaluates answer quality with multiple metrics.
+FAIR-RAG analyzes component and architectural failures.",no,no,no,n/a (both sets agreed),agreement,,,,no
+50,ea1d4b2ee775cefe461b,Q10,"In summary, MultiHop-RAG emphasizes retrieval accuracy, FAIR-RAG highlights fairness considerations, and RAG Foundry focuses on creating and evaluating datasets for RAG performance.","MultiHop-RAG separately benchmarks retrieval and generation using supporting evidence, embedding comparisons and retrieval metrics such as Hits@K. RAG Foundry provides configurable multi-aspect evaluation across RAG pipeline components. FAIR-RAG evaluates answer quality using EM, F1, accuracy and LLM-as-Judge measures, while also analyzing component and architectural failures.
+MultiHop-RAG evaluates retrieval using metrics such as Hits@K.
+MultiHop-RAG evaluates generation separately.
+RAG Foundry supports multi-aspect evaluation.
+FAIR-RAG evaluates answer quality with multiple metrics.
+FAIR-RAG analyzes component and architectural failures.",no,no,no,n/a (both sets agreed),agreement,,,,no
+51,7ba92807a4f1dc168fd4,Q11,It incorporates a knowledge graph to provide context and relationships between entities mentioned in the text.,"Disco-RAG builds discourse trees within chunks and rhetorical graphs across chunks to preserve logical relationships. SPD-RAG uses dedicated document agents and centralized synthesis to improve coverage of evidence distributed across long documents. RAG over Tables (T-RAG) uses hierarchical memory indexing, multi-stage retrieval, and graph-aware prompting for reasoning across structured tables.
+Disco-RAG constructs intra-chunk discourse trees.
+Disco-RAG models inter-chunk rhetorical relationships.
+SPD-RAG uses document-specific agents.
+SPD-RAG synthesizes findings across documents.
+T-RAG uses hierarchical indexing, multi-stage retrieval and graph-aware prompting.",no,no,no,n/a (both sets agreed),agreement,,,,no
+52,db014050d4332f78940d,Q11,SPD-RAG**: - More than doubles the Perfect Rate (PR) of Agentic RAG.,"Disco-RAG builds discourse trees within chunks and rhetorical graphs across chunks to preserve logical relationships. SPD-RAG uses dedicated document agents and centralized synthesis to improve coverage of evidence distributed across long documents. RAG over Tables (T-RAG) uses hierarchical memory indexing, multi-stage retrieval, and graph-aware prompting for reasoning across structured tables.
+Disco-RAG constructs intra-chunk discourse trees.
+Disco-RAG models inter-chunk rhetorical relationships.
+SPD-RAG uses document-specific agents.
+SPD-RAG synthesizes findings across documents.
+T-RAG uses hierarchical indexing, multi-stage retrieval and graph-aware prompting.",yes,no,yes,annotator_A,resolved,Result or comparison not stated in the reference,"The Q11 reference contains no numerical comparison, Perfect Rate or Agentic RAG result. This is a specific empirical claim, and System/final = yes have no basis in this reference.",human adjudicator (Denis),no
+53,fa01fe32bd142f261569,Q11,SPD-RAG (Structured Query Processing with Deep Learning)**: - SPD-RAG employs deep learning models to process structured queries more effectively.,"Disco-RAG builds discourse trees within chunks and rhetorical graphs across chunks to preserve logical relationships. SPD-RAG uses dedicated document agents and centralized synthesis to improve coverage of evidence distributed across long documents. RAG over Tables (T-RAG) uses hierarchical memory indexing, multi-stage retrieval, and graph-aware prompting for reasoning across structured tables.
+Disco-RAG constructs intra-chunk discourse trees.
+Disco-RAG models inter-chunk rhetorical relationships.
+SPD-RAG uses document-specific agents.
+SPD-RAG synthesizes findings across documents.
+T-RAG uses hierarchical indexing, multi-stage retrieval and graph-aware prompting.",no,no,no,n/a (both sets agreed),agreement,,,,no
+54,ed147cb78d9cecb44186,Q12,"Additionally, Vendi-RAG outperforms other baselines in terms of retrieval diversity, achieving higher scores in various datasets including MuSiQue, HotpotQA, and 2WikiMultiHopQA.","Vendi-RAG uses the Vendi Score to improve semantic diversity and iteratively balances relevance through answer-quality feedback. DF-RAG extends MMR and dynamically selects a query-specific diversity parameter to retrieve complementary evidence. RQ-RAG trains a model to rewrite, decompose, and disambiguate queries to improve retrieval for complex question answering.
+Vendi-RAG uses Vendi Score.
+Vendi-RAG adjusts retrieval using answer-quality feedback.
+DF-RAG builds on Maximal Marginal Relevance.
+DF-RAG selects query-specific diversity.
+RQ-RAG learns query rewriting, decomposition and disambiguation.",yes,no,no,model_prepass,disputed,Result or comparison not stated in the reference,"Describing a mechanism does not prove specific benchmark wins. The dataset names appear in the Q03 reference, but that does not establish the claimed superiority for this Q12 claim.",human adjudicator (Denis),yes
+55,0cc7370b59a6097e2ffb,Q13,It does so by leveraging semantic search techniques to identify the most relevant and accurate information from the database.,"FAIR-RAG uses Structured Evidence Assessment to audit evidence, identify confirmed facts and information gaps before generation. MAIN-RAG uses an LLM judging agent and adaptive filtering to remove noisy evidence and assess answer support. MASS-RAG uses specialized summarization, extraction and reasoning agents followed by synthesis to integrate complementary evidence. These methods aim to improve grounding but do not guarantee perfectly faithful answers.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG identifies evidence gaps before generation.
+MAIN-RAG uses judging and adaptive document filtering.
+MASS-RAG uses specialized evidence-processing agents.
+MASS-RAG synthesizes complementary evidence.",no,no,no,n/a (both sets agreed),agreement,,,,no
+56,26b347e06cd08b24aa6a,Q13,This loop systematically refines the query until it meets the criteria defined by the SEA module.,"FAIR-RAG uses Structured Evidence Assessment to audit evidence, identify confirmed facts and information gaps before generation. MAIN-RAG uses an LLM judging agent and adaptive filtering to remove noisy evidence and assess answer support. MASS-RAG uses specialized summarization, extraction and reasoning agents followed by synthesis to integrate complementary evidence. These methods aim to improve grounding but do not guarantee perfectly faithful answers.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG identifies evidence gaps before generation.
+MAIN-RAG uses judging and adaptive document filtering.
+MASS-RAG uses specialized evidence-processing agents.
+MASS-RAG synthesizes complementary evidence.",yes,no,yes,annotator_A,resolved,Detail or mechanism not stated in the reference,The claim asserts an iterative loop and a specific stopping condition. The Q13 reference sets out neither a query loop nor criterion-based stopping; knowledge of iterative FAIR-RAG from other questions does not prove this condition.,human adjudicator (Denis),no
+57,640d53f05a639d54cc9e,Q13,"Context-Aware, Adaptive Sub-Query Generation**: This feature allows the system to refine its queries iteratively based on the evolving set of retrieved evidence.","FAIR-RAG uses Structured Evidence Assessment to audit evidence, identify confirmed facts and information gaps before generation. MAIN-RAG uses an LLM judging agent and adaptive filtering to remove noisy evidence and assess answer support. MASS-RAG uses specialized summarization, extraction and reasoning agents followed by synthesis to integrate complementary evidence. These methods aim to improve grounding but do not guarantee perfectly faithful answers.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG identifies evidence gaps before generation.
+MAIN-RAG uses judging and adaptive document filtering.
+MASS-RAG uses specialized evidence-processing agents.
+MASS-RAG synthesizes complementary evidence.",yes,no,yes,annotator_A,resolved,Detail or mechanism not stated in the reference,"The claim describes retrieval adaptation, while the Q13 reference is limited to an evidence audit before generation. Targeted iterative retrieval is described in Q02/Q06 but not in this claim's reference: a question of admissible context.",human adjudicator (Denis),no
+58,9f1df01a147704221d2d,Q13,"MASS-RAG**, on the other hand, introduces a novel paradigm shift by incorporating autonomous agents capable of dynamic decision-making and iterative refinement.","FAIR-RAG uses Structured Evidence Assessment to audit evidence, identify confirmed facts and information gaps before generation. MAIN-RAG uses an LLM judging agent and adaptive filtering to remove noisy evidence and assess answer support. MASS-RAG uses specialized summarization, extraction and reasoning agents followed by synthesis to integrate complementary evidence. These methods aim to improve grounding but do not guarantee perfectly faithful answers.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG identifies evidence gaps before generation.
+MAIN-RAG uses judging and adaptive document filtering.
+MASS-RAG uses specialized evidence-processing agents.
+MASS-RAG synthesizes complementary evidence.",no,no,no,n/a (both sets agreed),agreement,,,,no
+59,98f59c60a2c415af8805,Q14,"Scalability and Efficiency**: - **Efficiency Over Time**: SPD-RAG shows improved performance over time, particularly in handling longer contexts, as evidenced by its average score increasing from 54.8 to 74.2/44.4% PR.","SPD-RAG assigns specialized agents to individual documents and combines their findings through centralized synthesis. MASS-RAG uses role-specialized agents to summarize, extract and reason over retrieved evidence before final synthesis. The Automated Literature Review study compares frequency-based summarization, transformer-based methods and LLM-based RAG for generating literature review content from scientific PDFs, evaluated using SciTLDR and ROUGE. Unlike SPD-RAG and MASS-RAG, this study primarily evaluates automated review generation rather than exhaustive multi-agent cross-document reasoning.
+SPD-RAG assigns agents to individual documents.
+SPD-RAG combines findings through centralized synthesis.
+MASS-RAG uses specialized filtering and synthesis agents.
+Automated Literature Review compares frequency-based, transformer and RAG methods.
+The Automated Literature Review study evaluates review generation with SciTLDR and ROUGE, whereas SPD-RAG and MASS-RAG investigate evidence-based question answering.",no,no,no,n/a (both sets agreed),agreement,,,,no
+60,d6875c21214350e51103,Q14,"Task Types**: - **Spotlight Locating**: Both RAG-based systems struggle here, achieving low PR scores, highlighting the difficulty of capturing comprehensive facts from scattered evidence.","SPD-RAG assigns specialized agents to individual documents and combines their findings through centralized synthesis. MASS-RAG uses role-specialized agents to summarize, extract and reason over retrieved evidence before final synthesis. The Automated Literature Review study compares frequency-based summarization, transformer-based methods and LLM-based RAG for generating literature review content from scientific PDFs, evaluated using SciTLDR and ROUGE. Unlike SPD-RAG and MASS-RAG, this study primarily evaluates automated review generation rather than exhaustive multi-agent cross-document reasoning.
+SPD-RAG assigns agents to individual documents.
+SPD-RAG combines findings through centralized synthesis.
+MASS-RAG uses specialized filtering and synthesis agents.
+Automated Literature Review compares frequency-based, transformer and RAG methods.
+The Automated Literature Review study evaluates review generation with SciTLDR and ROUGE, whereas SPD-RAG and MASS-RAG investigate evidence-based question answering.",yes,no,no,model_prepass,disputed,Result or comparison not stated in the reference,"The task type and results are absent from the Q14 reference. Without experimental data, the conclusion that both systems struggle cannot be accepted.",human adjudicator (Denis),yes
+61,59d053f7b3b244c904cd,Q15,Complex Reasoning Support**: This model enhances understanding and reasoning capabilities by integrating both retrieval and question-answer mechanisms.,"GFM-RAG uses knowledge-graph indexing and single-step GNN reasoning to reduce repeated retrieval and LLM processing. Bridge-RAG uses a hierarchical abstract bridge tree and Cuckoo Filter for efficient entity lookup and multi-level context retrieval. Walk&Retrieve uses knowledge-graph walks and verbalization to construct relevant textual context, supporting zero-shot generation with a single LLM call.
+GFM-RAG performs single-step graph neural reasoning.
+GFM-RAG reduces iterative reasoning overhead.
+Bridge-RAG uses a hierarchical abstract tree and Cuckoo Filter.
+Walk&Retrieve uses graph traversal and knowledge verbalization.
+Walk&Retrieve supports zero-shot generation with one LLM call.",no,no,no,n/a (both sets agreed),agreement,,,,no
+62,ba65321239ba379c110a,Q15,Supports complex reasoning through the exploration of various paths within the retrieved documents.,"GFM-RAG uses knowledge-graph indexing and single-step GNN reasoning to reduce repeated retrieval and LLM processing. Bridge-RAG uses a hierarchical abstract bridge tree and Cuckoo Filter for efficient entity lookup and multi-level context retrieval. Walk&Retrieve uses knowledge-graph walks and verbalization to construct relevant textual context, supporting zero-shot generation with a single LLM call.
+GFM-RAG performs single-step graph neural reasoning.
+GFM-RAG reduces iterative reasoning overhead.
+Bridge-RAG uses a hierarchical abstract tree and Cuckoo Filter.
+Walk&Retrieve uses graph traversal and knowledge verbalization.
+Walk&Retrieve supports zero-shot generation with one LLM call.",no,no,no,n/a (both sets agreed),agreement,,,,no
+63,cdcac69cba039f6bfdbc,Q15,"Therefore, the answer cannot be determined solely from the given passages.","GFM-RAG uses knowledge-graph indexing and single-step GNN reasoning to reduce repeated retrieval and LLM processing. Bridge-RAG uses a hierarchical abstract bridge tree and Cuckoo Filter for efficient entity lookup and multi-level context retrieval. Walk&Retrieve uses knowledge-graph walks and verbalization to construct relevant textual context, supporting zero-shot generation with a single LLM call.
+GFM-RAG performs single-step graph neural reasoning.
+GFM-RAG reduces iterative reasoning overhead.
+Bridge-RAG uses a hierarchical abstract tree and Cuckoo Filter.
+Walk&Retrieve uses graph traversal and knowledge verbalization.
+Walk&Retrieve supports zero-shot generation with one LLM call.",no,no,no,n/a (both sets agreed),agreement,,,,no
+64,07c3f7c017fd4b1d9cf9,Q17,Ethical Considerations:** - **DF-RAG:** Conducted internal reviews.,"Longer contexts can provide more evidence but may increase noise, redundancy and computational costs. DF-RAG uses query-aware diversity to improve performance across context lengths, reporting gains over vanilla RAG. Disco-RAG remains robust as chunk sizes and retrieval breadth vary, while standard RAG can degrade from accumulated noise. SPD-RAG improves document coverage at lower cost than full-context processing, although full context achieves higher overall quality in its reported evaluation.
+In SPD-RAG’s Loong evaluation, the full-context baseline processes all task documents in one pass and attains the highest reported answer quality.
+DF-RAG improves performance across context lengths.
+Disco-RAG demonstrates robustness to retrieval noise.
+SPD-RAG compares document processing with full context.
+On the reported Loong evaluation, SPD-RAG achieves 85.4% of full-context answer quality while consuming 37.9% of its API cost.",no,no,no,n/a (both sets agreed),agreement,,,,no
+65,474181989484b7c22376,Q17,"Improved Resolution of Conflicting Claims:** By providing more comprehensive context, RAG can resolve contradictions and inconsistencies more effectively.","Longer contexts can provide more evidence but may increase noise, redundancy and computational costs. DF-RAG uses query-aware diversity to improve performance across context lengths, reporting gains over vanilla RAG. Disco-RAG remains robust as chunk sizes and retrieval breadth vary, while standard RAG can degrade from accumulated noise. SPD-RAG improves document coverage at lower cost than full-context processing, although full context achieves higher overall quality in its reported evaluation.
+In SPD-RAG’s Loong evaluation, the full-context baseline processes all task documents in one pass and attains the highest reported answer quality.
+DF-RAG improves performance across context lengths.
+Disco-RAG demonstrates robustness to retrieval noise.
+SPD-RAG compares document processing with full context.
+On the reported Loong evaluation, SPD-RAG achieves 85.4% of full-context answer quality while consuming 37.9% of its API cost.",no,no,no,n/a (both sets agreed),agreement,,,,no
+66,70f49f29e4abeaf87a8d,Q17,Cost-Efficiency:** - **DF-RAG:** Achieved faster execution through parallelization.,"Longer contexts can provide more evidence but may increase noise, redundancy and computational costs. DF-RAG uses query-aware diversity to improve performance across context lengths, reporting gains over vanilla RAG. Disco-RAG remains robust as chunk sizes and retrieval breadth vary, while standard RAG can degrade from accumulated noise. SPD-RAG improves document coverage at lower cost than full-context processing, although full context achieves higher overall quality in its reported evaluation.
+In SPD-RAG’s Loong evaluation, the full-context baseline processes all task documents in one pass and attains the highest reported answer quality.
+DF-RAG improves performance across context lengths.
+Disco-RAG demonstrates robustness to retrieval noise.
+SPD-RAG compares document processing with full context.
+On the reported Loong evaluation, SPD-RAG achieves 85.4% of full-context answer quality while consuming 37.9% of its API cost.",no,no,no,n/a (both sets agreed),agreement,,,,no
+67,d3b48ef3c47a88bfc235,Q17,"Inter-Chunk Coherence Gaps**: Across different chunks, RAG systems have difficulty establishing cohesive links between ideas, making it challenging to recognize broader patterns or understand how various pieces of evidence relate to one another.","Longer contexts can provide more evidence but may increase noise, redundancy and computational costs. DF-RAG uses query-aware diversity to improve performance across context lengths, reporting gains over vanilla RAG. Disco-RAG remains robust as chunk sizes and retrieval breadth vary, while standard RAG can degrade from accumulated noise. SPD-RAG improves document coverage at lower cost than full-context processing, although full context achieves higher overall quality in its reported evaluation.
+In SPD-RAG’s Loong evaluation, the full-context baseline processes all task documents in one pass and attains the highest reported answer quality.
+DF-RAG improves performance across context lengths.
+Disco-RAG demonstrates robustness to retrieval noise.
+SPD-RAG compares document processing with full context.
+On the reported Loong evaluation, SPD-RAG achieves 85.4% of full-context answer quality while consuming 37.9% of its API cost.",yes,no,yes,annotator_A,resolved,Detail or mechanism not stated in the reference,"The Q17 reference discusses noise, redundancy and cost of long contexts, not coherence gaps between chunks. The claim is on topic, but this specific mechanism is not named in the reference.",human adjudicator (Denis),no
+68,0c678070e3e2397d9c5c,Q18,"In summary, FAIR-RAG's unique feature is its ability to maintain faithfulness throughout the generation process without the need for model fine-tuning, making it particularly suited for complex questions involving multiple pieces of evidence.","FAIR-RAG uses Structured Evidence Assessment to identify missing information and guide targeted follow-up queries. MASS-RAG employs specialized agents to expose complementary evidence, followed by synthesis, although final synthesis does not always preserve maximum intermediate coverage. SPD-RAG assigns agents to individual documents to improve coverage of evidence distributed across long documents.
+FAIR-RAG identifies gaps through an evidence checklist.
+FAIR-RAG uses targeted retrieval to fill gaps.
+MASS-RAG captures complementary evidence.
+MASS-RAG synthesis may not preserve maximum coverage.
+SPD-RAG improves exhaustive per-document coverage.",yes,no,yes,annotator_A,resolved,Overstatement or guarantee,The claim turns handling of evidence gaps into a strong promise of faithfulness and adds training and uniqueness properties. These are not established by the Q18 reference.,human adjudicator (Denis),no
+69,8c36a99eeebace746b7d,Q18,"Each agent might focus on different aspects of the query, such as factual verification, contextual understanding, or logical reasoning.","FAIR-RAG uses Structured Evidence Assessment to identify missing information and guide targeted follow-up queries. MASS-RAG employs specialized agents to expose complementary evidence, followed by synthesis, although final synthesis does not always preserve maximum intermediate coverage. SPD-RAG assigns agents to individual documents to improve coverage of evidence distributed across long documents.
+FAIR-RAG identifies gaps through an evidence checklist.
+FAIR-RAG uses targeted retrieval to fill gaps.
+MASS-RAG captures complementary evidence.
+MASS-RAG synthesis may not preserve maximum coverage.
+SPD-RAG improves exhaustive per-document coverage.",no,no,no,n/a (both sets agreed),agreement,,,,no
+70,aab15dea41ecb65c4902,Q18,"Some notable MOOC providers include Coursera, edX, Udacity, Khan Academy, and FutureLearn.","FAIR-RAG uses Structured Evidence Assessment to identify missing information and guide targeted follow-up queries. MASS-RAG employs specialized agents to expose complementary evidence, followed by synthesis, although final synthesis does not always preserve maximum intermediate coverage. SPD-RAG assigns agents to individual documents to improve coverage of evidence distributed across long documents.
+FAIR-RAG identifies gaps through an evidence checklist.
+FAIR-RAG uses targeted retrieval to fill gaps.
+MASS-RAG captures complementary evidence.
+MASS-RAG synthesis may not preserve maximum coverage.
+SPD-RAG improves exhaustive per-document coverage.",no,no,no,n/a (both sets agreed),agreement,,,,no
+71,b3ffbc908760e5495109,Q18,"Dynamic and Context-Aware Decomposition**: Unlike SuRe's static plan or Sequential, answer-driven prompting, FAIR-RAG's decomposition is dynamic and context-aware, guided by an iterative refinement cycle that ensures a comprehensive context for final, strictly faithful generation.","FAIR-RAG uses Structured Evidence Assessment to identify missing information and guide targeted follow-up queries. MASS-RAG employs specialized agents to expose complementary evidence, followed by synthesis, although final synthesis does not always preserve maximum intermediate coverage. SPD-RAG assigns agents to individual documents to improve coverage of evidence distributed across long documents.
+FAIR-RAG identifies gaps through an evidence checklist.
+FAIR-RAG uses targeted retrieval to fill gaps.
+MASS-RAG captures complementary evidence.
+MASS-RAG synthesis may not preserve maximum coverage.
+SPD-RAG improves exhaustive per-document coverage.",yes,no,no,model_prepass,disputed,Overstatement or guarantee,"Adaptation to evidence gaps is supported, but undescribed competitors and absolute faithfulness are added. The 'no' concerns these substantive additions.",human adjudicator (Denis),yes
+72,efe18d69c8967fe6ff88,Q18,SPD-RAG introduces a hierarchical multi-agent architecture that factors the problem along the document axis instead of the task axis.,"FAIR-RAG uses Structured Evidence Assessment to identify missing information and guide targeted follow-up queries. MASS-RAG employs specialized agents to expose complementary evidence, followed by synthesis, although final synthesis does not always preserve maximum intermediate coverage. SPD-RAG assigns agents to individual documents to improve coverage of evidence distributed across long documents.
+FAIR-RAG identifies gaps through an evidence checklist.
+FAIR-RAG uses targeted retrieval to fill gaps.
+MASS-RAG captures complementary evidence.
+MASS-RAG synthesis may not preserve maximum coverage.
+SPD-RAG improves exhaustive per-document coverage.",yes,no,yes,annotator_A,resolved,Detail or mechanism not stated in the reference,"'Document axis' is a reasonable paraphrase of per-document assignment, but the hierarchy and the comparison with a task axis are not stated in the Q18 reference. A borderline case of main idea versus checking every refinement.",human adjudicator (Denis),no
+73,f4f9b40a5817b86f9d7c,Q18,It ensures that the retrieved data is accurate and reliable.,"FAIR-RAG uses Structured Evidence Assessment to identify missing information and guide targeted follow-up queries. MASS-RAG employs specialized agents to expose complementary evidence, followed by synthesis, although final synthesis does not always preserve maximum intermediate coverage. SPD-RAG assigns agents to individual documents to improve coverage of evidence distributed across long documents.
+FAIR-RAG identifies gaps through an evidence checklist.
+FAIR-RAG uses targeted retrieval to fill gaps.
+MASS-RAG captures complementary evidence.
+MASS-RAG synthesis may not preserve maximum coverage.
+SPD-RAG improves exhaustive per-document coverage.",no,no,no,n/a (both sets agreed),agreement,,,,no
+74,1af1279badacd8aa4b9e,Q20,"Evaluating the impact of different designs in SLMs, focusing on experimental settings and main experiment results.","Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",no,no,no,n/a (both sets agreed),agreement,,,,no
+75,5d7b8df64d62917e9f2a,Q20,"Multi-hop Queries**: Most current datasets are limited to single-hop queries, whereas multi-hop queries are crucial for understanding complex relationships between concepts.","Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",yes,no,yes,annotator_A,resolved,Inference from silence or broad generalisation,Creating a multi-hop benchmark does not prove a claim about most existing datasets. The reference gives no basis for the quantitative generalisation 'most'.,human adjudicator (Denis),no
+76,a6c13f5009d71da4a726,Q20,"Evaluation challenges in multi-source synthesis include ensuring consistency across different sources, handling contradictions between data points, and maintaining coherence when combining information from various sources.","Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",no,no,no,n/a (both sets agreed),agreement,,,,no
+77,b60919252fc6d7fb52cf,Q20,"Integrating hierarchical abstract bridges with iterative reasoning strategies, enhancing performance on multi-hop questions.","Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",no,no,no,n/a (both sets agreed),agreement,,,,no
+78,b7f4f522f5497cc237ae,Q20,Massive Knowledge Base (MASS)-RAG tackles the challenge of handling heterogeneous and noisy retrieved contexts by structuring evidence processing into multiple specialized agents.,"Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",no,no,no,n/a (both sets agreed),agreement,,,,no
+79,c1a1495352f026214146,Q20,"Content-Aware Segmentation**: Replacing the fixed chunk window with content-aware segmentation could better align abstract boundaries with natural topic shifts, potentially improving the accuracy–efficiency trade-off for heterogeneous workloads.","Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",no,no,no,n/a (both sets agreed),agreement,,,,no
+80,dd867af99d9f8ef83b7e,Q20,It ensures that the retrieved evidence closely matches the context provided in the multi-hop queries.,"Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",no,no,no,n/a (both sets agreed),agreement,,,,no
+81,f32511d806c50c34d24f,Q20,"RAG Foundry** provides a framework for enhancing large language models for retrieval augmented generation, integrating data creation, training, inference, and evaluation into a single workflow.","Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",yes,no,no,model_prepass,disputed,Detail or mechanism not stated in the reference,"The Q20 reference concerns evaluation metrics; data preparation and training functions are not described. System may have accepted a plausible product description as support, but the reason is not recorded.",human adjudicator (Denis),yes
+82,ef48a88064bfe61e77fa,Q02,FAIR-RAG (Fairness-Aware Retrieval-Augmented Generation System) and MultiHop-RAG (Multi-Hop Retrieval-Augmented Generation System) identify several limitations of conventional RAG systems: 1.,"Conventional RAG struggles with incomplete evidence and multi-hop reasoning. FAIR-RAG uses Structured Evidence Assessment to identify information gaps and guide iterative retrieval. MultiHop-RAG exposes retrieval and reasoning limitations by introducing a benchmark with questions, ground-truth answers, and supporting evidence.
+Conventional RAG struggles with incomplete evidence.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG iteratively fills evidence gaps.
+MultiHop-RAG exposes retrieval and reasoning limitations.
+MultiHop-RAG provides questions, answers and evidence.",no,no,no,n/a (both sets agreed),agreement,,,,no
+83,9bc30cbd80a3e064b126,Q03,The key points regarding performance evaluation include: 1.,"Vendi-RAG evaluates retrieval diversity and answer quality on HotpotQA, MuSiQue and 2WikiMultiHopQA, comparing results with Adaptive-RAG. DF-RAG compares query-aware diversity against vanilla RAG and an Oracle upper bound, reporting gains of up to 9.5% and closing up to 91.3% of the Oracle gap in a specific setting. MultiHop-RAG separately benchmarks evidence retrieval and LLM generation.
+Vendi-RAG evaluates three multi-hop benchmarks.
+Vendi-RAG compares against Adaptive-RAG.
+DF-RAG compares against vanilla RAG and Oracle.
+DF-RAG evaluates query-aware diversity.
+MultiHop-RAG evaluates retrieval and generation separately.",no,unclear,no,annotator_A,resolved,Incomplete introductory fragment,A list heading with no checkable content. human's 'unclear' better reflects the absence of a factual claim; System's 'no' reflects the binary scheme.,human adjudicator (Denis),no
+84,cfb1249b783a4977d202,Q03,Performed better than vanilla RAG across various datasets and model families.,"Vendi-RAG evaluates retrieval diversity and answer quality on HotpotQA, MuSiQue and 2WikiMultiHopQA, comparing results with Adaptive-RAG. DF-RAG compares query-aware diversity against vanilla RAG and an Oracle upper bound, reporting gains of up to 9.5% and closing up to 91.3% of the Oracle gap in a specific setting. MultiHop-RAG separately benchmarks evidence retrieval and LLM generation.
+Vendi-RAG evaluates three multi-hop benchmarks.
+Vendi-RAG compares against Adaptive-RAG.
+DF-RAG compares against vanilla RAG and Oracle.
+DF-RAG evaluates query-aware diversity.
+MultiHop-RAG evaluates retrieval and generation separately.",yes,no,yes,annotator_A,resolved,Result or comparison not stated in the reference,A positive result under particular conditions does not support transfer to many datasets and model families. System accepts the general success; human flags the widened scope.,human adjudicator (Denis),no
+85,3a9bb3380e95540d50a6,Q05,"FAIR-RAG, Auto-RAG, and MAIN-RAG are designed to handle insufficient or noisy evidence in complex question answering by employing various strategies: 1.","FAIR-RAG identifies evidence gaps through Structured Evidence Assessment and generates targeted queries. Auto-RAG autonomously determines when and what to retrieve, continuing retrieval when evidence is insufficient. MAIN-RAG uses a multi-agent judging process and adaptive filtering to remove noisy or misleading retrieved documents.
+FAIR-RAG identifies gaps using SEA.
+FAIR-RAG generates targeted follow-up queries.
+Auto-RAG decides when and what to retrieve.
+Auto-RAG continues searching when evidence is insufficient.
+MAIN-RAG filters noisy evidence using agent-based evaluation.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+86,8aff56c19bf1f275a54b,Q05,These mechanisms collectively help FAIR-RAG effectively handle complex question answering tasks even when faced with insufficient or noisy evidence.,"FAIR-RAG identifies evidence gaps through Structured Evidence Assessment and generates targeted queries. Auto-RAG autonomously determines when and what to retrieve, continuing retrieval when evidence is insufficient. MAIN-RAG uses a multi-agent judging process and adaptive filtering to remove noisy or misleading retrieved documents.
+FAIR-RAG identifies gaps using SEA.
+FAIR-RAG generates targeted follow-up queries.
+Auto-RAG decides when and what to retrieve.
+Auto-RAG continues searching when evidence is insufficient.
+MAIN-RAG filters noisy evidence using agent-based evaluation.",yes,no,no,model_prepass,disputed,Mechanism attributed to all systems,"The claim places insufficient evidence and noise under one method, whereas the reference separates the roles of FAIR-RAG and MAIN-RAG. The 'no' reflects transferring a supported property between systems.",human adjudicator (Denis),yes
+87,c335d975e88c001b18d3,Q05,"In summary, FAIR-RAG, Auto-RAG, and MAIN-RAG leverage advanced retrieval techniques and iterative evidence refinement to handle complex questions and extract meaningful answers even when faced with insufficient or noisy evidence.","FAIR-RAG identifies evidence gaps through Structured Evidence Assessment and generates targeted queries. Auto-RAG autonomously determines when and what to retrieve, continuing retrieval when evidence is insufficient. MAIN-RAG uses a multi-agent judging process and adaptive filtering to remove noisy or misleading retrieved documents.
+FAIR-RAG identifies gaps using SEA.
+FAIR-RAG generates targeted follow-up queries.
+Auto-RAG decides when and what to retrieve.
+Auto-RAG continues searching when evidence is insufficient.
+MAIN-RAG filters noisy evidence using agent-based evaluation.",yes,no,yes,annotator_A,resolved,Mechanism attributed to all systems,"The general goal is supported, but a shared iterative mechanism is not established for MAIN-RAG, which is described through judging and filtering. Separate mechanisms are over-merged into one.",human adjudicator (Denis),no
+88,115dfca4bf1d420898e9,Q06,"In summary, while all three methods aim to enhance retrieval through iteration and adaptation, FAIR-RAG emphasizes flexibility and continuous improvement, Auto-RAG relies on automated query generation and refinement, and RQ-RAG prioritizes direct relevance-based query updates.","FAIR-RAG uses Structured Evidence Assessment to identify evidence gaps and generate targeted follow-up queries. Auto-RAG autonomously decides when and what to retrieve through reasoning. RQ-RAG trains an LLM to rewrite, decompose, and disambiguate queries. They differ in using gap-driven assessment, autonomous decisions, and learned query refinement, respectively.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG targets identified evidence gaps.
+Auto-RAG autonomously decides when and what to retrieve.
+RQ-RAG learns rewriting, decomposition and disambiguation.
+The adaptation target differs: FAIR-RAG audits evidence gaps, Auto-RAG controls retrieval decisions, and RQ-RAG learns query reformulation.",no,no,no,n/a (both sets agreed),agreement,,,,no
+89,167714170d56d1fab81f,Q06,"FAIR-RAG's approach involves systematic identification and filling of evidence gaps during each iteration, whereas Auto-RAG and RQ-RAG seem to focus more on predicting when to retrieve based on feedback.","FAIR-RAG uses Structured Evidence Assessment to identify evidence gaps and generate targeted follow-up queries. Auto-RAG autonomously decides when and what to retrieve through reasoning. RQ-RAG trains an LLM to rewrite, decompose, and disambiguate queries. They differ in using gap-driven assessment, autonomous decisions, and learned query refinement, respectively.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG targets identified evidence gaps.
+Auto-RAG autonomously decides when and what to retrieve.
+RQ-RAG learns rewriting, decomposition and disambiguation.
+The adaptation target differs: FAIR-RAG audits evidence gaps, Auto-RAG controls retrieval decisions, and RQ-RAG learns query reformulation.",no,no,no,n/a (both sets agreed),agreement,,,,no
+90,25a6db2159a43d909efa,Q06,"It involves querying the system with specific criteria that reflect what the user considers important, allowing for targeted improvements in search outcomes.","FAIR-RAG uses Structured Evidence Assessment to identify evidence gaps and generate targeted follow-up queries. Auto-RAG autonomously decides when and what to retrieve through reasoning. RQ-RAG trains an LLM to rewrite, decompose, and disambiguate queries. They differ in using gap-driven assessment, autonomous decisions, and learned query refinement, respectively.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG targets identified evidence gaps.
+Auto-RAG autonomously decides when and what to retrieve.
+RQ-RAG learns rewriting, decomposition and disambiguation.
+The adaptation target differs: FAIR-RAG audits evidence gaps, Auto-RAG controls retrieval decisions, and RQ-RAG learns query reformulation.",no,no,no,n/a (both sets agreed),agreement,,,,no
+91,64d880bcc263e01f5585,Q06,"Based on the provided evidence, FAIR-RAG differs from Auto-RAG and RQ-RAG primarily in how they handle iterative and adaptive retrieval: 1.","FAIR-RAG uses Structured Evidence Assessment to identify evidence gaps and generate targeted follow-up queries. Auto-RAG autonomously decides when and what to retrieve through reasoning. RQ-RAG trains an LLM to rewrite, decompose, and disambiguate queries. They differ in using gap-driven assessment, autonomous decisions, and learned query refinement, respectively.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG targets identified evidence gaps.
+Auto-RAG autonomously decides when and what to retrieve.
+RQ-RAG learns rewriting, decomposition and disambiguation.
+The adaptation target differs: FAIR-RAG audits evidence gaps, Auto-RAG controls retrieval decisions, and RQ-RAG learns query reformulation.",yes,unclear,yes,annotator_A,resolved,Incomplete introductory fragment,"The general statement matches the reference, so System's 'yes' is understandable. human's 'unclear' reflects the rule excluding lead-in fragments without a specific difference: a dispute about the unit of annotation, not an obvious factual error.",human adjudicator (Denis),no
+92,8f079b49805c3e5bfdca,Q06,"Unlike FAIR-RAG and Auto-RAG, which focus on ensuring the fidelity of the generated answers to the retrieved evidence, RQ-RAG's approach is centered around improving the quality of the generated answers through feedback loops and metrics specific to the trained generator.","FAIR-RAG uses Structured Evidence Assessment to identify evidence gaps and generate targeted follow-up queries. Auto-RAG autonomously decides when and what to retrieve through reasoning. RQ-RAG trains an LLM to rewrite, decompose, and disambiguate queries. They differ in using gap-driven assessment, autonomous decisions, and learned query refinement, respectively.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG targets identified evidence gaps.
+Auto-RAG autonomously decides when and what to retrieve.
+RQ-RAG learns rewriting, decomposition and disambiguation.
+The adaptation target differs: FAIR-RAG audits evidence gaps, Auto-RAG controls retrieval decisions, and RQ-RAG learns query reformulation.",no,no,no,n/a (both sets agreed),agreement,,,,no
+93,b351d6d19b0b3cac0d87,Q06,"In summary, while FAIR-RAG and Auto-RAG focus on iterative refinement within specific contexts, RQ-RAG offers a more integrated approach that allows for continuous interaction between querying and generating text, potentially leading to more dynamic and responsive retrieval and generation processes.","FAIR-RAG uses Structured Evidence Assessment to identify evidence gaps and generate targeted follow-up queries. Auto-RAG autonomously decides when and what to retrieve through reasoning. RQ-RAG trains an LLM to rewrite, decompose, and disambiguate queries. They differ in using gap-driven assessment, autonomous decisions, and learned query refinement, respectively.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG targets identified evidence gaps.
+Auto-RAG autonomously decides when and what to retrieve.
+RQ-RAG learns rewriting, decomposition and disambiguation.
+The adaptation target differs: FAIR-RAG audits evidence gaps, Auto-RAG controls retrieval decisions, and RQ-RAG learns query reformulation.",no,no,no,n/a (both sets agreed),agreement,,,,no
+94,cf72a833ac0e752f4cd1,Q06,"Auto-RAG**, on the other hand, is described as an ""Autonomous Retrieval-Augmented Generation"" system.","FAIR-RAG uses Structured Evidence Assessment to identify evidence gaps and generate targeted follow-up queries. Auto-RAG autonomously decides when and what to retrieve through reasoning. RQ-RAG trains an LLM to rewrite, decompose, and disambiguate queries. They differ in using gap-driven assessment, autonomous decisions, and learned query refinement, respectively.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG targets identified evidence gaps.
+Auto-RAG autonomously decides when and what to retrieve.
+RQ-RAG learns rewriting, decomposition and disambiguation.
+The adaptation target differs: FAIR-RAG audits evidence gaps, Auto-RAG controls retrieval decisions, and RQ-RAG learns query reformulation.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+95,fa01229b9e59f00be45e,Q06,"FAIR-RAG**: - **Iterative Refinement**: FAIR-RAG employs an iterative refinement cycle governed by a novel module called ""Structured Evidence Assessment"" (SEA).","FAIR-RAG uses Structured Evidence Assessment to identify evidence gaps and generate targeted follow-up queries. Auto-RAG autonomously decides when and what to retrieve through reasoning. RQ-RAG trains an LLM to rewrite, decompose, and disambiguate queries. They differ in using gap-driven assessment, autonomous decisions, and learned query refinement, respectively.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG targets identified evidence gaps.
+Auto-RAG autonomously decides when and what to retrieve.
+RQ-RAG learns rewriting, decomposition and disambiguation.
+The adaptation target differs: FAIR-RAG audits evidence gaps, Auto-RAG controls retrieval decisions, and RQ-RAG learns query reformulation.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+96,fb246256c8ce90fcfeac,Q06,"Reasoning Mechanism**: It includes a reasoning process at each iteration, allowing it to make more sophisticated and informed decisions.","FAIR-RAG uses Structured Evidence Assessment to identify evidence gaps and generate targeted follow-up queries. Auto-RAG autonomously decides when and what to retrieve through reasoning. RQ-RAG trains an LLM to rewrite, decompose, and disambiguate queries. They differ in using gap-driven assessment, autonomous decisions, and learned query refinement, respectively.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG targets identified evidence gaps.
+Auto-RAG autonomously decides when and what to retrieve.
+RQ-RAG learns rewriting, decomposition and disambiguation.
+The adaptation target differs: FAIR-RAG audits evidence gaps, Auto-RAG controls retrieval decisions, and RQ-RAG learns query reformulation.",yes,no,no,model_prepass,disputed,Detail or mechanism not stated in the reference,"Reasoning is supported, but 'each iteration' and the comparative sophistication of decisions are not established. The unspecified antecedent 'it' also weakens the claim as a stand-alone statement.",human adjudicator (Denis),yes
+97,c193cec4255e4aed7826,Q07,MAIN-RAG** uses LLM agents as noisy document filters.,"MAIN-RAG filters noisy documents using LLM-based judging and an adaptive threshold. Speculative RAG uses multi-perspective document sampling to reduce redundancy and verifies candidate drafts using confidence and reflection signals. Disco-RAG models discourse structure to improve evidence integration and robustness to irrelevant passages.
+MAIN-RAG evaluates and filters noisy documents.
+MAIN-RAG uses an adaptive judging threshold.
+Speculative RAG uses multi-perspective sampling.
+Speculative RAG verifies candidate drafts.
+Disco-RAG models discourse structure for robust integration.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+98,d15e9946dde93521638a,Q07,This allows it to handle noisy or irrelevant information effectively.,"MAIN-RAG filters noisy documents using LLM-based judging and an adaptive threshold. Speculative RAG uses multi-perspective document sampling to reduce redundancy and verifies candidate drafts using confidence and reflection signals. Disco-RAG models discourse structure to improve evidence integration and robustness to irrelevant passages.
+MAIN-RAG evaluates and filters noisy documents.
+MAIN-RAG uses an adaptive judging threshold.
+Speculative RAG uses multi-perspective sampling.
+Speculative RAG verifies candidate drafts.
+Disco-RAG models discourse structure for robust integration.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+99,fa2223825bcc01be0f64,Q07,"These approaches collectively show that addressing noisy or irrelevant retrieved evidence requires sophisticated strategies beyond simple token addition, such as leveraging structural modeling and incorporating speculative reasoning.","MAIN-RAG filters noisy documents using LLM-based judging and an adaptive threshold. Speculative RAG uses multi-perspective document sampling to reduce redundancy and verifies candidate drafts using confidence and reflection signals. Disco-RAG models discourse structure to improve evidence integration and robustness to irrelevant passages.
+MAIN-RAG evaluates and filters noisy documents.
+MAIN-RAG uses an adaptive judging threshold.
+Speculative RAG uses multi-perspective sampling.
+Speculative RAG verifies candidate drafts.
+Disco-RAG models discourse structure for robust integration.",no,no,no,n/a (both sets agreed),agreement,,,,no
+100,fab28f9fe95d73e247a7,Q07,"In summary, MAIN-RAG addresses noise by leveraging LLM agents, Speculative RAG improves upon retrieval by incorporating speculative drafting, and Disco-RAG ensures robust performance through discourse-aware mechanisms.","MAIN-RAG filters noisy documents using LLM-based judging and an adaptive threshold. Speculative RAG uses multi-perspective document sampling to reduce redundancy and verifies candidate drafts using confidence and reflection signals. Disco-RAG models discourse structure to improve evidence integration and robustness to irrelevant passages.
+MAIN-RAG evaluates and filters noisy documents.
+MAIN-RAG uses an adaptive judging threshold.
+Speculative RAG uses multi-perspective sampling.
+Speculative RAG verifies candidate drafts.
+Disco-RAG models discourse structure for robust integration.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+101,634a634d082da619a109,Q08,"To improve multi-hop reasoning, GFM-RAG, Bridge-RAG, and Walk&Retrieve utilize graph-based structures differently: 1.","GFM-RAG uses knowledge-graph indexing and a graph foundation model for single-step multi-hop reasoning. Bridge-RAG organizes entities, semantic abstracts, and document chunks into a hierarchical bridge tree with efficient Cuckoo Filter lookup. Walk&Retrieve uses breadth-first or random graph walks and verbalizes graph facts for LLM retrieval. Their main differences are learned graph reasoning, hierarchical indexing, and lightweight traversal.
+GFM-RAG uses graph-based reasoning.
+GFM-RAG performs single-step GNN reasoning.
+Bridge-RAG uses an abstract tree and Cuckoo Filter.
+Walk&Retrieve uses graph walks and verbalization.
+Their graph mechanisms differ: GFM-RAG uses learned GNN reasoning, Bridge-RAG uses hierarchical bridge-tree lookup, and Walk&Retrieve verbalizes graph walks.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+102,83be317106ad85e07ae8,Q08,"The proposed GFM-RAG combines the strengths of both retrieval-augmented generation and graph-enhanced retrieval, providing a powerful tool for improving LLMs' reasoning ability.","GFM-RAG uses knowledge-graph indexing and a graph foundation model for single-step multi-hop reasoning. Bridge-RAG organizes entities, semantic abstracts, and document chunks into a hierarchical bridge tree with efficient Cuckoo Filter lookup. Walk&Retrieve uses breadth-first or random graph walks and verbalizes graph facts for LLM retrieval. Their main differences are learned graph reasoning, hierarchical indexing, and lightweight traversal.
+GFM-RAG uses graph-based reasoning.
+GFM-RAG performs single-step GNN reasoning.
+Bridge-RAG uses an abstract tree and Cuckoo Filter.
+Walk&Retrieve uses graph walks and verbalization.
+Their graph mechanisms differ: GFM-RAG uses learned GNN reasoning, Bridge-RAG uses hierarchical bridge-tree lookup, and Walk&Retrieve verbalizes graph walks.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+103,9d117ec903a5634a0f4b,Q08,"It performs multi-hop reasoning over these structured graphs to efficiently retrieve relevant information in a single step, demonstrating effectiveness, efficiency, and generalizability across various benchmarks and domains.","GFM-RAG uses knowledge-graph indexing and a graph foundation model for single-step multi-hop reasoning. Bridge-RAG organizes entities, semantic abstracts, and document chunks into a hierarchical bridge tree with efficient Cuckoo Filter lookup. Walk&Retrieve uses breadth-first or random graph walks and verbalizes graph facts for LLM retrieval. Their main differences are learned graph reasoning, hierarchical indexing, and lightweight traversal.
+GFM-RAG uses graph-based reasoning.
+GFM-RAG performs single-step GNN reasoning.
+Bridge-RAG uses an abstract tree and Cuckoo Filter.
+Walk&Retrieve uses graph walks and verbalization.
+Their graph mechanisms differ: GFM-RAG uses learned GNN reasoning, Bridge-RAG uses hierarchical bridge-tree lookup, and Walk&Retrieve verbalizes graph walks.",yes,no,yes,annotator_A,resolved,Result or comparison not stated in the reference,"The single-step retrieval mechanism matches the reference, but results on various benchmarks and domains are added without support. A correct first part does not make the whole compound claim supported.",human adjudicator (Denis),no
+104,f0d13e17d0ce287cb873,Q08,GFM-RAG uses graph-based structures to improve multi-hop reasoning through its ability to leverage knowledge graphs for explicit modeling of complex relationships between knowledge and documents.,"GFM-RAG uses knowledge-graph indexing and a graph foundation model for single-step multi-hop reasoning. Bridge-RAG organizes entities, semantic abstracts, and document chunks into a hierarchical bridge tree with efficient Cuckoo Filter lookup. Walk&Retrieve uses breadth-first or random graph walks and verbalizes graph facts for LLM retrieval. Their main differences are learned graph reasoning, hierarchical indexing, and lightweight traversal.
+GFM-RAG uses graph-based reasoning.
+GFM-RAG performs single-step GNN reasoning.
+Bridge-RAG uses an abstract tree and Cuckoo Filter.
+Walk&Retrieve uses graph walks and verbalization.
+Their graph mechanisms differ: GFM-RAG uses learned GNN reasoning, Bridge-RAG uses hierarchical bridge-tree lookup, and Walk&Retrieve verbalizes graph walks.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+105,7100df4541241eacde36,Q10,"Focus**: Evaluated RAG systems with a fairness-aware retriever across seven different tasks, observing changes in ranking quality and generation quality (utility). ### Summary Based on the provided evidence, the main points regarding how these tools evaluate retrieval and generation quality are: 1.","MultiHop-RAG separately benchmarks retrieval and generation using supporting evidence, embedding comparisons and retrieval metrics such as Hits@K. RAG Foundry provides configurable multi-aspect evaluation across RAG pipeline components. FAIR-RAG evaluates answer quality using EM, F1, accuracy and LLM-as-Judge measures, while also analyzing component and architectural failures.
+MultiHop-RAG evaluates retrieval using metrics such as Hits@K.
+MultiHop-RAG evaluates generation separately.
+RAG Foundry supports multi-aspect evaluation.
+FAIR-RAG evaluates answer quality with multiple metrics.
+FAIR-RAG analyzes component and architectural failures.",no,no,no,n/a (both sets agreed),agreement,,,,no
+106,d84cec10ce520fcc739a,Q10,"MultiHop-RAG, RAG Foundry, and FAIR-RAG all evaluate retrieval and generation quality differently: 1.","MultiHop-RAG separately benchmarks retrieval and generation using supporting evidence, embedding comparisons and retrieval metrics such as Hits@K. RAG Foundry provides configurable multi-aspect evaluation across RAG pipeline components. FAIR-RAG evaluates answer quality using EM, F1, accuracy and LLM-as-Judge measures, while also analyzing component and architectural failures.
+MultiHop-RAG evaluates retrieval using metrics such as Hits@K.
+MultiHop-RAG evaluates generation separately.
+RAG Foundry supports multi-aspect evaluation.
+FAIR-RAG evaluates answer quality with multiple metrics.
+FAIR-RAG analyzes component and architectural failures.",yes,unclear,yes,annotator_A,resolved,Incomplete introductory fragment,System accepts a correct general statement about differences; human excludes a lead-in without metrics or procedures as unclear. The decision depends on the chosen claim-segmentation rule.,human adjudicator (Denis),no
+107,f59bff623b01cda2c752,Q10,"It provides a structured way to create and evaluate datasets tailored for RAG scenarios, focusing on both retrieval accuracy and generative quality.","MultiHop-RAG separately benchmarks retrieval and generation using supporting evidence, embedding comparisons and retrieval metrics such as Hits@K. RAG Foundry provides configurable multi-aspect evaluation across RAG pipeline components. FAIR-RAG evaluates answer quality using EM, F1, accuracy and LLM-as-Judge measures, while also analyzing component and architectural failures.
+MultiHop-RAG evaluates retrieval using metrics such as Hits@K.
+MultiHop-RAG evaluates generation separately.
+RAG Foundry supports multi-aspect evaluation.
+FAIR-RAG evaluates answer quality with multiple metrics.
+FAIR-RAG analyzes component and architectural failures.",yes,no,no,model_prepass,disputed,Detail or mechanism not stated in the reference,Evaluation is supported; dataset creation for the method is not. The claim merges different functions and does not clearly name the system. The 'no' is justified under local checking against the reference.,human adjudicator (Denis),yes
+108,da3657f07e36e6ebfe05,Q11,"This allows for efficient querying even when dealing with highly structured datasets, where traditional SQL approaches might be less effective due to their reliance on row-by-row scanning.","Disco-RAG builds discourse trees within chunks and rhetorical graphs across chunks to preserve logical relationships. SPD-RAG uses dedicated document agents and centralized synthesis to improve coverage of evidence distributed across long documents. RAG over Tables (T-RAG) uses hierarchical memory indexing, multi-stage retrieval, and graph-aware prompting for reasoning across structured tables.
+Disco-RAG constructs intra-chunk discourse trees.
+Disco-RAG models inter-chunk rhetorical relationships.
+SPD-RAG uses document-specific agents.
+SPD-RAG synthesizes findings across documents.
+T-RAG uses hierarchical indexing, multi-stage retrieval and graph-aware prompting.",no,no,no,n/a (both sets agreed),agreement,,,,no
+109,1bbabd58e6941ed384c6,Q12,"These adaptations allow Vendi-RAG to dynamically adapt to the needs of each query and reasoning step, thereby improving both the breadth and precision of generated answers.","Vendi-RAG uses the Vendi Score to improve semantic diversity and iteratively balances relevance through answer-quality feedback. DF-RAG extends MMR and dynamically selects a query-specific diversity parameter to retrieve complementary evidence. RQ-RAG trains a model to rewrite, decompose, and disambiguate queries to improve retrieval for complex question answering.
+Vendi-RAG uses Vendi Score.
+Vendi-RAG adjusts retrieval using answer-quality feedback.
+DF-RAG builds on Maximal Marginal Relevance.
+DF-RAG selects query-specific diversity.
+RQ-RAG learns query rewriting, decomposition and disambiguation.",yes,no,yes,annotator_A,resolved,Overstatement or guarantee,"The core idea of adaptation is supported, but the frequency of 'each reasoning step' and the stated effect on answers do not follow from the mechanism. System treats the expected benefit as an established result.",human adjudicator (Denis),no
+110,631f8ac3bf30141fa0d1,Q12,Balancing Retrieval Diversity and Quality**: Vendi-RAG employs the Vendi Score (VS) to promote semantic diversity in document retrieval while also considering retrieval quality through a weighting mechanism.,"Vendi-RAG uses the Vendi Score to improve semantic diversity and iteratively balances relevance through answer-quality feedback. DF-RAG extends MMR and dynamically selects a query-specific diversity parameter to retrieve complementary evidence. RQ-RAG trains a model to rewrite, decompose, and disambiguate queries to improve retrieval for complex question answering.
+Vendi-RAG uses Vendi Score.
+Vendi-RAG adjusts retrieval using answer-quality feedback.
+DF-RAG builds on Maximal Marginal Relevance.
+DF-RAG selects query-specific diversity.
+RQ-RAG learns query rewriting, decomposition and disambiguation.",yes,no,yes,annotator_A,resolved,Detail or mechanism not stated in the reference,"Almost the whole claim matches the reference, but 'weighting' is a specific implementation detail it does not contain. A disagreement caused by one extra refinement, not by a mismatched method.",human adjudicator (Denis),no
+111,fb22750ef389accb05d0,Q12,"Iterative Refinement**: The Vendi-RAG pipeline iteratively refines the balance between retrieval diversity and relevance, ensuring that the final response is both accurate and comprehensive.","Vendi-RAG uses the Vendi Score to improve semantic diversity and iteratively balances relevance through answer-quality feedback. DF-RAG extends MMR and dynamically selects a query-specific diversity parameter to retrieve complementary evidence. RQ-RAG trains a model to rewrite, decompose, and disambiguate queries to improve retrieval for complex question answering.
+Vendi-RAG uses Vendi Score.
+Vendi-RAG adjusts retrieval using answer-quality feedback.
+DF-RAG builds on Maximal Marginal Relevance.
+DF-RAG selects query-specific diversity.
+RQ-RAG learns query rewriting, decomposition and disambiguation.",yes,no,yes,annotator_A,resolved,Overstatement or guarantee,The reference describes an improvement mechanism but does not guarantee both properties of the final answer. System accepts the correct mechanism together with an overstated consequence; human rejects the compound claim.,human adjudicator (Denis),no
+112,4534ab19dc0ee83fad64,Q13,"In summary, FAIR-RAG, MAIN-RAG, and MASS-RAG collectively contribute to improving faithfulness and reducing unsupported information in generated answers by employing advanced retrieval techniques, modular design, and dynamic adaptation mechanisms.","FAIR-RAG uses Structured Evidence Assessment to audit evidence, identify confirmed facts and information gaps before generation. MAIN-RAG uses an LLM judging agent and adaptive filtering to remove noisy evidence and assess answer support. MASS-RAG uses specialized summarization, extraction and reasoning agents followed by synthesis to integrate complementary evidence. These methods aim to improve grounding but do not guarantee perfectly faithful answers.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG identifies evidence gaps before generation.
+MAIN-RAG uses judging and adaptive document filtering.
+MASS-RAG uses specialized evidence-processing agents.
+MASS-RAG synthesizes complementary evidence.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+113,49c67a44ddcd7231db5a,Q13,FAIR-RAG improves faithfulness and reduces unsupported information in generated answers through several mechanisms: 1.,"FAIR-RAG uses Structured Evidence Assessment to audit evidence, identify confirmed facts and information gaps before generation. MAIN-RAG uses an LLM judging agent and adaptive filtering to remove noisy evidence and assess answer support. MASS-RAG uses specialized summarization, extraction and reasoning agents followed by synthesis to integrate complementary evidence. These methods aim to improve grounding but do not guarantee perfectly faithful answers.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG identifies evidence gaps before generation.
+MAIN-RAG uses judging and adaptive document filtering.
+MASS-RAG uses specialized evidence-processing agents.
+MASS-RAG synthesizes complementary evidence.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+114,69d301459aecb081add0,Q13,"FAIR-RAG (Fact-Checking Information Retrieval for Reliable Answers), MAIN-RAG (Multi-Armed Bandit Learning for Reliable Answers), and MASS-RAG (Memory-Augmented Self-Supervised Language Model for Reliable Answers) all aim to enhance the quality of generated responses by focusing on several key aspects: 1.","FAIR-RAG uses Structured Evidence Assessment to audit evidence, identify confirmed facts and information gaps before generation. MAIN-RAG uses an LLM judging agent and adaptive filtering to remove noisy evidence and assess answer support. MASS-RAG uses specialized summarization, extraction and reasoning agents followed by synthesis to integrate complementary evidence. These methods aim to improve grounding but do not guarantee perfectly faithful answers.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG identifies evidence gaps before generation.
+MAIN-RAG uses judging and adaptive document filtering.
+MASS-RAG uses specialized evidence-processing agents.
+MASS-RAG synthesizes complementary evidence.",no,no,no,n/a (both sets agreed),agreement,,,,no
+115,bf3fe8d85d4478d1bc93,Q13,"Each approach targets different aspects of the problem, from ensuring fidelity to the original query to facilitating iterative refinement and addressing the challenges posed by multi-step reasoning and scalability issues.","FAIR-RAG uses Structured Evidence Assessment to audit evidence, identify confirmed facts and information gaps before generation. MAIN-RAG uses an LLM judging agent and adaptive filtering to remove noisy evidence and assess answer support. MASS-RAG uses specialized summarization, extraction and reasoning agents followed by synthesis to integrate complementary evidence. These methods aim to improve grounding but do not guarantee perfectly faithful answers.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG identifies evidence gaps before generation.
+MAIN-RAG uses judging and adaptive document filtering.
+MASS-RAG uses specialized evidence-processing agents.
+MASS-RAG synthesizes complementary evidence.",no,no,no,n/a (both sets agreed),agreement,,,,no
+116,c891e8dd237580b41f7f,Q13,"Iterative Refinement Loop**: FAIR-RAG employs a structured, gap-aware iterative refinement loop.","FAIR-RAG uses Structured Evidence Assessment to audit evidence, identify confirmed facts and information gaps before generation. MAIN-RAG uses an LLM judging agent and adaptive filtering to remove noisy evidence and assess answer support. MASS-RAG uses specialized summarization, extraction and reasoning agents followed by synthesis to integrate complementary evidence. These methods aim to improve grounding but do not guarantee perfectly faithful answers.
+FAIR-RAG uses Structured Evidence Assessment.
+FAIR-RAG identifies evidence gaps before generation.
+MAIN-RAG uses judging and adaptive document filtering.
+MASS-RAG uses specialized evidence-processing agents.
+MASS-RAG synthesizes complementary evidence.",yes,no,yes,annotator_A,resolved,Detail or mechanism not stated in the reference,Gap-aware assessment is supported. The iterative retrieval loop is described in other references (Q02/Q06) but not in this claim's Q13 reference: a boundary of admissible context.,human adjudicator (Denis),no
+117,1ffea12382d7fdf9070a,Q14,"The provided evidence does not address the specific differences between SPD-RAG, MASS-RAG, and automated literature review systems in terms of processing and synthesizing information from scientific documents.","SPD-RAG assigns specialized agents to individual documents and combines their findings through centralized synthesis. MASS-RAG uses role-specialized agents to summarize, extract and reason over retrieved evidence before final synthesis. The Automated Literature Review study compares frequency-based summarization, transformer-based methods and LLM-based RAG for generating literature review content from scientific PDFs, evaluated using SciTLDR and ROUGE. Unlike SPD-RAG and MASS-RAG, this study primarily evaluates automated review generation rather than exhaustive multi-agent cross-document reasoning.
+SPD-RAG assigns agents to individual documents.
+SPD-RAG combines findings through centralized synthesis.
+MASS-RAG uses specialized filtering and synthesis agents.
+Automated Literature Review compares frequency-based, transformer and RAG methods.
+The Automated Literature Review study evaluates review generation with SciTLDR and ROUGE, whereas SPD-RAG and MASS-RAG investigate evidence-based question answering.",no,no,no,n/a (both sets agreed),agreement,,,,no
+118,6b594de4e800da6d1a9e,Q14,"In summary, while all three systems aim to improve the efficiency and accuracy of information processing, SPD-RAG and MASS-RAG differ in their primary method of working with retrieved information, focusing on direct augmentation versus integration of diverse evidence sources respectively.","SPD-RAG assigns specialized agents to individual documents and combines their findings through centralized synthesis. MASS-RAG uses role-specialized agents to summarize, extract and reason over retrieved evidence before final synthesis. The Automated Literature Review study compares frequency-based summarization, transformer-based methods and LLM-based RAG for generating literature review content from scientific PDFs, evaluated using SciTLDR and ROUGE. Unlike SPD-RAG and MASS-RAG, this study primarily evaluates automated review generation rather than exhaustive multi-agent cross-document reasoning.
+SPD-RAG assigns agents to individual documents.
+SPD-RAG combines findings through centralized synthesis.
+MASS-RAG uses specialized filtering and synthesis agents.
+Automated Literature Review compares frequency-based, transformer and RAG methods.
+The Automated Literature Review study evaluates review generation with SciTLDR and ROUGE, whereas SPD-RAG and MASS-RAG investigate evidence-based question answering.",no,no,no,n/a (both sets agreed),agreement,,,,no
+119,f2f4840d6eb3f061f8a3,Q14,Massive Multi-Document Retrieval (Mass-RAG) differs from SPD-RAG in that it focuses on retrieving multiple documents rather than generating text directly.,"SPD-RAG assigns specialized agents to individual documents and combines their findings through centralized synthesis. MASS-RAG uses role-specialized agents to summarize, extract and reason over retrieved evidence before final synthesis. The Automated Literature Review study compares frequency-based summarization, transformer-based methods and LLM-based RAG for generating literature review content from scientific PDFs, evaluated using SciTLDR and ROUGE. Unlike SPD-RAG and MASS-RAG, this study primarily evaluates automated review generation rather than exhaustive multi-agent cross-document reasoning.
+SPD-RAG assigns agents to individual documents.
+SPD-RAG combines findings through centralized synthesis.
+MASS-RAG uses specialized filtering and synthesis agents.
+Automated Literature Review compares frequency-based, transformer and RAG methods.
+The Automated Literature Review study evaluates review generation with SciTLDR and ROUGE, whereas SPD-RAG and MASS-RAG investigate evidence-based question answering.",no,no,no,n/a (both sets agreed),agreement,,,,no
+120,21ca06e5455265d5b493,Q15,"Bridge-RAG**: - **Improvement in Retrieval Efficiency**: Similar to GFM-RAG, Bridge-RAG enhances retrieval efficiency.","GFM-RAG uses knowledge-graph indexing and single-step GNN reasoning to reduce repeated retrieval and LLM processing. Bridge-RAG uses a hierarchical abstract bridge tree and Cuckoo Filter for efficient entity lookup and multi-level context retrieval. Walk&Retrieve uses knowledge-graph walks and verbalization to construct relevant textual context, supporting zero-shot generation with a single LLM call.
+GFM-RAG performs single-step graph neural reasoning.
+GFM-RAG reduces iterative reasoning overhead.
+Bridge-RAG uses a hierarchical abstract tree and Cuckoo Filter.
+Walk&Retrieve uses graph traversal and knowledge verbalization.
+Walk&Retrieve supports zero-shot generation with one LLM call.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+121,252782453f95240a2463,Q15,"They achieve this by integrating retrieval and generation functionalities, thereby improving the overall performance of the retrieval system.","GFM-RAG uses knowledge-graph indexing and single-step GNN reasoning to reduce repeated retrieval and LLM processing. Bridge-RAG uses a hierarchical abstract bridge tree and Cuckoo Filter for efficient entity lookup and multi-level context retrieval. Walk&Retrieve uses knowledge-graph walks and verbalization to construct relevant textual context, supporting zero-shot generation with a single LLM call.
+GFM-RAG performs single-step graph neural reasoning.
+GFM-RAG reduces iterative reasoning overhead.
+Bridge-RAG uses a hierarchical abstract tree and Cuckoo Filter.
+Walk&Retrieve uses graph traversal and knowledge verbalization.
+Walk&Retrieve supports zero-shot generation with one LLM call.",no,no,no,n/a (both sets agreed),agreement,,,,no
+122,263228e7ddf07a298ec2,Q15,"GFM-RAG, Bridge-RAG, and Walk&Retrieve all contribute to improving retrieval efficiency while supporting complex reasoning: 1.","GFM-RAG uses knowledge-graph indexing and single-step GNN reasoning to reduce repeated retrieval and LLM processing. Bridge-RAG uses a hierarchical abstract bridge tree and Cuckoo Filter for efficient entity lookup and multi-level context retrieval. Walk&Retrieve uses knowledge-graph walks and verbalization to construct relevant textual context, supporting zero-shot generation with a single LLM call.
+GFM-RAG performs single-step graph neural reasoning.
+GFM-RAG reduces iterative reasoning overhead.
+Bridge-RAG uses a hierarchical abstract tree and Cuckoo Filter.
+Walk&Retrieve uses graph traversal and knowledge verbalization.
+Walk&Retrieve supports zero-shot generation with one LLM call.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+123,3201c8a7ddb2dc408fd2,Q15,"In summary, these systems collectively improve retrieval efficiency by enhancing the ability to handle complex queries and provide contextually relevant responses.","GFM-RAG uses knowledge-graph indexing and single-step GNN reasoning to reduce repeated retrieval and LLM processing. Bridge-RAG uses a hierarchical abstract bridge tree and Cuckoo Filter for efficient entity lookup and multi-level context retrieval. Walk&Retrieve uses knowledge-graph walks and verbalization to construct relevant textual context, supporting zero-shot generation with a single LLM call.
+GFM-RAG performs single-step graph neural reasoning.
+GFM-RAG reduces iterative reasoning overhead.
+Bridge-RAG uses a hierarchical abstract tree and Cuckoo Filter.
+Walk&Retrieve uses graph traversal and knowledge verbalization.
+Walk&Retrieve supports zero-shot generation with one LLM call.",no,yes,no,annotator_A,resolved,Boundary of acceptable paraphrase,"System's 'yes' can be justified as a summary of efficiency and handling of complex queries. human's 'no' reflects a demand for a specific mechanism: better answers alone do not prove retrieval efficiency. Under semantic paraphrase, 'yes' is preferable.",human adjudicator (Denis),no
+124,36aab5046c7eab750550,Q15,"They achieve this through various combinations of LLM integration, retrieval augmentation, and guided navigation strategies.","GFM-RAG uses knowledge-graph indexing and single-step GNN reasoning to reduce repeated retrieval and LLM processing. Bridge-RAG uses a hierarchical abstract bridge tree and Cuckoo Filter for efficient entity lookup and multi-level context retrieval. Walk&Retrieve uses knowledge-graph walks and verbalization to construct relevant textual context, supporting zero-shot generation with a single LLM call.
+GFM-RAG performs single-step graph neural reasoning.
+GFM-RAG reduces iterative reasoning overhead.
+Bridge-RAG uses a hierarchical abstract tree and Cuckoo Filter.
+Walk&Retrieve uses graph traversal and knowledge verbalization.
+Walk&Retrieve supports zero-shot generation with one LLM call.",no,yes,no,annotator_A,resolved,Boundary of acceptable paraphrase,"System accepts a broad paraphrase; human requires a match to the named mechanisms. On strict re-checking, three general terms do not convey the distinct sources of efficiency precisely enough, so 'no' is preferable.",human adjudicator (Denis),no
+125,6148019b6a3aa025f5e7,Q15,"In summary, all three systems—GFM-RAG, Bridge-RAG, and Walk&Retrieve—are designed to enhance retrieval efficiency and support complex reasoning.","GFM-RAG uses knowledge-graph indexing and single-step GNN reasoning to reduce repeated retrieval and LLM processing. Bridge-RAG uses a hierarchical abstract bridge tree and Cuckoo Filter for efficient entity lookup and multi-level context retrieval. Walk&Retrieve uses knowledge-graph walks and verbalization to construct relevant textual context, supporting zero-shot generation with a single LLM call.
+GFM-RAG performs single-step graph neural reasoning.
+GFM-RAG reduces iterative reasoning overhead.
+Bridge-RAG uses a hierarchical abstract tree and Cuckoo Filter.
+Walk&Retrieve uses graph traversal and knowledge verbalization.
+Walk&Retrieve supports zero-shot generation with one LLM call.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+126,7f89effead8249f3be21,Q15,They collectively provide mechanisms to support seamless adaptation to evolving knowledge graphs and maintain high retrieval speeds.,"GFM-RAG uses knowledge-graph indexing and single-step GNN reasoning to reduce repeated retrieval and LLM processing. Bridge-RAG uses a hierarchical abstract bridge tree and Cuckoo Filter for efficient entity lookup and multi-level context retrieval. Walk&Retrieve uses knowledge-graph walks and verbalization to construct relevant textual context, supporting zero-shot generation with a single LLM call.
+GFM-RAG performs single-step graph neural reasoning.
+GFM-RAG reduces iterative reasoning overhead.
+Bridge-RAG uses a hierarchical abstract tree and Cuckoo Filter.
+Walk&Retrieve uses graph traversal and knowledge verbalization.
+Walk&Retrieve supports zero-shot generation with one LLM call.",yes,no,yes,annotator_A,resolved,Overstatement or guarantee,High efficiency on the described retrieval does not prove dynamic graph updating or stable speed under change. The reference contains no evolving graphs or such an adaptation mechanism.,human adjudicator (Denis),no
+127,854e0529092ab30105d1,Q15,Specifically: - **Graph Foundation Model for Retrieval Augmented Generation (GFM-RAG)**: - Improves retrieval efficiency by enabling efficient multi-hop retrieval in a single step.,"GFM-RAG uses knowledge-graph indexing and single-step GNN reasoning to reduce repeated retrieval and LLM processing. Bridge-RAG uses a hierarchical abstract bridge tree and Cuckoo Filter for efficient entity lookup and multi-level context retrieval. Walk&Retrieve uses knowledge-graph walks and verbalization to construct relevant textual context, supporting zero-shot generation with a single LLM call.
+GFM-RAG performs single-step graph neural reasoning.
+GFM-RAG reduces iterative reasoning overhead.
+Bridge-RAG uses a hierarchical abstract tree and Cuckoo Filter.
+Walk&Retrieve uses graph traversal and knowledge verbalization.
+Walk&Retrieve supports zero-shot generation with one LLM call.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+128,47da61670c43aa4d04eb,Q17,Performance Improvements:** - **DF-RAG:** Outperformed vanilla RAG by up to 18% absolute performance gains.,"Longer contexts can provide more evidence but may increase noise, redundancy and computational costs. DF-RAG uses query-aware diversity to improve performance across context lengths, reporting gains over vanilla RAG. Disco-RAG remains robust as chunk sizes and retrieval breadth vary, while standard RAG can degrade from accumulated noise. SPD-RAG improves document coverage at lower cost than full-context processing, although full context achieves higher overall quality in its reported evaluation.
+In SPD-RAG’s Loong evaluation, the full-context baseline processes all task documents in one pass and attains the highest reported answer quality.
+DF-RAG improves performance across context lengths.
+Disco-RAG demonstrates robustness to retrieval noise.
+SPD-RAG compares document processing with full context.
+On the reported Loong evaluation, SPD-RAG achieves 85.4% of full-context answer quality while consuming 37.9% of its API cost.",no,no,no,n/a (both sets agreed),agreement,,,,no
+129,300f56e9ccf0efdecb1d,Q18,"By incorporating these checks, it helps in providing more complete and trustworthy answers.","FAIR-RAG uses Structured Evidence Assessment to identify missing information and guide targeted follow-up queries. MASS-RAG employs specialized agents to expose complementary evidence, followed by synthesis, although final synthesis does not always preserve maximum intermediate coverage. SPD-RAG assigns agents to individual documents to improve coverage of evidence distributed across long documents.
+FAIR-RAG identifies gaps through an evidence checklist.
+FAIR-RAG uses targeted retrieval to fill gaps.
+MASS-RAG captures complementary evidence.
+MASS-RAG synthesis may not preserve maximum coverage.
+SPD-RAG improves exhaustive per-document coverage.",no,yes,no,annotator_A,resolved,Boundary of acceptable paraphrase,"System's 'yes' is supported by the link between gap checks and answer completeness; 'helps' means contribution, not guarantee. human's 'no' may reflect the isolated pronoun and general wording. Under semantic checking, 'yes' is preferable.",human adjudicator (Denis),no
+130,48e339e5271e9a91e21b,Q18,FAIR-RAG addresses missing evidence and improves answer completeness by incorporating three key elements: 1.,"FAIR-RAG uses Structured Evidence Assessment to identify missing information and guide targeted follow-up queries. MASS-RAG employs specialized agents to expose complementary evidence, followed by synthesis, although final synthesis does not always preserve maximum intermediate coverage. SPD-RAG assigns agents to individual documents to improve coverage of evidence distributed across long documents.
+FAIR-RAG identifies gaps through an evidence checklist.
+FAIR-RAG uses targeted retrieval to fill gaps.
+MASS-RAG captures complementary evidence.
+MASS-RAG synthesis may not preserve maximum coverage.
+SPD-RAG improves exhaustive per-document coverage.",yes,unclear,yes,annotator_A,resolved,Incomplete introductory fragment,System confirms the core idea of FAIR-RAG; human treats the line as a list fragment. Checking the three elements would require adding the missing continuation to the claim.,human adjudicator (Denis),no
+131,95a962f412f61703d698,Q18,This gap-driven approach enables FAIR-RAG to focus on identifying explicit informational gaps and generate new sub-queries accordingly.,"FAIR-RAG uses Structured Evidence Assessment to identify missing information and guide targeted follow-up queries. MASS-RAG employs specialized agents to expose complementary evidence, followed by synthesis, although final synthesis does not always preserve maximum intermediate coverage. SPD-RAG assigns agents to individual documents to improve coverage of evidence distributed across long documents.
+FAIR-RAG identifies gaps through an evidence checklist.
+FAIR-RAG uses targeted retrieval to fill gaps.
+MASS-RAG captures complementary evidence.
+MASS-RAG synthesis may not preserve maximum coverage.
+SPD-RAG improves exhaustive per-document coverage.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+132,b4e7345ab879ecdc19f1,Q18,These approaches collectively aim to enhance the generality and reliability of the generated answers by leveraging diverse sources of evidence and refining the query formulation iteratively.,"FAIR-RAG uses Structured Evidence Assessment to identify missing information and guide targeted follow-up queries. MASS-RAG employs specialized agents to expose complementary evidence, followed by synthesis, although final synthesis does not always preserve maximum intermediate coverage. SPD-RAG assigns agents to individual documents to improve coverage of evidence distributed across long documents.
+FAIR-RAG identifies gaps through an evidence checklist.
+FAIR-RAG uses targeted retrieval to fill gaps.
+MASS-RAG captures complementary evidence.
+MASS-RAG synthesis may not preserve maximum coverage.
+SPD-RAG improves exhaustive per-document coverage.",no,no,no,n/a (both sets agreed),agreement,,,,no
+133,e552017c097dd140ee30,Q18,Here's how they typically handle missing evidence: 1.,"FAIR-RAG uses Structured Evidence Assessment to identify missing information and guide targeted follow-up queries. MASS-RAG employs specialized agents to expose complementary evidence, followed by synthesis, although final synthesis does not always preserve maximum intermediate coverage. SPD-RAG assigns agents to individual documents to improve coverage of evidence distributed across long documents.
+FAIR-RAG identifies gaps through an evidence checklist.
+FAIR-RAG uses targeted retrieval to fill gaps.
+MASS-RAG captures complementary evidence.
+MASS-RAG synthesis may not preserve maximum coverage.
+SPD-RAG improves exhaustive per-document coverage.",no,unclear,no,annotator_A,resolved,Incomplete introductory fragment,"A procedural phrase with no stand-alone fact. 'no' and 'unclear' reflect binary checking versus excluding non-claims, not disagreement about RAG.",human adjudicator (Denis),no
+134,f3c3b5b49005ffae93ef,Q18,"In summary, these systems collectively work towards improving answer completeness by ensuring that the retrieved information is accurate, relevant, and logically consistent with the original query.","FAIR-RAG uses Structured Evidence Assessment to identify missing information and guide targeted follow-up queries. MASS-RAG employs specialized agents to expose complementary evidence, followed by synthesis, although final synthesis does not always preserve maximum intermediate coverage. SPD-RAG assigns agents to individual documents to improve coverage of evidence distributed across long documents.
+FAIR-RAG identifies gaps through an evidence checklist.
+FAIR-RAG uses targeted retrieval to fill gaps.
+MASS-RAG captures complementary evidence.
+MASS-RAG synthesis may not preserve maximum coverage.
+SPD-RAG improves exhaustive per-document coverage.",no,no,no,n/a (both sets agreed),agreement,,,,no
+135,181a5800cdd77269abb8,Q20,Retrieval Evaluation**: Ensuring that the retrieved evidence aligns well with the actual content of the questions.,"Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+136,1ac26790a89f257c2498,Q20,MultiHop-RAG addresses these challenges by incorporating multiple reasoning steps into its query processing mechanism.,"Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",no,no,no,n/a (both sets agreed),agreement,,,,no
+137,1e52cac7bdd8aceb1942,Q20,"Multi-Hop-RAG, MASS-RAG, and RAG Foundry address these challenges by: 1.","Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",yes,unclear,yes,annotator_A,resolved,Incomplete introductory fragment,"System accepts a general lead-in statement; human requires a specific substantive claim. Under the non-claim rule, 'unclear' is preferable.",human adjudicator (Denis),no
+138,492359ac182075b8251c,Q20,"Addressing these challenges**: - **MultiHop-RAG**: Introduces a new RAG benchmarking dataset that includes a knowledge base, a large collection of multi-hop queries, their ground-truth answers, and associated supporting evidence.","Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",yes,no,yes,annotator_A,resolved,Detail or mechanism not stated in the reference,"The core description of the benchmark agrees with the reference; the 'no' reflects two refinements absent from Q20. Judged on the core, 'yes' is understandable; under a strict ban on added detail the whole line is unsupported.",human adjudicator (Denis),no
+139,8eca56be7ab62c4506ee,Q20,Generation Evaluation**: Assessing whether the generated response captures the essence of the original question effectively.,"Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+140,936963647ce255b89bb4,Q20,It provides insights into the strengths and weaknesses of the LLM's ability to generate coherent and accurate multi-hop responses.,"Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no
+141,a6656b9fc4df56acca05,Q20,"Retrieval accuracy: While most evaluation tools focus on generation aspects, they lack benchmarks specifically for retrieval accuracy.","Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",yes,no,no,model_prepass,disputed,Inference from silence or broad generalisation,The reference does not describe what most evaluation tools can do. Requiring separate retrieval evaluation does not prove that other benchmarks lack it.,human adjudicator (Denis),yes
+142,cbd5b18451ed64da6c01,Q20,Evaluation challenges in multi-source synthesis include: 1.,"Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",yes,unclear,yes,annotator_A,resolved,Incomplete introductory fragment,A list heading wrongly receives a substantive 'yes'. human's 'unclear' matches the absence of a factual claim to check.,human adjudicator (Denis),no
+143,dcf0ab274fe9b6d4fefd,Q20,"MultiHop-RAG addresses these challenges by introducing a comprehensive RAG benchmarking dataset that includes a knowledge base, multi-hop queries, their correct answers, and supporting evidence.","Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",yes,no,yes,annotator_A,resolved,Detail or mechanism not stated in the reference,"Almost the whole line is supported by the Q20 reference; the disagreement comes from the specific addition of a knowledge base. This is strict checking of full support, not proof that the description of MultiHop-RAG is false.",human adjudicator (Denis),no
+144,fe7a30c39dc1cae06ee2,Q20,Multi-hop queries: Evaluating RAG systems on multi-hop queries presents unique challenges due to the need for simultaneous multi-hop reasoning and synthesizing results.,"Multi-source RAG evaluation must assess retrieval coverage, answer correctness and evidence grounding. MultiHop-RAG provides questions, ground-truth answers and supporting evidence to evaluate retrieval and generation separately. MASS-RAG compares intermediate evidence processing and final synthesis accuracy, showing that high evidence coverage does not always yield the best final answer. RAG Foundry evaluates task metrics such as Exact Match, accuracy and F1 alongside RAGAS Faithfulness and Relevancy.
+Retrieval and generation require separate evaluation.
+MultiHop-RAG provides ground truth and supporting evidence.
+MASS-RAG compares intermediate and final answer quality.
+RAG Foundry uses task-specific correctness metrics.
+RAG Foundry evaluates faithfulness and relevancy.",yes,yes,yes,n/a (both sets agreed),agreement,,,,no

@@ -1,0 +1,19 @@
+{
+  "original_generations": 160,
+  "original_claims": 759,
+  "original_strict_cited_claims": 4,
+  "new_verbatim_supported_citation_attachments": 6,
+  "changed_answers": 2,
+  "claims_without_verbatim_witness": 749,
+  "original_generation_status_counts": {
+    "ok": 160
+  },
+  "stop_reasons": {
+    "eos": 160
+  },
+  "outputs_reaching_512_tokens": 0,
+  "human_validation_claimed": false,
+  "completeness_or_accuracy_improvement_claimed": false,
+  "new_hallucination_rate_computed": false,
+  "original_judge_scores_reused_for_repaired_answers": false
+}

@@ -1,0 +1,3 @@
+Project continuity note — 2026-11-15
+Repository: Nuray06-1/RAG-Research-Assignment-4
+Preserve original generations, frozen protocol and historical metrics. Correct computations only against recorded evidence. Citation repairs and changed prompts are new versioned analyses/outputs; never retrofit them as original model behaviour. A citation requires an actually supplied passage supporting that specific claim. Citation compliance, cited-passage grounding, reference correctness and keypoint completeness are separate metrics. Never invent human reviewers or relabel model-assisted analysis as human validation. Preserve provenance and unresolved disagreement status. Current original-run numerical reanalysis commit: 9bb96ff42c7b5b49e625306c031f2eb88e776866.

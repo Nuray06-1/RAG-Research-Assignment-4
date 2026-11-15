@@ -12,6 +12,9 @@ Computational runs are logged (160 main, 16 ablation); results are **exploratory
 ## Saved-output reanalysis
 The [15 November reanalysis](docs/REANALYSIS_2026-11-15.md) reproduces the main intervals and planned tests and corrects the stale ablation CSV: completeness difference −0.050 (95% CI [−0.175, 0.0625], p=0.7197), accuracy difference −0.1187 (p=0.1688), both with 16 pairs. The [E5/E6 review queue](manual/E5_E6_review_queue.csv) contains 6 and 116 screened candidates, respectively; independent human decisions remain pending. Numerical reproduction inputs and the script are in `reproducibility/`.
 
+## Citation repair
+A [separate citation-repair version](docs/CITATION_REPAIR.md) attaches six source-backed markers to existing statements in two saved answers, using full-claim verbatim matches in the actual input passages. It is post-hoc editing, not new model behaviour or improved experimental scores. The original generations and metrics remain unchanged. A structured citation contract and generation-request preparation tool are included; a new generator run and semantic evaluation have not been executed.
+
 ## Key results
 BM25-5 completeness 0.5385; dense k10 completeness 0.1500 and gold-paper recall 0.9375. Friedman completeness p=0.0647; accuracy p=0.1011. Holm-adjusted pairwise tests did not reach 0.05. Six judge-invalid scores were excluded from eligible metrics, not imputed as zeros.
 

@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scipy": "1.16.3",
+  "statsmodels": "0.14.6",
+  "bootstrap_resamples": 10000,
+  "seed": 42,
+  "ci_method": "percentile bootstrap of question-level values; paired differences resampled within contrast",
+  "filters": "historical main table: whole-row score_status == ok; historical pairwise tests: metric-specific nonmissing pairs",
+  "unchanged_machine_labels": "leading-label reparse only; AI semantic review not used to recalculate these tests"
+}

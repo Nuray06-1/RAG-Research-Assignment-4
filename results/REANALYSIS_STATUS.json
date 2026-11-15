@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-15",
+  "scope": "saved-output recalculation and deterministic screening",
+  "main_table_confidence_intervals_reproduced": true,
+  "friedman_and_20_pairwise_tests_reproduced": true,
+  "ablation_stale_snapshot_replaced": true,
+  "E5_screened_candidates": 6,
+  "E6_screened_candidates": 116,
+  "E5_E6_independent_human_validation_complete": false,
+  "consensus_certified": false,
+  "generation_outputs_changed": false,
+  "fresh_end_to_end_reproduction_complete": false,
+  "full_submission_ready": false,
+  "original_OUTPUT_STATUS_json": "historical export snapshot; unchanged"
+}

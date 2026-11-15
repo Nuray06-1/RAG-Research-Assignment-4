@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-15",
+  "scope": "saved-output numerical reproduction; deterministic E5/E6 candidate screening",
+  "human_validation_complete": false,
+  "E5_candidates": 6,
+  "E6_candidates": 116,
+  "generation_outputs_changed": false,
+  "new_consensus_claimed": false,
+  "input_sha256": {
+    "inputs/published/friedman_tests.csv": "092b3e0500851df6a14b759b8e93bf40f481e2439d557efd2da7a1fcc8d61402",
+    "inputs/published/pairwise_tests.csv": "245f46d9aa7a829626f9b8395ec8f09d176f3e1788c2d2f49f24b2c42c25406b",
+    "inputs/published/ablation_tests.csv": "28c04cfa61ab5db6cb8cb2089bf7eaa85bc9b90dc5cca271599fc399985b55c1",
+    "inputs/published/main_results_DRAFT_not_for_submission.csv": "963b77c59197b8430aef587dbdb832b9dbdba45291acfbcd574a3c577e4859e3",
+    "inputs/raw/results/ablation_answer_scores.csv": "3fec9246983eb15c86c5d7b1dd6f3edb9eea2a27bd167c321a8ed592b2beecaf",
+    "inputs/raw/results/ablation_claim_scores.csv": "8d04adfb1999c391d29f079d655fd7bd9d481fb2f78cfcf57d7dc8499f8078ce",
+    "inputs/raw/results/test_claim_scores.csv": "f9ad9e5d30a3e6dff5b1bf76d5a7c0306d1d01ded2339d7fa4dc2052407eb6dc",
+    "inputs/raw/results/ablation_keypoint_scores.csv": "37b6107e097e5d334f895c5c5c97f36bec6cb07edfe8aabb4e54083af89ae4d7",
+    "inputs/raw/results/test_keypoint_scores.csv": "cf282bea8029a77da47455f6887b820c5f312ebe49ea5ef8c9906e239f6c077d",
+    "inputs/raw/results/test_answer_scores.csv": "7437e75ebee95000677b197bca50b7adeb2d7b6be821d84b094c034beb2abb2b"
+  }
+}

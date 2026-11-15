@@ -1,0 +1,1263 @@
+point_id,question_id,condition,key_point_index,judge_raw
+8cab0a55d6598e1c718d,Q02,no_retrieval,1,"MISSING
+
+The KEY POINT mentions"
+a558d7180ffb74166430,Q02,no_retrieval,2,"MISSING
+
+The provided answer does not mention"
+46404dcd8d101fa0dced,Q02,no_retrieval,3,"MISSING
+
+The provided answer does not mention"
+709c734e74fc6611ef45,Q02,no_retrieval,4,"MISSING
+
+The KEY POINT mentions"
+2e6d766da731d80cd131,Q02,no_retrieval,5,"COVERED
+
+The KEY POINT mentions Multi"
+10444d9db966396fb738,Q02,random5,1,"MISSING
+
+The provided answer and key point"
+f1bf1821050e2c401713,Q02,random5,2,"MISSING
+
+The provided answer does not mention"
+ae655ba698af093948b0,Q02,random5,3,"MISSING
+
+The provided answer and key point"
+5847a72e59f966e91f11,Q02,random5,4,MISSING
+16250e28fcad361a729e,Q02,random5,5,COVERED
+9ce9a936794bc812e0fb,Q02,bm25_5,1,COVERED
+81c7c094454fcb574284,Q02,bm25_5,2,COVERED
+6a7c93db61ec3a97181d,Q02,bm25_5,3,COVERED
+37ba605c5e96b04b252d,Q02,bm25_5,4,COVERED
+6001c91d5ddaa0f30315,Q02,bm25_5,5,"MISSING
+
+The KEY POINT discuss"
+af55bc2fb5b2872c4446,Q02,k1,1,COVERED
+b8d850d1b6c7da479731,Q02,k1,2,MISSING. The KEY POINT does not
+70a82c7207060bfc0ec7,Q02,k1,3,MISSING. The key point discusses the iter
+fa5cb2ea3f45df396d55,Q02,k1,4,MISSING. The answer discusses the capabilities of
+c34bc5781c11c7bc0f7e,Q02,k1,5,COVERED - The answer mentions MultiHop-RA
+12f4956154357830fc7a,Q02,k3,1,COVERED
+2391b0f0d01acf39b73a,Q02,k3,2,"MISSING
+
+The provided answer does not mention"
+c47db19c88b26899b216,Q02,k3,3,"MISSING
+
+The provided answer does not mention"
+c119a76e5f079efd1cd7,Q02,k3,4,COVERED
+91a48d5f523ccbc3b3fb,Q02,k3,5,"MISSING
+
+The provided answer does not mention"
+1052b5ff185a97045c19,Q02,k5,1,COVERED
+92d463f8cfa8970a6481,Q02,k5,2,COVERED
+33eeb2f79296d42be4ee,Q02,k5,3,COVERED
+a299e2d178ac181fe29c,Q02,k5,4,"MISSING
+
+The KEY POINT discuss"
+fc4670f1110c04847b52,Q02,k5,5,COVERED
+86a49b4ba8968b8a6571,Q02,k10,1,"MISSING
+
+The answer indicates that there is"
+aa5ed0ab1a997faac038,Q02,k10,2,"MISSING
+
+The provided answer does not mention"
+0964e8464f82d463f9b9,Q02,k10,3,"MISSING
+
+The provided answer does not mention"
+2864262cdeeaf2d810ae,Q02,k10,4,"MISSING
+
+The answer does not mention Multi"
+01af6f2ef193baea4f2a,Q02,k10,5,"MISSING
+
+The provided answer does not mention"
+5ad4e23388fb56a0a374,Q02,control,1,COVERED
+2d45ff5664368f55d6f3,Q02,control,2,COVERED
+f586584f60adbddf3a23,Q02,control,3,COVERED
+ee9873c4306c3c3398d5,Q02,control,4,COVERED
+5d047ef2546e8e230863,Q02,control,5,"MISSING
+
+The KEY POINT mentions"
+ce93def65e2c31b11f5f,Q03,no_retrieval,1,COVERED (The answer mentions Vendi-RAG
+d8c30b4de4989e01cbed,Q03,no_retrieval,2,"MISSING
+
+The provided answer does not mention"
+12268fc7ceb6d14d2d62,Q03,no_retrieval,3,"MISSING
+
+The provided answer does not mention"
+495e3949286e9bb0b8e7,Q03,no_retrieval,4,"MISSING
+
+The KEY POINT about"
+c5e4dbc9e9b177cb49e3,Q03,no_retrieval,5,"MISSING
+
+The provided answer does not mention"
+8c34997f35fd28c97b85,Q03,random5,1,COVERED
+126eb9c0796dd8931344,Q03,random5,2,MISSING
+93e23538e0e2338a8845,Q03,random5,3,COVERED
+3c22a4f02f26c88a1570,Q03,random5,4,MISSING
+a790d45f5e7d16c0b3e3,Q03,random5,5,MISSING
+8c5670756b38c694ec65,Q03,bm25_5,1,COVERED
+7b1263d6d145f25b581e,Q03,bm25_5,2,MISSING
+7121b4897ba9201558b5,Q03,bm25_5,3,COVERED
+ce0ab9b03958c61f4437,Q03,bm25_5,4,COVERED
+a7fda9ac814d08b9dbc4,Q03,bm25_5,5,COVERED
+137413de98fc000ff172,Q03,k1,1,COVERED (The answer mentions Vendi-RAG
+d56e83e1e17fd234f049,Q03,k1,2,"MISSING
+
+The key point discusses a"
+8a8ce49b76c2a1311ceb,Q03,k1,3,"MISSING
+
+The key point discusses D"
+2a325c3c44e3335f516f,Q03,k1,4,"MISSING
+
+The provided answer does not mention"
+dde17f7eff091b116864,Q03,k1,5,"MISSING
+
+The provided answer does not mention"
+64b1fef7f544b44cc001,Q03,k3,1,COVERED (The answer mentions Vendi-RAG
+1277036d14e41fc7dd5f,Q03,k3,2,"MISSING
+
+The provided answer does not address"
+46a7069d74653574ba81,Q03,k3,3,"MISSING
+
+The provided answer does not mention"
+7ea171f09d97b0395b4c,Q03,k3,4,"MISSING
+
+The provided answer does not mention"
+de36832b8c95f6a1a2ce,Q03,k3,5,"MISSING
+
+The provided answer does not mention"
+751e0a346b0d186d5264,Q03,k5,1,"COVERED
+
+The answer explicitly mentions that Vendi"
+6b847a037942fe03ceb9,Q03,k5,2,COVERED
+f506b3d4ec76a2e7ec76,Q03,k5,3,COVERED
+d844fcd0eb0a476ec185,Q03,k5,4,MISSING
+d07f50969dda6b818ebd,Q03,k5,5,"MISSING
+
+The provided answer does not explicitly"
+40973bbd9c83dbc31969,Q03,k10,1,COVERED (The answer mentions Vendi-RAG
+bd44a770027697221166,Q03,k10,2,"MISSING
+
+The provided answer does not address"
+f724f086ecf2a3e64204,Q03,k10,3,"MISSING
+
+The provided answer does not mention"
+d08191ca0f6b84fbd59f,Q03,k10,4,"MISSING
+
+The provided answer does not mention"
+8427a2c21b72cb90fe3b,Q03,k10,5,"MISSING
+
+The provided answer does not mention"
+1a373b8af5e259e80f38,Q04,no_retrieval,1,MISSING - The answer does not specifically mention or
+119e725c09494c1610ba,Q04,no_retrieval,2,"MISSING
+
+The provided answer does not specifically"
+69d1a9743b37c4710b15,Q04,no_retrieval,3,MISSING
+9de2e5414063d0230fa5,Q04,no_retrieval,4,"MISSING
+
+The provided answer does not mention"
+0578817e8b69d030f2a0,Q04,no_retrieval,5,"MISSING
+
+The provided answer does not mention"
+a274eaf0f75a9be0de1d,Q04,random5,1,MISSING - The answer does not mention or provide
+6f422e2d1d0eef0589ab,Q04,random5,2,MISSING - The key point about Vendi-
+89a6f58f43ea726ed778,Q04,random5,3,MISSING - The KEY POINT about D
+8088e6df8aa08e73522e,Q04,random5,4,MISSING - The key point about DF-
+4642cf6fa6ea68daa64d,Q04,random5,5,"MISSING, as the KEY POINT about"
+303fb3ce71c8e255dae3,Q04,bm25_5,1,"MISSING
+
+The provided answer does not directly"
+d2b16a7f953f2d14afa0,Q04,bm25_5,2,"MISSING
+
+The provided answer does not address"
+6b5410a4e12c937b3859,Q04,bm25_5,3,"MISSING
+
+The provided answer does not address"
+a9ca5e9d5352ec4a57a6,Q04,bm25_5,4,"MISSING
+
+The provided answer does not address"
+e91896891c39970d742b,Q04,bm25_5,5,"MISSING
+
+The provided answer does not address"
+0435bdf13838f23764b7,Q04,k1,1,"MISSING
+
+The provided answer does not mention"
+24325e216d28f6d64b4d,Q04,k1,2,"MISSING
+
+The provided answer does not address"
+0457eb6cef2eda0f61a4,Q04,k1,3,COVERED (The answer mentions DF-RAG
+670016a4ac0eb88991e5,Q04,k1,4,"MISSING
+
+The provided answer does not address"
+29843bb9a7e007169a5d,Q04,k1,5,"MISSING
+
+The provided answer does not address"
+dd244ff2fd6bc763deea,Q04,k3,1,MISSING - The key point about Vendi-
+1a520446d3cbefea0655,Q04,k3,2,MISSING - The key point about trade-offs
+21cd4948eeca6717c696,Q04,k3,3,MISSING - The key point about DF-
+59242c8faedb1bff89f1,Q04,k3,4,MISSING - The key point about DF-
+b1c7c913bbff289bad33,Q04,k3,5,"MISSING
+
+The provided answer does not address"
+15706033ce1b43684690,Q04,k5,1,"MISSING
+
+The provided answer does not directly"
+0d0d03eaeeb0c359750a,Q04,k5,2,MISSING - The provided answer does not directly address
+635bd1e9769268aee6d3,Q04,k5,3,MISSING - The provided answer does not directly address
+f0352169a2a6fb494ca5,Q04,k5,4,"MISSING
+
+The provided answer does not address"
+f7b55f61c799fca35ee2,Q04,k5,5,"MISSING
+
+The provided answer does not address"
+da2f05906bb7734529e8,Q04,k10,1,"MISSING
+
+The provided answer does not directly"
+fdc8683c8c51c99d521a,Q04,k10,2,"MISSING
+
+The provided answer does not address"
+281910eb1e2c3f7928d9,Q04,k10,3,"MISSING
+
+The provided answer does not address"
+580e1b33442888c6093b,Q04,k10,4,"MISSING
+
+The provided answer does not address"
+019503e245e5a9e8726a,Q04,k10,5,"MISSING
+
+The provided answer does not address"
+648c0b708b4d2f9352af,Q04,control,1,MISSING - The key point about Vendi-
+30cc31a8ce4ea2334a46,Q04,control,2,MISSING - The key point about Vendi-
+15dbff7a35d74d7264e8,Q04,control,3,MISSING - The key point about DF-
+f624e1508f91278f60b6,Q04,control,4,MISSING
+c644db2de66b9e0623a1,Q04,control,5,"MISSING
+
+The provided answer does not mention"
+dae15cb8854ae5fa3646,Q05,no_retrieval,1,"MISSING
+
+The KEY POINT mentions"
+75eb0751f11b2351a9d8,Q05,no_retrieval,2,"MISSING
+
+The provided answer does not mention"
+4d4be4efc9a580e9408a,Q05,no_retrieval,3,"COVERED
+
+The KEY POINT mentions that"
+b3bc9d3fa17b919b3836,Q05,no_retrieval,4,"MISSING
+
+The provided answer does not explicitly"
+9059158545198da2ccf1,Q05,no_retrieval,5,"MISSING
+
+The provided answer does not mention"
+534005cd734639747095,Q05,random5,1,COVERED
+3b01b3b5e1f95817d8a1,Q05,random5,2,"MISSING
+
+The provided answer does not mention"
+40e4f1731057f51532d8,Q05,random5,3,COVERED
+72cc7b594c62b308e8f7,Q05,random5,4,COVERED
+21ffe11d004739f7f89a,Q05,random5,5,"MISSING
+
+The provided answer does not mention"
+750eadc5cd649dffc7d9,Q05,bm25_5,1,"MISSING
+
+The provided answer does not mention"
+37bdd38e514704aa9f9b,Q05,bm25_5,2,COVERED
+ddbd52d90b46f97b90ab,Q05,bm25_5,3,COVERED
+13e964ad3d3edd2eed09,Q05,bm25_5,4,COVERED
+19ad96416c1f913a7888,Q05,bm25_5,5,COVERED
+578b4f8fa019e847ce1f,Q05,k1,1,MISSING
+d5e53ba2c7e3f5cb4fe6,Q05,k1,2,MISSING
+da814bacf4e3c68c5c92,Q05,k1,3,"MISSING
+
+The provided answer does not mention"
+4c7e8ef442c40c1faa97,Q05,k1,4,"MISSING
+
+The provided answer does not mention"
+e0c8a9169a9a8dfde9cb,Q05,k1,5,"COVERED
+
+The answer explicitly mentions that MAIN"
+c246276cd6e1f2dccc77,Q05,k3,1,"MISSING
+
+The KEY POINT mentions"
+f2cf6a9bbd9ea27d5947,Q05,k3,2,"COVERED
+
+The answer explicitly mentions the process of"
+9ae079dacb53485140dc,Q05,k3,3,"MISSING
+
+The provided answer does not mention"
+78d586dfd22ce381a426,Q05,k3,4,"MISSING
+
+The provided answer does not mention"
+6b71dff25034f1a9731c,Q05,k3,5,"MISSING
+
+The provided answer does not mention"
+9b5b0fe8c8723a82e3c1,Q05,k5,1,"MISSING
+
+The provided answer does not mention"
+67a946cf73f84839bb8c,Q05,k5,2,"MISSING
+
+The provided answer does not mention"
+252ad9694ca8221b180f,Q05,k5,3,"MISSING
+
+The provided answer does not mention"
+31391846b6b8b1b3d066,Q05,k5,4,"COVERED
+
+The ANSWER indicates that"
+51d7e953d078ada67300,Q05,k5,5,"MISSING
+
+The provided answer does not mention"
+54c1e4358717f1ababbc,Q05,k10,1,"MISSING
+
+The provided answer does not mention"
+14762ed92385233e61f4,Q05,k10,2,"MISSING
+
+The provided answer does not mention"
+1f223e6d1382084ca1c7,Q05,k10,3,"MISSING
+
+The provided answer does not directly"
+a936fd2ad1d096e2198a,Q05,k10,4,COVERED - The answer indicates that there is a process
+73055399faf3bf89c7bd,Q05,k10,5,"COVERED
+
+The answer mentions that there is no"
+f57dd88f81fdfd3a46ef,Q05,control,1,"MISSING
+
+The provided answer does not mention"
+dcf8f572b1399b37fea9,Q05,control,2,"MISSING
+
+The provided answer does not mention"
+74010c120881b12310bd,Q05,control,3,COVERED
+b4076ebdd6bbb555aebf,Q05,control,4,"MISSING
+
+The provided answer does not explicitly"
+d2daddb092a4b19780a3,Q05,control,5,COVERED
+6218b0cf987d8531a3ad,Q06,no_retrieval,1,"MISSING
+
+The provided answer does not mention"
+943205ba275e1c798129,Q06,no_retrieval,2,"MISSING
+
+The provided answer does not explicitly"
+81cce6a9bb17992a0220,Q06,no_retrieval,3,COVERED
+4c0fbf53d5f7b0a77cdc,Q06,no_retrieval,4,"MISSING
+
+The KEY POINT mentions"
+84d2471bede38649fb57,Q06,no_retrieval,5,COVERED
+38e6acd01a671d244eed,Q06,random5,1,"MISSING
+
+The provided answer does not mention"
+8d613968ee61f3a269bc,Q06,random5,2,COVERED
+c0b032d16023e5045705,Q06,random5,3,"MISSING
+
+The provided answer does not explicitly"
+5cdf9924c1232f1d13ba,Q06,random5,4,COVERED
+c4b3bd47e879830a8dac,Q06,random5,5,COVERED
+a82bf0899d49638b71f6,Q06,bm25_5,1,"COVERED
+
+The answer explicitly mentions that FAIR"
+ceca8db23384b1ca3b83,Q06,bm25_5,2,COVERED
+9af1feef9fdcaab32ab7,Q06,bm25_5,3,COVERED
+54dec62537cbac55564d,Q06,bm25_5,4,MISSING
+8fd6f967fa2cbcf2c1d5,Q06,bm25_5,5,COVERED
+01d8bb968fe7ddc35a25,Q06,k1,1,"MISSING
+
+The KEY POINT about"
+bd3c946ae23a28411a35,Q06,k1,2,"MISSING
+
+The KEY POINT about"
+aa2ca01c4897ab618c4b,Q06,k1,3,COVERED
+e1f49bd317d69087a6ca,Q06,k1,4,"MISSING
+
+The KEY POINT discuss"
+1227530541186106b1c1,Q06,k1,5,"MISSING
+
+The provided answer does not mention"
+f28112ea86850b6adf1b,Q06,k3,1,COVERED
+b526f4d16679e5094834,Q06,k3,2,COVERED
+132353ba51026851027a,Q06,k3,3,"MISSING
+
+The KEY POINT discuss"
+1a5bca747f1efa8bfb9c,Q06,k3,4,"MISSING
+
+The KEY POINT about"
+530b771eed058c4897cf,Q06,k3,5,"COVERED
+
+The answer explicitly states that FAIR"
+277810a4f3f162f90613,Q06,k5,1,COVERED
+1f0db80ac85d41b136c2,Q06,k5,2,COVERED
+aa8416342f552a9197fe,Q06,k5,3,"MISSING
+
+The KEY POINT about"
+3f77f04df335a06d2283,Q06,k5,4,"MISSING
+
+The provided answer does not mention"
+0f1f9e4ea5646d91730c,Q06,k5,5,COVERED
+548c16370243e99cf0fa,Q06,k10,1,"COVERED. The answer mentions ""FAIR-RA"
+204e735172d2faa79f3a,Q06,k10,2,COVERED. The answer mentions that there is no specific
+0d13171d06164e8e6839,Q06,k10,3,MISSING - The KEY POINT about Auto
+6e78d726b41d5df9a07a,Q06,k10,4,MISSING - The KEY POINT about R
+e26c1094c468e2b3b152,Q06,k10,5,"COVERED
+
+The KEY POINT is addressed"
+32794b755ec841fec2d8,Q06,control,1,"MISSING
+
+The provided answer does not mention"
+192dc38ec07048edeb18,Q06,control,2,COVERED
+2f804f6c0b8aec0c1cd3,Q06,control,3,COVERED
+305b177896124c29d414,Q06,control,4,"MISSING
+
+The provided answer does not explicitly"
+dfea8be0b0415404f684,Q06,control,5,"COVERED
+
+The answer explicitly mentions the different approaches"
+76ad85b92b9321a99b81,Q07,no_retrieval,1,COVERED
+060248d51982620871e8,Q07,no_retrieval,2,COVERED
+17fd427939d1ef962470,Q07,no_retrieval,3,"MISSING
+
+The provided answer does not mention"
+7ebec8afe255833f2946,Q07,no_retrieval,4,"MISSING
+
+The provided answer does not explicitly"
+71c5952213cff6a4b05a,Q07,no_retrieval,5,COVERED
+aff5b1b90c51b5703f77,Q07,random5,1,COVERED (The answer mentions MAIN-RAG
+1bb24d945d7901214161,Q07,random5,2,MISSING. The key point about MAIN-
+88866b9217109506867d,Q07,random5,3,MISSING. The key point about Speculative
+16d868eb8902c4015114,Q07,random5,4,MISSING. The key point about Speculative
+75c4e6cae05c70060e53,Q07,random5,5,"MISSING
+
+The key point discusses how"
+fb6ac84c8fcde34eb4ef,Q07,bm25_5,1,COVERED
+f1e1996bb6dc7c4bd06a,Q07,bm25_5,2,"MISSING
+
+The provided answer does not mention"
+cf9e87bc906a7db41a1d,Q07,bm25_5,3,"MISSING
+
+The provided answer does not mention"
+0b5c3941b43daba7e071,Q07,bm25_5,4,COVERED
+c00776e84bacabdcd509,Q07,bm25_5,5,"COVERED
+
+The KEY POINT mentions that"
+ae07363c30667c1a32cb,Q07,k1,1,COVERED
+9ab794b0c12dc1d6e4a9,Q07,k1,2,"MISSING
+
+The provided answer does not mention"
+e71e3df3a29b76e89aa8,Q07,k1,3,MISSING
+0c7d6cc035245ea4e0ad,Q07,k1,4,MISSING. The KEY POINT does not
+031af3fd9e6b6b660684,Q07,k1,5,"COVERED
+
+The answer explicitly mentions that Disco"
+3780cb99576598680413,Q07,k3,1,COVERED
+250ead810206b92c1f3f,Q07,k3,2,"MISSING
+
+The provided answer does not mention"
+3516ff5b1236eb946f7a,Q07,k3,3,"MISSING
+
+The provided answer does not mention"
+8f99d0ed21ed618b973b,Q07,k3,4,"MISSING
+
+The provided answer does not mention"
+a879f827f0d7b877174d,Q07,k3,5,COVERED
+083e915cecec334c1e9a,Q07,k5,1,COVERED
+df87e35231027a904c81,Q07,k5,2,"MISSING
+
+The provided answer does not mention"
+ea748871b836a302b026,Q07,k5,3,"MISSING
+
+The provided answer does not mention"
+a3b9992e4a643c640129,Q07,k5,4,COVERED
+b8ab60d6844c0c285132,Q07,k5,5,COVERED
+8ed0d8fe417d03b11689,Q07,k10,1,COVERED - The answer indicates that there is insu
+1213e2a7f5dc030807a7,Q07,k10,2,MISSING - The key point about MAIN-
+4fda19991a62bf5dc808,Q07,k10,3,MISSING - The KEY POINT about Spe
+210d5f22ec94fb88b6f2,Q07,k10,4,MISSING - The key point about Speculative
+8eb467ef94c8d69b3cf8,Q07,k10,5,"MISSING
+
+The provided answer does not address"
+c53515f0f16635e53fa8,Q07,control,1,COVERED
+54cb472f7cab7980b688,Q07,control,2,"MISSING
+
+The provided answer does not mention"
+ded9c8dd71bfddbc4adf,Q07,control,3,MISSING
+28feff07017fd9a0b753,Q07,control,4,MISSING
+c2d1ee820bcbfbc30849,Q07,control,5,COVERED
+379e9c7f806f0b02ba4f,Q08,no_retrieval,1,COVERED
+d8b1eaa376419b18f204,Q08,no_retrieval,2,"MISSING
+
+The provided answer does not state"
+ed659c7efe2e3a9e1104,Q08,no_retrieval,3,"MISSING
+
+The provided answer does not mention"
+7d8a9401acbc8151d86c,Q08,no_retrieval,4,"MISSING. The KEY POINT mentions """
+ce8832676fb55467b343,Q08,no_retrieval,5,COVERED
+c8e513c53d5f54cf560e,Q08,random5,1,COVERED
+0d89d54b9fb909c0d640,Q08,random5,2,"MISSING
+
+The provided answer does not mention"
+838c113f7b8a406a9fb8,Q08,random5,3,"MISSING
+
+The provided answer does not mention"
+103919ea00fa3fe91885,Q08,random5,4,COVERED
+c63474a957ef48aaa72f,Q08,random5,5,COVERED
+d0b0cf28cf70c31e4afb,Q08,bm25_5,1,COVERED
+7639d20d54a2af8ffcea,Q08,bm25_5,2,"MISSING
+
+The KEY POINT mentions"
+0109ab9fd9ba7a323ea8,Q08,bm25_5,3,COVERED
+e76b75e497d20a1fad65,Q08,bm25_5,4,COVERED
+9010132f116a1bea2dad,Q08,bm25_5,5,COVERED
+7dea6d51490de3a4242f,Q08,k1,1,"COVERED
+
+The answer explicitly mentions that GFM"
+77e159aa3a51bad550d6,Q08,k1,2,"COVERED
+
+The answer explicitly mentions that GFM"
+5725cceda196746d0c86,Q08,k1,3,"MISSING
+
+The provided answer does not mention"
+a01c737e2456412574ba,Q08,k1,4,"MISSING
+
+The provided answer does not mention"
+cb5dc815990cdc20640d,Q08,k1,5,"MISSING
+
+The provided answer does not mention"
+d5fdcc1cc1b97ec965e7,Q08,k3,1,COVERED (The answer acknowledges the use of graph
+a480cfaf1b6929200d58,Q08,k3,2,"MISSING
+
+The provided answer does not address"
+a4b4913d9ce9cbc05f99,Q08,k3,3,"MISSING
+
+The provided answer does not mention"
+806f5076d4687bffcbf8,Q08,k3,4,"MISSING
+
+The provided answer does not mention"
+8531154fa0ba132b0018,Q08,k3,5,"MISSING
+
+The key point discusses the"
+f4fd6163cafb7a2198ff,Q08,k5,1,COVERED - The answer acknowledges the use of graph
+5e69d4a07d7838c99ec6,Q08,k5,2,"MISSING
+
+The provided answer does not directly"
+bdd5b6ad53f27038529c,Q08,k5,3,"MISSING
+
+The provided answer does not mention"
+24d47bb976d88cea4f7e,Q08,k5,4,"MISSING
+
+The provided answer does not mention"
+828a79fb5b3f2494f46a,Q08,k5,5,"MISSING
+
+The key point discusses the"
+ff48fa6011c139b5a8bf,Q08,k10,1,"MISSING
+
+The provided answer does not explicitly"
+0acd172810456a7e3cf4,Q08,k10,2,"MISSING
+
+The key point discusses a"
+c3a7d72c519fb4dcf04e,Q08,k10,3,"MISSING
+
+The key point discusses Bridge"
+16c4668655d3bf682cdc,Q08,k10,4,"MISSING
+
+The key point discusses Walk"
+77318434fed4a7b25ed4,Q08,k10,5,"MISSING
+
+The key point discusses the"
+bca98478764d9590890b,Q08,control,1,COVERED
+2fba0d0cf3101ef90b95,Q08,control,2,COVERED
+faaeb16328e316866855,Q08,control,3,"MISSING
+
+The provided answer does not mention"
+846d5e66c5deff314bd4,Q08,control,4,"MISSING
+
+The provided answer does not mention"
+7270fa3f034590a9a565,Q08,control,5,"MISSING
+
+The provided answer does not explicitly"
+577adb710ffb1ac214d0,Q10,no_retrieval,1,COVERED - The answer mentions MultiHop-RA
+bca980a39d48c4362035,Q10,no_retrieval,2,MISSING - The KEY POINT about Multi
+b64fa48d6f578db66705,Q10,no_retrieval,3,"MISSING
+
+The provided answer does not mention"
+b37da70a346b47a55321,Q10,no_retrieval,4,"MISSING
+
+The provided answer does not mention"
+ebcc150efe57c12d33d1,Q10,no_retrieval,5,"MISSING
+
+The provided answer does not mention"
+6adb6faae772c6a43779,Q10,random5,1,COVERED
+faaf3d991ad39bb43688,Q10,random5,2,"MISSING
+
+The provided answer does not explicitly"
+4b615cd24e6d37e9e0a4,Q10,random5,3,"COVERED
+
+The answer explicitly mentions that RAG"
+11569f7c51f6ea8fa12c,Q10,random5,4,COVERED
+bdf517d72daef080d662,Q10,random5,5,"MISSING
+
+The provided answer does not explicitly"
+e41b3f4b26d223ca0846,Q10,bm25_5,1,COVERED
+770fa3dc0872fd4f8f9e,Q10,bm25_5,2,"MISSING
+
+The provided answer does not explicitly"
+c63b77492f223e04a65e,Q10,bm25_5,3,COVERED
+6c501a86563f2235bb21,Q10,bm25_5,4,"MISSING
+
+The provided answer does not explicitly"
+544ae403a2f8a363a8e0,Q10,bm25_5,5,"MISSING
+
+The provided answer and key point"
+4c7b309116d9b5e89a48,Q10,k1,1,COVERED
+fffd3e72478e05033f1c,Q10,k1,2,COVERED
+9f756f5cf5e92ad83a8d,Q10,k1,3,COVERED
+1d3a63866b9428a31d5c,Q10,k1,4,"MISSING
+
+The KEY POINT specifically"
+1b995ced5b8cbfb962bf,Q10,k1,5,"MISSING
+
+The provided answer does not mention"
+64aa3f7efaab5d726866,Q10,k3,1,COVERED
+9c8e406b1656bf0ce4c2,Q10,k3,2,"MISSING
+
+The KEY POINT specifically"
+5dd8d9df3bc1509dbf87,Q10,k3,3,COVERED
+7ad4e99cd459bb365d1b,Q10,k3,4,"MISSING
+
+The provided answer does not explicitly"
+6f688d4a5e2de5c5955c,Q10,k3,5,"MISSING
+
+The provided answer does not mention"
+8b177ededf07eef35c77,Q10,k5,1,COVERED
+73e0c51e230c13b4e641,Q10,k5,2,"MISSING
+
+The KEY POINT specifically"
+9b94703e9ae3366f16cb,Q10,k5,3,"COVERED
+
+The KEY POINT mentions that"
+9cd26644d4d39085d85c,Q10,k5,4,COVERED
+e1ab0e8004f4eaeb8036,Q10,k5,5,"MISSING
+
+The provided answer does not mention"
+f51a0aab320cdcc70764,Q10,control,1,MISSING. The KEY POINT does not
+bf35a34db49bec42ba2c,Q10,control,2,MISSING
+a624dab3bb98e34828f0,Q10,control,3,"MISSING
+
+The KEY POINT mentions"
+694cfd8d9e7ae2bd02ed,Q10,control,4,COVERED
+884577bfe15db051f3f4,Q10,control,5,"MISSING
+
+The provided answer does not mention"
+9fbcd1a5bd2e87aabcf8,Q11,no_retrieval,1,"MISSING
+
+The provided answer does not mention"
+d04bfd5ebc65196b9e4e,Q11,no_retrieval,2,"COVERED
+
+The KEY POINT mentions """
+3367b051abd427d63660,Q11,no_retrieval,3,"MISSING
+
+The provided answer does not mention"
+47e5c1dde214d9ef0808,Q11,no_retrieval,4,"MISSING
+
+The provided answer does not explicitly"
+75ae923f3069cfdf9409,Q11,no_retrieval,5,"MISSING
+
+The provided answer and key point"
+41736d84873da847494b,Q11,random5,1,"COVERED - The answer mentions ""Disco-RA"
+f163e1e189bad62e672f,Q11,random5,2,"MISSING
+
+The provided answer does not mention"
+7edfc5e7713611bddb51,Q11,random5,3,COVERED - The answer mentions SPD-RAG
+cc77d788c3a571f219c8,Q11,random5,4,"COVERED
+
+The ANSWER acknowledges"
+7211e444f752eaefe805,Q11,random5,5,"COVERED
+
+The KEY POINT mentions T"
+6949773b564d25be6a31,Q11,bm25_5,1,MISSING
+cbc6ec2091b292e71236,Q11,bm25_5,2,COVERED
+51272322e1b47083d4c5,Q11,bm25_5,3,COVERED
+15ffb049d0ed942009a7,Q11,bm25_5,4,COVERED
+e1d335ac3b0ace20795d,Q11,bm25_5,5,"MISSING
+
+The provided answer does not mention"
+bf4ef252aaaacbf64acb,Q11,k3,1,"MISSING
+
+The provided answer does not mention"
+851e6d664cd09fc379af,Q11,k3,2,"MISSING
+
+The provided answer does not cover"
+1342354a16c2b072f9cd,Q11,k3,3,"MISSING
+
+The provided answer does not mention"
+41d2886a86849fc4fbba,Q11,k3,4,"MISSING
+
+The provided answer does not mention"
+607a30981a718775a4d4,Q11,k3,5,"MISSING
+
+The provided answer does not mention"
+38b82a955c0121cb753b,Q11,k5,1,"MISSING
+
+The provided answer does not mention"
+3de40d3d82c075a103cf,Q11,k5,2,"MISSING
+
+The provided answer does not mention"
+d20210c225ca6b9d2459,Q11,k5,3,"MISSING
+
+The provided answer does not mention"
+815454470c925d594562,Q11,k5,4,"MISSING
+
+The provided answer does not mention"
+fcbc4ef30431ff739f33,Q11,k5,5,"MISSING
+
+The provided answer does not mention"
+4fabc8e82f2f8971d2a8,Q11,k10,1,MISSING - The answer does not mention or cover
+6196dd218feccfef2f6c,Q11,k10,2,MISSING - The answer does not mention or address
+0b5f3e7d887e64b6d88c,Q11,k10,3,MISSING - The KEY POINT about SP
+45c7bcf679eba392b235,Q11,k10,4,"MISSING
+
+The provided answer does not mention"
+3eeb1cd4ba71c4c0f696,Q11,k10,5,"MISSING
+
+The answer does not mention or"
+742a8bb1fc9fe58a225f,Q12,no_retrieval,1,"MISSING
+
+The provided answer does not mention"
+ee0cf126826693ef092f,Q12,no_retrieval,2,COVERED - The answer mentions that Vendi-RA
+6be6461351e2296cd903,Q12,no_retrieval,3,"MISSING
+
+The provided answer does not specifically"
+c0f97023d0d5205b66be,Q12,no_retrieval,4,"MISSING
+
+The provided answer does not mention"
+a05c8c314f3e33798642,Q12,no_retrieval,5,"MISSING
+
+The provided answer does not mention"
+511d68e916d64b2d7d25,Q12,random5,1,"MISSING
+
+The provided answer does not mention"
+1c2f69d60e915700fc6e,Q12,random5,2,"MISSING
+
+The provided answer does not mention"
+27a064540ec8c129b8d5,Q12,random5,3,"COVERED
+
+The ANSWER acknowledges"
+0f09faf165e1188edbf5,Q12,random5,4,"MISSING
+
+The provided answer does not mention"
+d25dfd181ef6083b01e2,Q12,random5,5,"MISSING
+
+The provided answer does not mention"
+a048d746be74dcc3e8de,Q12,bm25_5,1,"MISSING
+
+The provided answer does not mention"
+281af5b11517bf4dc60d,Q12,bm25_5,2,"COVERED
+
+The answer explicitly mentions that Vendi"
+045d8f4e07e7bdfa81b0,Q12,bm25_5,3,"MISSING
+
+The provided answer does not mention"
+401637efc9d26e14501d,Q12,bm25_5,4,"MISSING
+
+The provided answer does not mention"
+56e56be8aa1f70041ea1,Q12,bm25_5,5,"MISSING
+
+The provided answer does not mention"
+de33b2d8280a891026a0,Q12,k1,1,"MISSING
+
+The provided answer does not mention"
+d669e95ed42c551c7077,Q12,k1,2,"COVERED
+
+The answer explicitly mentions that Vendi"
+8da12a3a46cbca7f5090,Q12,k1,3,"MISSING
+
+The provided answer does not mention"
+d4db17550d3c9002bfdf,Q12,k1,4,"MISSING
+
+The provided answer does not mention"
+c927c53e47500c0f9c03,Q12,k1,5,"MISSING
+
+The provided answer does not mention"
+3564ea78534844707f91,Q12,k5,1,"MISSING
+
+The provided answer does not mention"
+3488453a4224c4a39488,Q12,k5,2,"MISSING
+
+The provided answer does not mention"
+b94d322f018c817e29da,Q12,k5,3,"MISSING
+
+The provided answer does not mention"
+7c54cd7996c9403e3499,Q12,k5,4,"MISSING
+
+The provided answer does not mention"
+775388bcc5187a0d17a9,Q12,k5,5,"MISSING
+
+The provided answer does not mention"
+81daa088edd87b4ccd11,Q12,k10,1,MISSING. The key point about Vendi-
+7f70234e1e4520a2a3f2,Q12,k10,2,MISSING
+6cb816de438ab43e39e0,Q12,k10,3,MISSING
+c0f4429a97be11c9c9f7,Q12,k10,4,"MISSING
+
+The key point about DF"
+cae8c8f578bf61dd12fd,Q12,k10,5,"MISSING
+
+The key point about RQ"
+8a21a83811ec6aa92075,Q12,control,1,COVERED
+74b4338ed30c1aa5300d,Q12,control,2,COVERED
+51259d73a56910791b57,Q12,control,3,MISSING
+2e25a7a32426ff46850c,Q12,control,4,"MISSING
+
+The provided answer does not mention"
+4bdde4fd4c66dcb5bc0b,Q12,control,5,MISSING
+f9098dc3d56ad9c6a1bb,Q13,no_retrieval,1,"MISSING
+
+The provided answer does not mention"
+514a6f3b8d396a9e6916,Q13,no_retrieval,2,"COVERED
+
+The key point mentions that FAIR"
+f1dc4059c028940f090d,Q13,no_retrieval,3,"COVERED
+
+The KEY POINT mentions MA"
+ab977f6e5b5bce582a01,Q13,no_retrieval,4,"COVERED
+
+The KEY POINT mentions """
+e4b68e443c273a8eec77,Q13,no_retrieval,5,"COVERED
+
+The KEY POINT mentions that"
+59e5b75eb47a5c10d04b,Q13,random5,1,"MISSING
+
+The provided answer does not mention"
+926ef75c82c69b9e9247,Q13,random5,2,COVERED
+11e17b1c9c879f325871,Q13,random5,3,"COVERED
+
+The answer explicitly mentions that MAIN"
+eb0897fc7384845f3dd3,Q13,random5,4,COVERED
+405910bf5488c03b6db5,Q13,random5,5,"COVERED
+
+The answer explicitly mentions that MASS"
+abc046749a1cb9c84134,Q13,bm25_5,1,"MISSING
+
+The provided answer does not mention"
+98d6a3665f7d7f53c091,Q13,bm25_5,2,"MISSING
+
+The provided answer does not mention"
+c806b7d5c4f452756875,Q13,bm25_5,3,"MISSING
+
+The provided answer does not mention"
+b69c3ce420624cf99ad7,Q13,bm25_5,4,"MISSING
+
+The provided answer does not mention"
+c30788661d67aa938983,Q13,bm25_5,5,"MISSING
+
+The provided answer does not mention"
+7fabd342673bbba15b43,Q13,k1,1,"COVERED
+
+The KEY POINT mentions """
+7cd0fbb7ca3b13868bfc,Q13,k1,2,"MISSING
+
+The provided answer does not explicitly"
+b11bbb7ae54ec54bb688,Q13,k1,3,"MISSING
+
+The provided answer does not mention"
+177abebc2cea152a49bd,Q13,k1,4,"MISSING
+
+The provided answer does not mention"
+9152bb6190bb4cad35a9,Q13,k1,5,"MISSING
+
+The provided answer does not mention"
+12ea1f07594f1b9ad0c0,Q13,k3,1,"MISSING
+
+The provided answer does not mention"
+f9ceca475332cbcba3b5,Q13,k3,2,"MISSING
+
+The provided answer does not address"
+59d356c207116fdf5e9d,Q13,k3,3,"MISSING
+
+The provided answer does not address"
+976222125ab6dbf67958,Q13,k3,4,"MISSING
+
+The provided answer does not address"
+c9565bb8f754fbbfcec2,Q13,k3,5,"MISSING
+
+The provided answer does not address"
+98a52fa573cda945203b,Q13,k5,1,COVERED
+842fce32cb2469396e54,Q13,k5,2,COVERED
+ac62a74d1f636fdfa672,Q13,k5,3,"MISSING
+
+The provided answer does not mention"
+0701b2a00cc76d543c3c,Q13,k5,4,MISSING
+177d8da92d137cbf7606,Q13,k5,5,"MISSING
+
+The provided answer does not mention"
+5f24d7b8b3ed5080ce43,Q13,k10,1,"MISSING
+
+The provided answer does not address"
+2d31205d82ab453bb20f,Q13,k10,2,"MISSING
+
+The provided answer does not address"
+f27e4c0b231f5f7c4f59,Q13,k10,3,"MISSING
+
+The provided answer does not address"
+d08ac2e0c21a7cc40573,Q13,k10,4,"MISSING
+
+The provided answer does not address"
+1c9ca2b79ee821e12c55,Q13,k10,5,"MISSING
+
+The provided answer does not address"
+ef4cb5d967db3794a684,Q13,control,1,MISSING. The key point about FAIR-
+a0cb5dec3893395f5dce,Q13,control,2,"MISSING
+
+The key point discusses how"
+f914e86cdb25b1bc5f03,Q13,control,3,MISSING - The key point about MAIN-
+a23949ea52728a776721,Q13,control,4,MISSING. The key point about MASS-
+54319d683451ae026de6,Q13,control,5,MISSING. The key point about MASS-
+cc0f547ce86825c3233d,Q14,no_retrieval,1,"MISSING
+
+The provided answer does not mention"
+6ce8196de03b76e30626,Q14,no_retrieval,2,"MISSING
+
+The provided answer does not mention"
+e23b2f6d5f2ef0d4d9b2,Q14,no_retrieval,3,"MISSING
+
+The provided answer does not mention"
+5c93259522e9f75be9f2,Q14,no_retrieval,4,"MISSING
+
+The provided answer does not mention"
+923b9c0d18156d61a9a6,Q14,no_retrieval,5,"COVERED
+
+The answer provides information about the different"
+2cad4248d001e248feef,Q14,random5,1,"MISSING
+
+The KEY POINT mentions"
+0791a9b0f030266bccd7,Q14,random5,2,"COVERED
+
+The KEY POINT mentions that"
+f2f579e7f1e24f6b265f,Q14,random5,3,COVERED
+d7b6ee0c1aa303300563,Q14,random5,4,"COVERED
+
+The KEY POINT mentions """
+fc6026ea81d29ac93cbb,Q14,random5,5,"MISSING
+
+The KEY POINT discuss"
+9a6d850b5c3ed86ba842,Q14,bm25_5,1,"MISSING
+
+The provided answer does not mention"
+8dd2039658faedbdf4f8,Q14,bm25_5,2,"MISSING
+
+The provided answer does not explicitly"
+1aa0ac48defd41dda52b,Q14,bm25_5,3,"MISSING
+
+The provided answer does not explicitly"
+d43320d44c9eebce047b,Q14,bm25_5,4,"MISSING
+
+The provided answer does not directly"
+3d957e866f519a22a8c7,Q14,bm25_5,5,"COVERED
+
+The ANSWER explicitly mentions"
+62f00021ba2fc82a221e,Q14,k1,1,COVERED
+a4b20bde20e1db18bf19,Q14,k1,2,COVERED
+ad9f75291d4efcce4a19,Q14,k1,3,COVERED
+96ba1a9c73b81fc5db7d,Q14,k1,4,"MISSING
+
+The provided answer does not mention"
+41cdc01fc198d396078c,Q14,k1,5,MISSING
+654ecb5b8e1332e18499,Q14,k3,1,"MISSING
+
+The KEY POINT does"
+871374eefde8e426aada,Q14,k3,2,"MISSING
+
+The provided answer does not explicitly"
+0c30c114e285f887f066,Q14,k3,3,COVERED
+efc9d0437559b1854411,Q14,k3,4,"MISSING
+
+The provided answer does not mention"
+4bdcf992793b345aeacb,Q14,k3,5,MISSING
+946e307083fad1d87a2d,Q14,k5,1,MISSING - The key point about SPD-
+ca31b99ab315535b65d1,Q14,k5,2,MISSING - The key point about SPD-
+b09b49862869e64fce63,Q14,k5,3,MISSING - The key point about MASS-
+d4edbbfe01156921eccb,Q14,k5,4,"MISSING
+
+The key point discusses a"
+d4e29ecb3e310eea0925,Q14,k5,5,"MISSING
+
+The key point discusses the"
+b660136c115cd3905c02,Q14,control,1,COVERED
+11d54a56a0a211f10fa9,Q14,control,2,"MISSING
+
+The provided answer does not explicitly"
+2a5381003012b46f1317,Q14,control,3,MISSING
+a3f4c4ed925a0f6f70c8,Q14,control,4,MISSING
+44738decddbeb70659b0,Q14,control,5,MISSING
+d6f7bf7d8300fd1a82a9,Q15,no_retrieval,1,"MISSING
+
+The provided answer does not mention"
+1bd9e7b7d97a6581b182,Q15,no_retrieval,2,"COVERED
+
+The KEY POINT mentions that"
+e9123d917ccac5a57e30,Q15,no_retrieval,3,MISSING
+8574a43be51c0aabcb67,Q15,no_retrieval,4,"MISSING
+
+The provided answer does not mention"
+555825dfbc7cb4e72a63,Q15,no_retrieval,5,"MISSING
+
+The provided answer does not mention"
+816b2576980eefde24bd,Q15,random5,1,COVERED
+51a17e2140e18d423d22,Q15,random5,2,COVERED
+ea47b7253e3220fde25a,Q15,random5,3,MISSING
+369fdc169946935be35b,Q15,random5,4,MISSING
+5199bf5c27b4478646f3,Q15,random5,5,MISSING
+c2a9b91a2cfcf6a593d1,Q15,bm25_5,1,COVERED
+49e8f9abb2b58bac3d6e,Q15,bm25_5,2,COVERED
+a08a7c428d3c87ac5aa2,Q15,bm25_5,3,COVERED
+48dd34da040e4845ac5e,Q15,bm25_5,4,COVERED
+383ac511f8bb7535f791,Q15,bm25_5,5,COVERED
+45218887b29c26ce7213,Q15,k1,1,"MISSING
+
+The provided answer does not address"
+a990c1f6caea006c315f,Q15,k1,2,"MISSING
+
+The provided answer does not address"
+77802bafa0e0828d25e3,Q15,k1,3,"MISSING
+
+The provided answer does not address"
+315064f2ee38306ce587,Q15,k1,4,"MISSING
+
+The provided answer does not address"
+8972f906308c5b0060fe,Q15,k1,5,"COVERED
+
+The answer explicitly mentions that there is"
+4a0090f587636b36f33f,Q15,k3,1,"MISSING
+
+The provided answer does not address"
+77a5d772288ad62eb3a2,Q15,k3,2,COVERED - The answer acknowledges the lack of direct
+907ffeb64a567dda3580,Q15,k3,3,"MISSING
+
+The provided answer does not mention"
+4ff64f2c9ba0af3c6c02,Q15,k3,4,"MISSING
+
+The provided answer does not mention"
+a5b7ee7f11a5fc3c0e22,Q15,k3,5,"MISSING
+
+The provided answer does not address"
+225cf528016b6a8bb26a,Q15,k5,1,MISSING - The answer does not address how G
+3aedc05adbb84a7be069,Q15,k5,2,MISSING. The answer does not state that G
+835bf4ddb9a30e7c81be,Q15,k5,3,MISSING - The answer does not mention Bridge-
+1dc477fd2b7baef5f341,Q15,k5,4,"MISSING
+
+The key point discusses specific"
+69b5a215908acfa3a151,Q15,k5,5,MISSING
+6f7b13fbc0f4c322dc37,Q15,k10,1,MISSING - The key point about GFM-
+c93cb17e6ac7cc9e55ce,Q15,k10,2,MISSING. The key point about GFM-
+46498473ff8bfe5a3857,Q15,k10,3,MISSING
+78953edc2afef0e1c89a,Q15,k10,4,"MISSING
+
+The key point discusses Walk"
+9b1806309ab9d459af53,Q15,k10,5,"MISSING
+
+The key point discusses Walk"
+e96142801a0ddf20fc94,Q15,control,1,COVERED
+063be3198ad3c8b6e701,Q15,control,2,COVERED
+bb72a0f8eee2bb6ebe27,Q15,control,3,MISSING
+7abb7db2ecab2088d2f2,Q15,control,4,COVERED
+542025bfdc769035d6c8,Q15,control,5,MISSING
+ad62463a6ba617b51a06,Q17,no_retrieval,1,"MISSING
+
+The provided answer does not address"
+1596629303bdda6067bb,Q17,no_retrieval,2,COVERED. The answer mentions DF-RAG
+dfc2162e27315fa402ad,Q17,no_retrieval,3,"MISSING
+
+The provided answer does not address"
+fbbbb624887c9c531744,Q17,no_retrieval,4,"MISSING
+
+The provided answer does not directly"
+b9d301c7a25e0f980847,Q17,no_retrieval,5,COVERED. The answer provides information about SPD-
+13a10a52d4c879ddb2ff,Q17,random5,1,"MISSING
+
+The provided answer does not address"
+b57748629761961e97cc,Q17,random5,2,INSUFFICIENT EVIDENCE
+371246b05920415b6936,Q17,random5,3,"MISSING
+
+The provided answer does not address"
+59ce3c68cf63b6c7d9b6,Q17,random5,4,"MISSING
+
+The provided answer does not directly"
+6592fd69c903f1c65ddf,Q17,random5,5,"COVERED
+
+The KEY POINT mentions SP"
+81693841a1219f16aa0b,Q17,bm25_5,1,"MISSING
+
+The provided answer does not explicitly"
+04ce4ddfaa15605a147a,Q17,bm25_5,2,COVERED
+c9b432a77db42ce38ec1,Q17,bm25_5,3,"MISSING
+
+The provided answer does not explicitly"
+c503166211c166c1eccd,Q17,bm25_5,4,COVERED
+9717df3e74ff86e07633,Q17,bm25_5,5,COVERED
+d656d52184a4f5e703b6,Q17,k1,1,COVERED
+5a64bd622855d0a5a6a0,Q17,k1,2,COVERED
+03ba6061ca9c4c563d0c,Q17,k1,3,MISSING
+fc878d1569d44ff503ba,Q17,k1,4,COVERED
+c8c8d9a9a3bde0b2ae10,Q17,k1,5,COVERED
+55617bfc319fb3055765,Q17,k3,1,"MISSING
+
+The provided answer does not address"
+539413d4d2147500a1d3,Q17,k3,2,INSUFFICIENT EVIDENCE
+274f9575107cb0d4f94e,Q17,k3,3,"MISSING
+
+The provided answer does not address"
+6387c5ae3e89e9021ad5,Q17,k3,4,"MISSING
+
+The provided answer does not address"
+b712a6a75c574f9d3807,Q17,k3,5,"COVERED
+
+The KEY POINT mentions the"
+12391dc10ad123fc2662,Q17,k5,1,"COVERED
+
+The KEY POINT mentions that"
+5fd47de6bf30d34b6926,Q17,k5,2,"MISSING
+
+The KEY POINT mentions"
+0ccce6874051cf7f3229,Q17,k5,3,"MISSING
+
+The provided answer and key point"
+941211621f179aa79efc,Q17,k5,4,"COVERED
+
+The KEY POINT mentions """
+e7c955ecdb50f464b4c7,Q17,k5,5,COVERED
+db05de50321cd715f469,Q17,k10,1,"MISSING
+
+The provided answer does not address"
+c28cb27b4193a50810d8,Q17,k10,2,MISSING - The key point discusses DF
+a92f5ea5758d571f5556,Q17,k10,3,MISSING - The key point about Disco-
+0e9486db4003aa4451a0,Q17,k10,4,"MISSING
+
+The key point discusses SP"
+14fc9d2fcb58384e8eea,Q17,k10,5,"MISSING
+
+The key point discusses the"
+6fcb4dc16e2687424662,Q17,control,1,COVERED
+28b1f90f7f414c2c6672,Q17,control,2,COVERED
+a2446b4b772b5fb37cb4,Q17,control,3,COVERED
+3abf202812d6d53b88b2,Q17,control,4,COVERED
+01e8d14dc968544571ed,Q17,control,5,COVERED
+05e08c11a929c25fdf89,Q18,no_retrieval,1,"COVERED
+
+The KEY POINT mentions that"
+801bf39d116cf0d3e3e1,Q18,no_retrieval,2,COVERED
+bd996ea64891eda22cc6,Q18,no_retrieval,3,"COVERED
+
+The KEY POINT mentions that"
+28784a62c52e77944c9d,Q18,no_retrieval,4,MISSING
+10d5d0ac977feb92d178,Q18,no_retrieval,5,"COVERED
+
+The KEY POINT mentions that"
+02bdb48ea7398fb11ca2,Q18,random5,1,MISSING
+36fa19c957e24adb473c,Q18,random5,2,COVERED
+1efed56025685427cb94,Q18,random5,3,COVERED
+d811b8426c92d573b00f,Q18,random5,4,MISSING
+9327fbbcc72a54439b52,Q18,random5,5,COVERED
+6bc4684a38a26739e9d8,Q18,bm25_5,1,"MISSING
+
+The provided answer does not mention"
+ff02b59af22a310c1b8c,Q18,bm25_5,2,COVERED
+5b9226c72146cdc9fa3d,Q18,bm25_5,3,"MISSING
+
+The provided answer does not mention"
+905b5aa85fa73faa5844,Q18,bm25_5,4,MISSING
+87b143db07a8cf72b97d,Q18,bm25_5,5,COVERED
+5a6e9002aeffd7c70c04,Q18,k1,1,COVERED
+50de13f078bf4064d686,Q18,k1,2,COVERED
+222e911348809eff8bef,Q18,k1,3,"MISSING
+
+The KEY POINT discuss"
+507cd1a2f603508b0b58,Q18,k1,4,COVERED
+ec714547fd65a3c36704,Q18,k1,5,"MISSING
+
+The KEY POINT discuss"
+42210d4dba68cc739dfb,Q18,k3,1,COVERED
+250252735af1d349b833,Q18,k3,2,COVERED
+286d3dde572f4800d0eb,Q18,k3,3,COVERED
+094e1b3a11c94ca5ceaa,Q18,k3,4,MISSING
+5c50525762d32c32c1c2,Q18,k3,5,COVERED
+7dc0910a02e0e9cd0096,Q18,k5,1,"MISSING
+
+The provided answer does not mention"
+21ec97dc582cfcc3caa6,Q18,k5,2,COVERED
+961ff2b9e9aa488a2117,Q18,k5,3,COVERED
+b51790b05c63e0aa94f3,Q18,k5,4,MISSING
+3d59eb05bc6593eeeda7,Q18,k5,5,COVERED
+de91ea9f977d49f87550,Q18,k10,1,"MISSING
+
+The provided answer does not mention"
+8afd39df666b14e41b33,Q18,k10,2,"MISSING
+
+The provided answer does not mention"
+c392c2b0b081ce34a4d7,Q18,k10,3,"MISSING
+
+The provided answer does not mention"
+85082c68194e287b133c,Q18,k10,4,"MISSING
+
+The key point discusses a"
+924384e7e0405d8cf844,Q18,k10,5,"MISSING
+
+The provided answer does not mention"
+cfdcf855b9863bed383a,Q18,control,1,COVERED
+225e0ced75fb2fab9af8,Q18,control,2,COVERED
+8ffc3c8a21e424576547,Q18,control,3,"MISSING
+
+The provided answer does not mention"
+3b1d8b035814841e6133,Q18,control,4,MISSING
+b5f9e29e29644c927605,Q18,control,5,"MISSING
+
+The provided answer does not explicitly"
+9c6454feed47136451e2,Q20,no_retrieval,1,"MISSING
+
+The provided answer does not explicitly"
+11188b812d864e1f5447,Q20,no_retrieval,2,COVERED
+b1b070ee357122a711c5,Q20,no_retrieval,3,COVERED
+4c39cf382f5151cf4f98,Q20,no_retrieval,4,COVERED
+66bb3e321acee83d0c5c,Q20,no_retrieval,5,COVERED
+27a0aae92e1a6448766b,Q20,random5,1,MISSING
+87acd4b34dfcc2f7737e,Q20,random5,2,COVERED
+85bc8ae24538f5c42b6b,Q20,random5,3,COVERED
+5eaea8c3905115772561,Q20,random5,4,COVERED
+65658a7842a940138ef3,Q20,random5,5,COVERED
+4edae4eddf52384f59c8,Q20,bm25_5,1,"MISSING
+
+The provided answer does not explicitly"
+72f3c5806e1ac83df997,Q20,bm25_5,2,COVERED
+bb4adc0203fcf88c3afc,Q20,bm25_5,3,COVERED
+9bf56c24fcae85060703,Q20,bm25_5,4,"MISSING
+
+The provided answer does not mention"
+25e3c815688d27c80cd0,Q20,bm25_5,5,COVERED
+03f333bdd844cc81d180,Q20,k1,1,COVERED
+36de7785aa345fe87e20,Q20,k1,2,COVERED
+207ab5eb546947455a9d,Q20,k1,3,COVERED
+0670334bb513cff1387e,Q20,k1,4,COVERED
+ae4e4936f904187e1d7c,Q20,k1,5,COVERED
+3634f5ff57bd5670314f,Q20,k3,1,"COVERED
+
+The answer explicitly mentions that ""Autom"
+d4bf50ce6db533eb5e3f,Q20,k3,2,COVERED
+b968f8ee399fe5fdf566,Q20,k3,3,COVERED
+b58fdc3f1140bfbce239,Q20,k3,4,COVERED - The answer mentions the introduction of a compreh
+ea6ff2594f3197ffa575,Q20,k3,5,"COVERED
+
+The KEY POINT mentions the"
+d193d04605ae9cc4aa3f,Q20,k5,1,"COVERED
+
+The answer discusses the need for"
+f38af904622fe85d5075,Q20,k5,2,COVERED
+6a5e5d5bcf6b4cdb1032,Q20,k5,3,"COVERED
+
+The ANSWER discusses"
+ccce49be87327b6c700f,Q20,k5,4,"MISSING
+
+The provided answer does not mention"
+06a34702889136793e75,Q20,k5,5,"COVERED
+
+The ANSWER mentions Multi"
+c742544bf03f345bfa7e,Q20,k10,1,COVERED
+a13342d73e6a4730c8bb,Q20,k10,2,COVERED
+9cb620c6c0f44f410bb6,Q20,k10,3,COVERED
+e164807c0db7912d16b9,Q20,k10,4,COVERED
+c39a651159fa01149d97,Q20,k10,5,COVERED
+e0bb677cc2cb9d92a69b,Q20,control,1,COVERED
+0e0dde7c39359347a2d8,Q20,control,2,COVERED
+e16700f677356d297ca9,Q20,control,3,COVERED
+e414dd77cdf09cd0053c,Q20,control,4,COVERED
+448a48f2615db85515ab,Q20,control,5,COVERED

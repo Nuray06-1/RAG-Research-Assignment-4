@@ -1,0 +1,163 @@
+point_id,question_id,condition,key_point_index,judge_raw
+abc49cf50170d5d0e227,Q02,k5_no_citation,1,MISSING
+cf50f1475b26268f2ae9,Q02,k5_no_citation,2,"MISSING
+
+The KEY POINT about"
+6c46f3d4b81af7118b2a,Q02,k5_no_citation,3,MISSING
+5c293cfc2bf0d9870c03,Q02,k5_no_citation,4,COVERED
+938dd1e8af87da54f875,Q02,k5_no_citation,5,MISSING
+faa7a1a7c82daaa1b757,Q03,k5_no_citation,1,COVERED (The answer acknowledges the evaluation of V
+a640ad8ff58a538c3b89,Q03,k5_no_citation,2,"MISSING
+
+The provided answer does not address"
+1dc56e8f09369dfff948,Q03,k5_no_citation,3,"MISSING
+
+The provided answer does not address"
+db8e0db9102226282e62,Q03,k5_no_citation,4,"MISSING
+
+The provided answer does not address"
+5434bfea368637930b64,Q03,k5_no_citation,5,"MISSING
+
+The provided answer does not address"
+94bfb4a0ee78137b2be4,Q04,k5_no_citation,1,MISSING - The key point discusses a balance
+e72b93ee800324c07b72,Q04,k5_no_citation,2,MISSING - The key point about Vendi-
+f8a026a9934e8b3d4617,Q04,k5_no_citation,3,MISSING - The key point about DF-
+ae3f009cc732e315f3bd,Q04,k5_no_citation,4,"MISSING
+
+The key point about DF"
+030a2022fc9c1f203a9d,Q04,k5_no_citation,5,"MISSING
+
+The key point about Plan*"
+0416ea307b72845e82b1,Q05,k5_no_citation,1,MISSING
+12cf9322c56502b19f60,Q05,k5_no_citation,2,MISSING
+0e51920bcd89d3711f87,Q05,k5_no_citation,3,MISSING
+329063b339e1e888ed9c,Q05,k5_no_citation,4,MISSING
+c3e58fd315c95a436dd1,Q05,k5_no_citation,5,MISSING
+3b9c8fa052e3705164e2,Q06,k5_no_citation,1,"COVERED - The answer mentions ""Structured Evidence"
+407b07a7048ae0b298f6,Q06,k5_no_citation,2,"MISSING
+
+The provided answer does not address"
+6abbf6ae68329ea25ddf,Q06,k5_no_citation,3,"MISSING
+
+The provided answer does not address"
+614eff33911394c2c7b1,Q06,k5_no_citation,4,"MISSING
+
+The provided answer does not address"
+4037e4f31bb50e0b3ac7,Q06,k5_no_citation,5,"COVERED
+
+The KEY POINT clearly states"
+b500e25978ca5c2fb041,Q07,k5_no_citation,1,COVERED - The answer indicates that there is insu
+9113e75ccc6662f0303a,Q07,k5_no_citation,2,MISSING - The key point about MAIN-
+fa699c9b86fbf65bd07f,Q07,k5_no_citation,3,MISSING - The KEY POINT about Spe
+0fad827f14caf7534a9a,Q07,k5_no_citation,4,MISSING - The key point about Speculative
+7a58acd4aba2888cddf8,Q07,k5_no_citation,5,"MISSING
+
+The provided answer does not address"
+50ec054e2042d8041bd3,Q08,k5_no_citation,1,COVERED - The answer acknowledges the use of graph
+379fe78c852a60b01545,Q08,k5_no_citation,2,"MISSING
+
+The key point discusses G"
+2f0a991e2bdf6696f141,Q08,k5_no_citation,3,"MISSING
+
+The provided answer does not mention"
+551d42799ac2912b89c3,Q08,k5_no_citation,4,"MISSING
+
+The provided answer does not mention"
+008f8bf8f36b374a4548,Q08,k5_no_citation,5,"MISSING
+
+The key point discusses the"
+7e1185fad12afe332fe7,Q10,k5_no_citation,1,COVERED
+4c8ed87b0e945315b54d,Q10,k5_no_citation,2,COVERED
+0450bae226c7e2156095,Q10,k5_no_citation,3,COVERED (Both answers indicate that the passages
+ed771eda3f51fd0ede96,Q10,k5_no_citation,4,COVERED
+535ef4f626921649f214,Q10,k5_no_citation,5,"MISSING
+
+The KEY POINT about"
+5204df7cd0db7b29fb82,Q11,k5_no_citation,1,"MISSING
+
+The provided answer does not mention"
+3a33ddb9e2c148b37db3,Q11,k5_no_citation,2,"MISSING
+
+The provided answer does not mention"
+d44ec5e96b99db233ca1,Q11,k5_no_citation,3,"MISSING
+
+The provided answer does not mention"
+bbb006f9ad1cc167c03f,Q11,k5_no_citation,4,"MISSING
+
+The provided answer does not mention"
+a339bf6cf9a33b6fff06,Q11,k5_no_citation,5,"MISSING
+
+The provided answer does not mention"
+ce8d3f6bb5ba8645f7d5,Q12,k5_no_citation,1,"MISSING
+
+The provided answer does not mention"
+fb6547518dc6a836efac,Q12,k5_no_citation,2,"MISSING
+
+The provided answer does not mention"
+089a5156fd1d3baa07ec,Q12,k5_no_citation,3,"MISSING
+
+The provided answer does not mention"
+e800977664fdbf087ef3,Q12,k5_no_citation,4,"MISSING
+
+The provided answer does not mention"
+f067a1ca66a87462592b,Q12,k5_no_citation,5,"MISSING
+
+The provided answer does not mention"
+3ee49bb22b2122685c78,Q13,k5_no_citation,1,COVERED - The answer mentions FAIR-RAG
+11fca51a9e6891eabbed,Q13,k5_no_citation,2,MISSING - The key point about FAIR-
+779a3b96767361ac13fe,Q13,k5_no_citation,3,COVERED - The answer mentions MAIN-RAG
+760b70e9bbc6736baeb5,Q13,k5_no_citation,4,MISSING - The key point about MASS-
+81281e10d9dee6c20f34,Q13,k5_no_citation,5,"MISSING
+
+The provided answer does not mention"
+f3db5f34b3f377cbe8c7,Q14,k5_no_citation,1,"MISSING
+
+The provided answer does not cover"
+f10dafe5ccacf6a972e7,Q14,k5_no_citation,2,"MISSING
+
+The provided answer does not cover"
+a90519c7045895131f54,Q14,k5_no_citation,3,"MISSING
+
+The provided answer does not mention"
+e356fbcf86b4a09bcfa5,Q14,k5_no_citation,4,"MISSING
+
+The key point discusses the"
+2c10e02c6d1ecbf4f257,Q14,k5_no_citation,5,"COVERED
+
+The answer directly addresses the key point"
+8ce67596a798aff64861,Q15,k5_no_citation,1,"MISSING
+
+The provided answer does not directly"
+cc75d7bdf4f7d9d1d9a2,Q15,k5_no_citation,2,COVERED - The answer mentions that there is insu
+cfb9228f9abcd894df0f,Q15,k5_no_citation,3,"MISSING
+
+The provided answer does not mention"
+e82fc9ed45790e9edf59,Q15,k5_no_citation,4,"MISSING
+
+The provided answer does not mention"
+c3a7e0b9d8719909364e,Q15,k5_no_citation,5,"MISSING
+
+The provided answer does not address"
+a1f4a8d72c6bcb9c8f77,Q17,k5_no_citation,1,COVERED
+c29207fee7dfcd990138,Q17,k5_no_citation,2,COVERED
+47e8beb1bd92fa7ff2d4,Q17,k5_no_citation,3,"MISSING
+
+The provided answer and key point"
+8875c2e07e13bb5889c9,Q17,k5_no_citation,4,COVERED
+5ea7b88dbf3d510a4256,Q17,k5_no_citation,5,COVERED
+b465cc4ec7b39f88eff8,Q18,k5_no_citation,1,COVERED
+34f237d2cb8d8111de2c,Q18,k5_no_citation,2,COVERED
+a1055c55e733da3d3a76,Q18,k5_no_citation,3,COVERED
+8e9f22b1b621c5289431,Q18,k5_no_citation,4,MISSING
+6a81898b7d177588ee9e,Q18,k5_no_citation,5,COVERED
+c38914a192136acc5ed4,Q20,k5_no_citation,1,"COVERED
+
+The answer explicitly mentions the challenge of"
+b6a0847ecf67175bce6f,Q20,k5_no_citation,2,COVERED
+dcab2058b0070a87e658,Q20,k5_no_citation,3,COVERED - The answer discusses the comprehensive evaluation
+06f6cb581422143597d8,Q20,k5_no_citation,4,"MISSING
+
+The provided answer does not mention"
+ace17f76c7b31c56ca7e,Q20,k5_no_citation,5,"COVERED
+
+The KEY POINT mentions the"

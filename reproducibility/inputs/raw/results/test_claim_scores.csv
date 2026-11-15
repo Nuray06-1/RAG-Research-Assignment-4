@@ -1,0 +1,1174 @@
+claim_id,question_id,condition,raw_correctness
+ef48a88064bfe61e77fa,Q02,no_retrieval,"CORRECT
+
+The claim is supported by the reference"
+722eb45fc8d9431276ab,Q02,no_retrieval,UNVERIFIABLE - The reference provided discusses the
+e12ee717c6ef90431d34,Q02,no_retrieval,CORRECT. The reference indicates that conventional RAGs
+8c35ae6c5b3d47bcff21,Q02,no_retrieval,UNVERIFIABLE - The reference information does not provide
+820bb87f355e6ebdc0f2,Q02,no_retrieval,UNVERIFIABLE - The reference discusses the capabilities
+1b005d45bf51f2bb37b6,Q02,no_retrieval,UNVERIFIABLE. The reference does not provide information
+58e78126cf5819003a7f,Q02,no_retrieval,UNVERIFIABLE - The reference discusses the capabilities
+7cf215ac0341e3c7154c,Q02,no_retrieval,"CORRECT. The claim is supported by the reference,"
+8095632913a6ea8d991d,Q02,no_retrieval,"CORRECT. The claim is supported by the reference,"
+b43769fd7bc14998e6fe,Q02,no_retrieval,CORRECT. The claim is supported by the reference as
+8cba097e2f889eecc8e2,Q02,random5,"CORRECT
+
+The claim is supported by the reference"
+54ede7caec9abcc629fd,Q02,random5,UNVERIFIABLE - The reference does not provide information
+057143152099e9435ea8,Q02,random5,UNVERIFIABLE - The claim discusses minimizing
+208fef27bc40a058d135,Q02,random5,UNVERIFIABLE - The reference discusses the limitations
+f59095d510a42960858d,Q02,random5,UNVERIFIABLE - The claim discusses quantized
+91e129dff3f60dd525a3,Q02,random5,UNVERIFIABLE - The reference discusses the limitations
+bad6c06f328044437bf8,Q02,random5,UNVERIFIABLE. The claim discusses a specific
+ff7c2e777ec1b739eaa5,Q02,random5,"CORRECT. The claim is supported by the reference,"
+3c0f67d8940191a1ec97,Q02,random5,UNVERIFIABLE - The reference discusses the limitations
+cfe819bfa84858e04d7a,Q02,random5,"CORRECT. The claim is supported by the reference,"
+b56964ab8ab811ceda95,Q02,random5,UNVERIFIABLE. The reference provides information about the
+2a2bdb6192b41ed562c0,Q02,bm25_5,Incomplete evidence and multi-hop reasoning limitations.
+4334e8bb6fd6bdb0b26c,Q02,bm25_5,"CORRECT
+
+The claim is supported by the reference"
+6cd2d1406a8954605e50,Q02,bm25_5,INCORRECT. The claim suggests that the approach strugg
+12f778c0987d21436a26,Q02,bm25_5,INCORRECT. The reference does not support the claim
+35dcae1b4414221c7999,Q02,bm25_5,"UNVERIFIABLE
+
+The provided reference does not"
+201d057d6fe7e26038a7,Q02,bm25_5,"CORRECT. The claim is supported by the reference,"
+bf1862c66f1ec4d635f9,Q02,bm25_5,"CORRECT. The claim is supported by the reference,"
+8f1f730a26cb14c62e52,Q02,bm25_5,"UNVERIFIABLE
+
+The claim suggests that the"
+b7c10233b13470a93d01,Q02,bm25_5,CORRECT. The reference supports the claim by stating that
+2e17b84ba964eca459ee,Q02,k1,UNVERIFIABLE. The reference mentions that FAIR
+ad256a8267719c4a655c,Q02,k1,UNVERIFIABLE - The reference does not provide information
+97bd2e954e70819115b3,Q02,k1,"CORRECT. The claim is supported by the reference,"
+cc1769bdbc3c34ac84c5,Q02,k3,UNVERIFIABLE. The reference mentions that FAIR
+91e88056f1d7b0274192,Q02,k3,"UNVERIFIABLE
+
+The reference provides information about"
+34ed319d983f98643f39,Q02,k3,"CORRECT. The claim is supported by the reference,"
+6b7b9b0b1f5c4f765930,Q02,k3,UNVERIFIABLE. The reference mentions that MultiH
+bb6453a4f07060b13f26,Q02,k3,UNVERIFIABLE. The reference discusses the capabilities
+17105cfba0d6721d7326,Q02,k3,CORRECT. The reference supports the claim by stating that
+7531f84518b69d18f9c6,Q02,k5,"CORRECT
+
+The claim is supported by the reference"
+691f0ada50e9cfc77d68,Q02,k5,CORRECT. The reference indicates that FAIR-RA
+6c9fae61fe552e70859e,Q02,k5,"CORRECT
+
+The claim is supported by the reference"
+629830a16f9167e9930e,Q02,k5,"CORRECT
+
+The claim is supported by the reference"
+e8dc43f05973b5540fc3,Q02,k5,"CORRECT. The claim is supported by the reference,"
+9f05c511c122262c9e7e,Q02,k5,UNVERIFIABLE - The reference does not provide information
+0c37c2a4af4e76038508,Q02,k10,"UNVERIFIABLE
+
+The provided evidence discusses"
+ff2bc8a8c18809117a0c,Q02,k10,"UNVERIFIABLE
+
+The claim ""Therefore"
+a7c96a221cb245293033,Q02,control,"CORRECT. The claim is supported by the reference,"
+b525f014917ae38a3af2,Q02,control,"CORRECT
+
+The claim is supported by the reference"
+7285c91faa60a818a78b,Q02,control,"CORRECT
+
+The claim is supported by the reference"
+2cfd406268f64313139e,Q02,control,UNVERIFIABLE. The claim describes a systematic
+900ce0cad78a48457817,Q02,control,CORRECT. The reference mentions that FAIR-RA
+c9f6fbb760a1d0125c32,Q02,control,UNVERIFIABLE. The reference mentions FAIR-
+94fb26d918b579ad4a11,Q02,control,UNVERIFIABLE. The reference provides information about FA
+c90692b573dab672fcb0,Q02,control,UNVERIFIABLE. The reference mentions that FAIR
+37da5de6a77c0a0e8e47,Q02,control,CORRECT. The reference supports the claim by stating that
+db92238141ebf48a7ba4,Q02,control,"CORRECT
+
+The claim is supported by the reference"
+3f27eb9ebe49eb852ebd,Q03,no_retrieval,UNVERIFIABLE - The reference provides information about the
+1fede17c582a67e95279,Q03,no_retrieval,UNVERIFIABLE. The reference provides detailed information about
+17f98dd6cc67569288ab,Q03,random5,UNVERIFIABLE - The reference does not explicitly state
+699b54104633c00f6880,Q03,random5,CORRECT. The reference indicates that Vendi-RA
+a2fed1ce0e24c832153a,Q03,random5,"UNVERIFIABLE
+
+The provided reference does not"
+1d8f179580e260cb9b93,Q03,random5,"UNVERIFIABLE
+
+The provided reference does not"
+9bc30cbd80a3e064b126,Q03,random5,"CORRECT - The claim is supported by the reference,"
+ff4852a36884b276ce5c,Q03,random5,UNVERIFIABLE - The reference does not provide specific
+a1669fa18d85783684f6,Q03,random5,UNVERIFIABLE - The reference provides information about the
+c98ec5dadbfae4baecdb,Q03,random5,UNVERIFIABLE - The provided reference does not contain
+5b73ef87b18e6a617aa0,Q03,random5,UNVERIFIABLE - The provided reference does not contain
+04cb42405af99afc0619,Q03,random5,CORRECT. The reference does not provide specific details on
+7e5d8f16b0ad02e20484,Q03,bm25_5,INCORRECT. The reference provides detailed performance metrics and
+2b94e472035b4b9d7851,Q03,bm25_5,"UNVERIFIABLE
+
+The reference provides information about"
+2deb0e36c4f66b6f3c7d,Q03,bm25_5,UNVERIFIABLE - The claim suggests that observations can
+80e7c21bbd0ff4a891db,Q03,bm25_5,CORRECT. The reference indicates that Vendi-RA
+baf421b3f7733e1fff3a,Q03,bm25_5,UNVERIFIABLE - The reference does not provide information
+2f0bf76e90394da8e71b,Q03,bm25_5,UNVERIFIABLE - The reference mentions Vendi-
+af281e10edd3705d164b,Q03,bm25_5,"UNVERIFIABLE
+
+The claim suggests that D"
+cfb1249b783a4977d202,Q03,bm25_5,CORRECT. The reference indicates that DF-RA
+dd56bf1c68e161905308,Q03,bm25_5,"UNVERIFIABLE
+
+The provided reference does not"
+17b3953da1b833fa083b,Q03,bm25_5,"UNVERIFIABLE
+
+The reference provides information about"
+83a57dc47a5a2cec5573,Q03,bm25_5,"UNVERIFIABLE
+
+The reference discusses the"
+88d907a60f98a212b0e9,Q03,bm25_5,UNVERIFIABLE - The reference discusses the evaluation
+636b519447f06d0fd930,Q03,bm25_5,UNVERIFIABLE - The claim suggests a lack of
+36842e73e46268c7aaf3,Q03,k1,"UNVERIFIABLE
+
+The provided information does not"
+f3a92e3185daadd3e546,Q03,k1,"UNVERIFIABLE
+
+The claim does not provide"
+f77c84634333bf3b2790,Q03,k3,"UNVERIFIABLE
+
+The provided reference does not"
+93069c19811fe830a395,Q03,k3,"UNVERIFIABLE
+
+The claim does not provide"
+7fc7acfefe4e1518fbe5,Q03,k5,"CORRECT
+
+The claim is supported by the reference"
+2d458ddb8ddd9251b105,Q03,k5,UNVERIFIABLE - The reference discusses MultiH
+fa8f190b328554fa3265,Q03,k5,UNVERIFIABLE - The reference does not provide specific
+39990567857f5f620daf,Q03,k5,UNVERIFIABLE - The reference discusses the evaluation
+b2a8941ca00545c500fa,Q03,k5,INCORRECT. The reference indicates that Vendi-
+4f5744dc80bc560bc62e,Q03,k10,"UNVERIFIABLE
+
+The provided reference does not"
+64202c555a6880293a95,Q03,k10,"UNVERIFIABLE
+
+The claim does not provide"
+b608ce9e4aba50bca8c3,Q04,no_retrieval,CORRECT. The reference provides information about each system'
+24ba5307373fb6936c54,Q04,random5,CORRECT. The passage does not provide specific details about
+932c0c2a9846e1e45651,Q04,random5,"UNVERIFIABLE
+
+The claim that there is"
+1f762be1a370ca91a445,Q04,bm25_5,CORRECT. The passage does not make direct comparisons
+06e4b9873431cfa3f5a4,Q04,bm25_5,"UNVERIFIABLE
+
+The claim is not directly"
+2e9344bd8a13dd91b35d,Q04,k1,CORRECT. The passage does not provide specific details about
+b03dd0c81d9a556cf3d6,Q04,k1,"UNVERIFIABLE
+
+The claim is not directly"
+ffe2d618ace140d0e797,Q04,k3,CORRECT. The reference provides information about each system'
+a0b0b55553c7d644ede4,Q04,k3,"UNVERIFIABLE
+
+The provided reference does discuss"
+f38d46b1a5171fec2866,Q04,k3,"UNVERIFIABLE
+
+The claim that there is"
+76cc2a2854660b4c6588,Q04,k5,CORRECT. The reference provides information about each system'
+1f957b5ca970af57f09c,Q04,k5,"UNVERIFIABLE
+
+The claim states that there"
+f5bd46cf5982a2e1fb95,Q04,k5,"UNVERIFIABLE
+
+The claim is not directly"
+de30614785d02eaed8ad,Q04,k10,CORRECT. The passage does not explicitly discuss the trade
+5fcfd31f2101bbf263c7,Q04,k10,"UNVERIFIABLE
+
+The claim that there is"
+243f21c3ba86b9fc6d11,Q04,control,"UNVERIFIABLE
+
+The provided reference does not"
+a65fdf155f6f9f5de317,Q04,control,"CORRECT
+
+The claim is accurate as it correctly"
+44ce52f39fbf0bcf673c,Q04,control,UNVERIFIABLE. The claim cannot be definitively
+3a9bb3380e95540d50a6,Q05,no_retrieval,"CORRECT
+
+The claim is supported by the reference"
+504ebcc814f1550332f4,Q05,no_retrieval,UNVERIFIABLE. The reference discusses FAIR
+42c599c88968d27da276,Q05,no_retrieval,"CORRECT
+
+The claim is supported by the reference"
+51b09d19476b47bb01c5,Q05,no_retrieval,INCORRECT. The claim describes an autoencoder
+f8a28254098dfbf98d63,Q05,no_retrieval,"UNVERIFIABLE
+
+The provided reference discusses"
+df214625b904184ee553,Q05,no_retrieval,UNVERIFIABLE - The reference discusses the functional
+aa5ab64d71da69e1106d,Q05,no_retrieval,UNVERIFIABLE. The claim suggests that MAIN
+df3a4cb0e58c65d6a1bc,Q05,no_retrieval,UNVERIFIABLE - The reference discusses the processes
+30f8ce2923ebd8eae481,Q05,no_retrieval,CORRECT. The reference describes a system (FAIR
+28a5cb911950c0c0063a,Q05,no_retrieval,UNVERIFIABLE. The reference mentions Structured Ev
+4f222c8cb2b62c317eda,Q05,random5,"CORRECT. The claim is supported by the reference,"
+1978df6499f6afcd5ea8,Q05,random5,UNVERIFIABLE. The reference does not provide information
+5f33218a6ad0bc9ef4f4,Q05,random5,"CORRECT. The claim is supported by the reference,"
+06cf5188571b28f855c7,Q05,random5,UNVERIFIABLE - The reference provides information about the
+2af2d7ed7d0d0dcc3535,Q05,random5,UNVERIFIABLE - The reference mentions that MAIN
+c335d975e88c001b18d3,Q05,random5,CORRECT. The claim accurately summarizes the functions
+4bba539cb3afd4ed6d18,Q05,bm25_5,"CORRECT. The claim is supported by the reference,"
+c2855f393229c1f9377b,Q05,bm25_5,"CORRECT. The claim is supported by the reference,"
+f4c70ba1b3eb8d6764f4,Q05,bm25_5,INCORRECT. The reference states that Auto-RA
+a0162717a350e659cc0a,Q05,bm25_5,INCORRECT. The reference does not provide information to
+a3a09e285640395da2dd,Q05,bm25_5,UNVERIFIABLE - The reference does not provide information
+c6c80ae7c92d2d69983e,Q05,bm25_5,"CORRECT
+
+The claim is supported by the reference"
+1bda7fd0710c93f71b4e,Q05,bm25_5,"CORRECT. The claim is supported by the reference,"
+055067bcd5184c40db7c,Q05,bm25_5,"UNVERIFIABLE
+
+The reference provides information about"
+6074567e6f656d030c49,Q05,bm25_5,"CORRECT
+
+The claim accurately summarizes the"
+161aa0de6c314917d682,Q05,bm25_5,UNVERIFIABLE. The reference provides information about the
+9663077886e30bf6dd9f,Q05,k1,"CORRECT. The claim is supported by the reference,"
+a49dd5ba5868f057a833,Q05,k1,"UNVERIFIABLE
+
+The reference does not provide"
+84893f5861d834351ad8,Q05,k1,UNVERIFIABLE - The reference provides information about how
+5c7b4470a064fcb95504,Q05,k3,"CORRECT. The claim is supported by the reference,"
+83b329f61a87f3e38a3c,Q05,k3,CORRECT. The reference supports the claim by mentioning
+0139bea782d45ab0bfad,Q05,k3,"CORRECT
+
+The claim is supported by the reference"
+46af9355dfb6821d415f,Q05,k3,UNVERIFIABLE - The reference provides information about FA
+9d0d5f89fd5f23ce05a1,Q05,k3,CORRECT. The reference indicates that FAIR-RA
+6b4ced1306e1d4ce0524,Q05,k3,"UNVERIFIABLE
+
+The provided reference does not"
+babc0193c244964de536,Q05,k3,"CORRECT. The claim is supported by the reference,"
+8aff56c19bf1f275a54b,Q05,k3,"CORRECT
+
+The claim is supported by the reference"
+48e301eda60f0b8a0e7e,Q05,k5,UNVERIFIABLE - The passage does not provide explicit
+c458db57496d0c430382,Q05,k5,UNVERIFIABLE. The reference provides information about how
+fe543c7a5a1c4aec1bae,Q05,k10,UNVERIFIABLE - The passage does not explicitly state
+303b0acb5823bb17fb05,Q05,k10,UNVERIFIABLE. The reference provides information about how
+cdce0d3780d8efe26f32,Q05,control,"CORRECT
+
+The claim is supported by the reference"
+445773ae275eb700e2af,Q05,control,UNVERIFIABLE - The reference mentions FAIR-
+3a2da83b2a47f294918e,Q05,control,UNVERIFIABLE - The reference mentions MAIN-
+0bcbdd18f4e696b02649,Q05,control,"CORRECT
+
+The claim is supported by the reference"
+eb3abe6fecef9bb442f0,Q05,control,INCORRECT. The reference states that MAIN-
+1d2567df3f8b7e7f4e91,Q05,control,UNVERIFIABLE - The reference provides information about how
+c00c6d35765918f11b71,Q05,control,UNVERIFIABLE - The reference mentions Auto-RA
+926d3276575c1ba854fc,Q05,control,"CORRECT
+
+The claim is supported by the reference"
+e05f2a3128011739e69e,Q05,control,"UNVERIFIABLE
+
+The reference provides information about"
+5516c3adef62513fbc64,Q05,control,UNVERIFIABLE - The provided reference does not contain
+0e0bbdc01649c1b27be2,Q05,control,UNVERIFIABLE. The reference provides information about the
+66fadf0d3fd8bf272410,Q05,control,"CORRECT. The claim is supported by the reference,"
+476a6aaa2a67c1faaca1,Q05,control,UNVERIFIABLE - The reference does not provide information
+1ef085610ecb7d12c78e,Q05,control,CORRECT. The reference indicates that FAIR-RA
+968f051cb44ad9f765b7,Q06,no_retrieval,"CORRECT
+
+The claim is supported by the reference"
+2d1a670b9406802e5a4f,Q06,no_retrieval,"CORRECT
+
+The claim is supported by the reference"
+61cff20b433423fdf305,Q06,no_retrieval,UNVERIFIABLE. The reference does not provide information
+3e0fca2b457482a9ae4a,Q06,no_retrieval,UNVERIFIABLE - The reference does not provide information
+fc7f4653450e3728764a,Q06,no_retrieval,"CORRECT. The claim is supported by the reference,"
+2386db9e1cb04644ef9f,Q06,no_retrieval,INCORRECT. The claim suggests continuous learning from user
+0db192b2a17dd841b4b1,Q06,no_retrieval,"CORRECT. The claim aligns with the reference,"
+25a6db2159a43d909efa,Q06,no_retrieval,"CORRECT. The claim is supported by the reference,"
+115dfca4bf1d420898e9,Q06,no_retrieval,"CORRECT
+
+The claim accurately reflects the"
+cb52304c4775fcbaa109,Q06,random5,UNVERIFIABLE - The reference does not provide information
+196c3dff956eb9984bd9,Q06,random5,"CORRECT. The claim aligns with the reference,"
+3b12d3720d053803b85c,Q06,random5,UNVERIFIABLE - The reference does not provide information
+bf754bdc7fffd2c25001,Q06,random5,UNVERIFIABLE. The reference does not provide information
+7dc9db948a0d8ace0d9f,Q06,random5,"CORRECT
+
+The claim is supported by the reference"
+32f00cb060886df51b0f,Q06,random5,"CORRECT. The claim is supported by the reference,"
+5a5fa43d7e1ab469c483,Q06,random5,UNVERIFIABLE - The reference does not provide information
+b351d6d19b0b3cac0d87,Q06,random5,CORRECT. The claim accurately reflects the differences
+a4210009927b77112e7a,Q06,bm25_5,"CORRECT
+
+The claim is supported by the reference"
+28ee64df04123215f7b1,Q06,bm25_5,UNVERIFIABLE. The reference does not provide information
+11db8c0d8ab7ce27b871,Q06,bm25_5,UNVERIFIABLE - The reference does not provide information
+cf72a833ac0e752f4cd1,Q06,bm25_5,CORRECT. The claim accurately describes Auto-RA
+21126f4e0448eb4bda5a,Q06,bm25_5,"UNVERIFIABLE
+
+The claim discusses iter"
+6edc818b69c43bbd6811,Q06,bm25_5,UNVERIFIABLE - The reference provides information about the
+475653f111ac367077d4,Q06,bm25_5,INCORRECT. The claim suggests that RQ-
+8f079b49805c3e5bfdca,Q06,bm25_5,"CORRECT
+
+The claim correctly identifies the distinct"
+188ef978c475b36cfcac,Q06,bm25_5,CORRECT. The claim accurately reflects the differences
+4e133f3baefe4c633289,Q06,k1,"CORRECT
+
+The claim is supported by the reference"
+5a5e587bf986e9fe8af6,Q06,k1,"CORRECT
+
+The claim is supported by the reference"
+e8a64835e30826de88d4,Q06,k1,"CORRECT
+
+The claim is supported by the reference"
+64d880bcc263e01f5585,Q06,k3,"CORRECT
+
+The claim is supported by the reference"
+5ddc83630d4baf2f105d,Q06,k3,"CORRECT. The claim is supported by the reference,"
+4a263e8ae17cc9f20e9b,Q06,k3,"CORRECT. The claim is supported by the reference,"
+7ce0ced45a70bfd261e0,Q06,k3,CORRECT. The claim accurately describes the role of
+57ed076ed8171ec697ab,Q06,k3,"CORRECT. The claim is supported by the reference,"
+9c549c32db3165485bf2,Q06,k3,"CORRECT. The claim is supported by the reference,"
+4640f3f7394b6eb54471,Q06,k3,INCORRECT. The reference clearly states that Auto-
+4a799c399f1e14b11051,Q06,k3,UNVERIFIABLE - The claim does not directly contradict
+5014684f915079697961,Q06,k3,UNVERIFIABLE - The reference does not provide specific
+b61ca202bf9743dca4a2,Q06,k3,UNVERIFIABLE. The reference does not provide information
+328eea1b95962ea7aec2,Q06,k3,"UNVERIFIABLE
+
+The claim suggests that Auto"
+167714170d56d1fab81f,Q06,k3,"CORRECT
+
+The claim accurately reflects the"
+8bc2025881c3d93ea6b0,Q06,k5,"CORRECT
+
+The claim is supported by the reference"
+fa01229b9e59f00be45e,Q06,k5,"CORRECT. The claim is supported by the reference,"
+fb246256c8ce90fcfeac,Q06,k5,"CORRECT
+
+The claim is supported by the reference"
+cddba61684e206844950,Q06,k5,"CORRECT. The claim aligns with the reference,"
+70ca3d82b509fdcb5071,Q06,k5,CORRECT. The claim describes the function of Structured
+ef993e2435e852681629,Q06,k5,"CORRECT
+
+The claim accurately describes Auto-"
+1ecf5d9fecc2d8b25e65,Q06,k5,INCORRECT. The reference states that FAIR-
+de13fa0aa4a2cbd6e97e,Q06,k5,"UNVERIFIABLE
+
+The claim suggests that R"
+c0a25a4f296b7046ea24,Q06,k5,INCORRECT. The claim suggests that RQ-
+0929abcbf34fb99f81dc,Q06,k5,"CORRECT
+
+The claim accurately reflects the"
+9e98d63939f7cf165137,Q06,k10,UNVERIFIABLE. The passage does not explicitly state
+fce9da129b07d53a5ee1,Q06,k10,UNVERIFIABLE. The claim does not relate to
+ba037c07e03c955ac23e,Q06,control,INCORRECT. The claim suggests that FAIR-
+821efe864957dc13b30f,Q06,control,"CORRECT
+
+The claim is supported by the reference"
+80e05527f31807dd4d17,Q06,control,INCORRECT. The claim suggests that RQ-
+cec79f6c85f2419edd58,Q07,no_retrieval,"CORRECT
+
+The claim is supported by the reference"
+0210f3b847a79a6e5de0,Q07,no_retrieval,"CORRECT - The claim is supported by the reference,"
+331c200e95f190746314,Q07,no_retrieval,"CORRECT
+
+The claim accurately describes MAIN"
+74576620f6f32d03ad82,Q07,no_retrieval,INCORRECT. The claim discusses techniques like query
+c9c3b949f1b4f5cf6ad9,Q07,no_retrieval,UNVERIFIABLE - The reference does not provide information
+c01cd8888087ff7c95ff,Q07,no_retrieval,"UNVERIFIABLE
+
+The claim states that Spe"
+73230ed785c9104b76ef,Q07,no_retrieval,UNVERIFIABLE - The reference discusses the use
+5449b03b90f6616cda35,Q07,no_retrieval,UNVERIFIABLE - The claim discusses evaluating
+5fbb53e396904e447674,Q07,no_retrieval,"CORRECT. The claim is supported by the reference,"
+4e748f50bfae179c685b,Q07,no_retrieval,"CORRECT. The claim is supported by the reference,"
+3284d805406806b5686a,Q07,no_retrieval,UNVERIFIABLE - The reference mentions methods for filtering
+95e1c12100dce811eebc,Q07,no_retrieval,"CORRECT. The claim is supported by the reference,"
+1b386025d3efa9ca26ca,Q07,no_retrieval,"CORRECT. The claim is supported by the reference,"
+087a82d381f12dddc4ef,Q07,no_retrieval,"CORRECT. The claim is supported by the reference,"
+cb9947cb58304353bd4b,Q07,no_retrieval,UNVERIFIABLE - The reference mentions Speculative
+22b559bc0491beb1bb81,Q07,no_retrieval,CORRECT. The reference states that Disco-RA
+523eceda3c970cbae264,Q07,random5,UNVERIFIABLE. The reference provides information about the
+e62404cc63d7b83fc60a,Q07,random5,UNVERIFIABLE. The claim is about the ability
+ebcd1f7e4bc159ced04d,Q07,bm25_5,"CORRECT
+
+The claim is supported by the reference"
+9ea922950965c62e96ca,Q07,bm25_5,INCORRECT. The claim suggests that MAIN-
+8c5d3a83e99cca013b92,Q07,bm25_5,"UNVERIFIABLE
+
+The claim discusses agents"
+9387ab438abf3370464c,Q07,bm25_5,"CORRECT
+
+The claim is supported by the reference"
+1fe62c128e74919c2811,Q07,bm25_5,UNVERIFIABLE - The reference discusses Specul
+50b646e66cfe5307f2af,Q07,bm25_5,INCORRECT. The claim suggests a process of replacing
+01ebef7ef6ccc4ffce3d,Q07,bm25_5,"CORRECT. The claim is supported by the reference,"
+f50a7e144037577769f2,Q07,bm25_5,UNVERIFIABLE - The reference does not provide information
+9c4791f323295697d7a5,Q07,bm25_5,"CORRECT. The claim is supported by the reference,"
+63b936298f22282da33f,Q07,bm25_5,INCORRECT. The claim misrepresents the
+8f1339fc71a02fecd1f1,Q07,k1,"CORRECT
+
+The claim is supported by the reference"
+73a4a571ba0019c6b909,Q07,k1,UNVERIFIABLE - The reference does not provide information
+cedc25b94dc2e7e3b022,Q07,k1,"CORRECT. The claim is supported by the reference,"
+f967a184422f450f5788,Q07,k1,UNVERIFIABLE - The reference does not provide information
+b76deb848e95e7dc76b3,Q07,k1,"CORRECT
+
+The claim is supported by the reference"
+6ceaf5dc340834d10038,Q07,k3,UNVERIFIABLE - The reference provides information about Main
+86eb340fca42bd2541df,Q07,k3,UNVERIFIABLE - The claim discusses performance scores
+c0efea39e093b76495f1,Q07,k3,UNVERIFIABLE - The reference discusses Specul
+2e1d257eadd87abb7bca,Q07,k3,UNVERIFIABLE - The reference provides information about the
+8d4d2a8871da61578bae,Q07,k3,"CORRECT. The claim is supported by the reference,"
+5bd791be0d7d2e749f07,Q07,k3,UNVERIFIABLE - The reference provides information about the
+c89c79e3d28a85e031e0,Q07,k5,"CORRECT
+
+The claim is supported by the reference"
+c193cec4255e4aed7826,Q07,k5,CORRECT. The reference states that MAIN-RA
+8491292e6f198f97064a,Q07,k5,UNVERIFIABLE - The claim discusses the generation
+597dc2ca59807c33bec6,Q07,k5,UNVERIFIABLE - The reference provides information about the
+ae9130cad27dddb26250,Q07,k5,UNVERIFIABLE - The reference discusses Specul
+28585214badcc6a4f8be,Q07,k5,INCORRECT. The claim suggests a process of generating
+33cc4cfa01762ce4734c,Q07,k5,UNVERIFIABLE - The reference provides information about the
+5a9251d31703a64af4e0,Q07,k5,UNVERIFIABLE - The reference mentions that Disco
+2ef8ea5b8e5c761edd11,Q07,k5,UNVERIFIABLE - The reference provides information about the
+af6ab07110ae36dcf38f,Q07,k5,"CORRECT. The claim is supported by the reference,"
+fab28f9fe95d73e247a7,Q07,k5,"CORRECT
+
+The claim accurately summarizes the"
+748a3f13e00503e963fa,Q07,k10,UNVERIFIABLE - The passage does not explicitly state
+eb3547e94fc19dc40668,Q07,k10,"UNVERIFIABLE
+
+The claim states that there"
+dfdddcb9cfc05e1dede7,Q07,control,"CORRECT
+
+The claim is supported by the reference"
+9cc7bd347a5f9ff2ee33,Q07,control,UNVERIFIABLE. The reference does not provide information
+d15e9946dde93521638a,Q07,control,"CORRECT
+
+The claim is supported by the reference"
+3056ee36223b0e7d11c2,Q07,control,UNVERIFIABLE - The reference mentions Speculative
+410969860fb11be8161c,Q07,control,"CORRECT
+
+The claim is supported by the reference"
+31b568cf8779edecfb76,Q07,control,CORRECT. The reference indicates that Disco-RA
+6b96d52d425c5fa60e45,Q07,control,"CORRECT. The claim is supported by the reference,"
+fa2223825bcc01be0f64,Q07,control,"CORRECT
+
+The claim is supported by the reference"
+1b7dea8be360bef497ff,Q08,no_retrieval,"CORRECT
+
+The claim is supported by the reference"
+1d20a8dff1acccfac64a,Q08,no_retrieval,"CORRECT
+
+The claim is supported by the reference"
+5914f58e7baa02c5579b,Q08,no_retrieval,UNVERIFIABLE - The reference mentions GFM-
+db55ef772e7bb77aac79,Q08,no_retrieval,CORRECT. The reference indicates that GFM-RA
+79610b9bd61f4b3597e9,Q08,no_retrieval,UNVERIFIABLE - The reference does not provide information
+4ac10222117a4fd4e94d,Q08,no_retrieval,"CORRECT
+
+The claim that Bridge-RAG"
+88b8cf98ffb93d6b1e57,Q08,no_retrieval,"CORRECT
+
+The claim is supported by the reference"
+33e8d0f037fbc45be87e,Q08,no_retrieval,UNVERIFIABLE - The claim discusses the concept
+ab5f82e5657cab37b4ce,Q08,no_retrieval,"CORRECT. The claim is supported by the reference,"
+b2730d08e46b87abd579,Q08,no_retrieval,UNVERIFIABLE - The claim discusses the use
+eaef1d800966029afc9e,Q08,no_retrieval,"CORRECT. The claim is supported by the reference,"
+15be57116a23f187a7c8,Q08,no_retrieval,CORRECT. The claim accurately summarizes the differences
+5f55656353be704fc0ab,Q08,no_retrieval,"CORRECT. The claim is supported by the reference,"
+b9ff900f39d1967b0ebd,Q08,random5,CORRECT
+73b7ba416fff6a270934,Q08,random5,"CORRECT
+
+The claim is supported by the reference"
+60b488ffc4d4c6b74683,Q08,random5,UNVERIFIABLE - The reference does not provide information
+b151b3617a64a016f277,Q08,random5,UNVERIFIABLE - The reference does not provide information
+7cb4044539cef81928c0,Q08,random5,"CORRECT. The claim is supported by the reference,"
+6828d7cc8523a79854ad,Q08,random5,"CORRECT
+
+The claim is supported by the reference"
+9b3d85d2a3681a72f6ab,Q08,random5,UNVERIFIABLE - The reference does not provide information
+634a634d082da619a109,Q08,bm25_5,"CORRECT
+
+The claim is supported by the reference"
+6822f072da95416a14ce,Q08,bm25_5,INCORRECT. The reference does not support the claim
+1bee6423a0d858711035,Q08,bm25_5,"CORRECT. The claim is supported by the reference,"
+8d319882dbc473dd9a99,Q08,bm25_5,"CORRECT. The claim is supported by the reference,"
+4141576d885ec68c094c,Q08,bm25_5,"CORRECT
+
+The claim is supported by the reference"
+de896749df85be2a17b9,Q08,bm25_5,CORRECT. The reference indicates that GFM-RA
+26d623139126c052b50d,Q08,bm25_5,UNVERIFIABLE - The reference mentions Walk&Ret
+0e4b494fd2da0a0fe00b,Q08,bm25_5,UNVERIFIABLE - The reference provides information about the
+92b94cc557d0be0c117e,Q08,bm25_5,UNVERIFIABLE - The reference provides information about the
+2c50c6bf2e25c606a9b6,Q08,bm25_5,INCORRECT. The claim incorrectly describes the functionalities
+f0d13e17d0ce287cb873,Q08,k1,"CORRECT. The claim is supported by the reference,"
+9d117ec903a5634a0f4b,Q08,k1,"CORRECT. The claim is supported by the reference,"
+839013cd75d1d52c136b,Q08,k3,UNVERIFIABLE - The reference provides information on the
+3a28acfbce79968e6b8c,Q08,k3,UNVERIFIABLE. The claim is about the specific
+f023ca4132998910d4c3,Q08,k5,UNVERIFIABLE. The reference provides information about the
+356664d5f9a15d414d19,Q08,k5,UNVERIFIABLE. The claim is about the specific
+b9497dde081ef34337a0,Q08,k10,"UNVERIFIABLE
+
+The provided reference does mention"
+04fb6c653aa7b2e845cc,Q08,k10,UNVERIFIABLE - The passage provides information about the
+d6a89941dca893daf5f4,Q08,k10,UNVERIFIABLE. The claim is about the specific
+c42fbdaceafac158a537,Q08,control,UNVERIFIABLE. The reference provides information about the
+895b120ef9f7be40e909,Q08,control,CORRECT. The claim aligns with the reference'
+83be317106ad85e07ae8,Q08,control,"CORRECT. The claim is supported by the reference,"
+2a66a9bbfdf6d4eb0df8,Q08,control,"UNVERIFIABLE
+
+The reference provides information about"
+33bcd0d58f98e25b2b05,Q08,control,UNVERIFIABLE - The reference discusses the mechan
+3b8cbcfb45f1d053bbac,Q08,control,INCORRECT. The claim suggests that GFM_
+c3c26fed1d16db4f3cf7,Q08,control,INCORRECT. The reference does not mention multi-
+851e51cd1f817bfb3d6d,Q08,control,UNVERIFIABLE - The reference provides information about the
+0edb2e91ff9b98290bb5,Q08,control,UNVERIFIABLE - The reference does not provide information
+cf2f9b95a9ca21c053ba,Q08,control,CORRECT. The reference supports the claim by mentioning
+9b89388d3be14c0e4b66,Q08,control,UNVERIFIABLE - The reference provides information about the
+c20a872c19552d24dd15,Q08,control,CORRECT. The claim about GFM-RAG
+c81bde8a6d81f591373e,Q08,control,"CORRECT
+
+The claim is supported by the reference"
+c6d6c40f9c24a627418a,Q10,no_retrieval,"UNVERIFIABLE
+
+The reference provides specific details"
+0de0a6e0947c3b292ca5,Q10,random5,"CORRECT
+
+The claim is supported by the reference"
+934a71931a6a8a4fdfea,Q10,random5,UNVERIFIABLE - The claim mentions specific models and
+d0ec4ff3d6558fe447a8,Q10,random5,UNVERIFIABLE - The reference does not provide information
+d4e7f9091d5fdf2ec969,Q10,random5,"UNVERIFIABLE
+
+The provided reference does not"
+11beacbf4ff4715d8517,Q10,random5,"CORRECT. The claim is supported by the reference,"
+c1dcc8e2674af89d4a20,Q10,random5,INCORRECT. The claim suggests that FAIR-
+34b6fea47393ab74e8c4,Q10,random5,UNVERIFIABLE - The reference does not provide information
+e3017a0754fe36ec7572,Q10,random5,UNVERIFIABLE - The claim suggests similarities in
+3d7b4b437894a1417442,Q10,bm25_5,CORRECT. The reference supports the claim by stating that
+2d88c6fbcbe4ba79bb6d,Q10,bm25_5,"CORRECT
+
+The claim is supported by the reference"
+51eae5e3d53e7de50941,Q10,bm25_5,"UNVERIFIABLE
+
+The provided reference does not"
+ab3979f67579ad10482f,Q10,bm25_5,UNVERIFIABLE - The reference provides information about the
+7100df4541241eacde36,Q10,bm25_5,CORRECT. The reference supports the claim that RAG
+cfe74fc97518a27983d6,Q10,bm25_5,UNVERIFIABLE - The reference mentions MultiHop
+901fc1ac030b4799064b,Q10,bm25_5,"UNVERIFIABLE
+
+The provided reference does not"
+255bff72c8e8059faf1d,Q10,bm25_5,UNVERIFIABLE - The reference does not provide information
+16fcb1d7f4be14fd4f9a,Q10,bm25_5,"UNVERIFIABLE
+
+The claim states that FA"
+e04d718e065fc640e0f7,Q10,bm25_5,UNVERIFIABLE. The reference does not provide enough
+40f238a0e043da469c5d,Q10,k1,"CORRECT
+
+The claim is supported by the reference"
+f111313d764055d11a15,Q10,k1,UNVERIFIABLE - The reference mentions MultiHop
+1d2fcd90671fd1032df1,Q10,k1,UNVERIFIABLE - The reference does not provide information
+8f2a1c0619aa927f1434,Q10,k1,"CORRECT
+
+The claim is supported by the reference"
+3de7fe0bd9ea2ee8e7eb,Q10,k1,UNVERIFIABLE - The reference mentions evaluations of
+09bc611560065e8588a9,Q10,k1,INCORRECT. The claim suggests that FAIR-
+2b39d0f76d9444ae01b8,Q10,k1,"UNVERIFIABLE
+
+The provided reference does not"
+d6155852e80b414dc35d,Q10,k1,"CORRECT. The claim is supported by the reference,"
+d84cec10ce520fcc739a,Q10,k3,"CORRECT
+
+The claim is supported by the reference"
+a870ea35ef5322d9177b,Q10,k3,INCORRECT. The reference indicates that MultiHop
+34189f423a69a0f64fe1,Q10,k3,"CORRECT. The claim is supported by the reference,"
+d82a173f1f43c92fb24f,Q10,k3,UNVERIFIABLE - The reference does not provide information
+bc718a067fcdc8384c6d,Q10,k3,UNVERIFIABLE - The reference provides information about the
+ef64aea31487f3805b7f,Q10,k3,UNVERIFIABLE - The reference does not provide any
+f59bff623b01cda2c752,Q10,k3,"CORRECT
+
+The claim is supported by the reference"
+ea1d4b2ee775cefe461b,Q10,k3,UNVERIFIABLE. The claim makes assumptions about the
+e228f64462fd200a5817,Q10,k3,CORRECT. The reference clearly states that MultiHop
+72119b415a608b5bfc07,Q10,k5,"CORRECT
+
+The claim is supported by the reference"
+9f1b53751bdd6d2d4123,Q10,k5,UNVERIFIABLE - The reference does not provide information
+951ffaa75d749f44204f,Q10,k5,UNVERIFIABLE - The reference does not provide information
+2a6f5a7e32b4fff420e7,Q10,k5,"UNVERIFIABLE
+
+The provided reference does not"
+09b9868c91c29f936527,Q10,k5,"UNVERIFIABLE
+
+The provided reference does not"
+b1378a339f564d44f30a,Q10,k5,UNVERIFIABLE - The reference information provided does not
+7bb35b1c8800f20b3834,Q10,k5,"CORRECT
+
+The claim is supported by the reference"
+95af39564c4628fdbc28,Q10,control,"CORRECT - The claim is supported by the reference,"
+f51decd4fdefe4a2282d,Q10,control,INCORRECT. The reference clearly states that MultiH
+fba0935b367d2ea42522,Q10,control,INCORRECT. The reference clearly states that RAG
+ac9541044e37b293fd9f,Q10,control,"UNVERIFIABLE
+
+The claim mentions item-"
+376b7474a9df8fa74d3f,Q10,control,UNVERIFIABLE - The reference provides information about the
+f2e8ae9e5e05479c1348,Q10,control,UNVERIFIABLE - The reference provides information about the
+c6acf1f6e472c93857a4,Q10,control,UNVERIFIABLE - The reference provides information about the
+cee22313d4d73dc3758b,Q10,control,INCORRECT. The reference clearly states that MultiH
+90bbe9461ec5d4aad008,Q10,control,INCORRECT. The reference clearly states that RAG
+736c2f14828639a22667,Q10,control,UNVERIFIABLE - The reference provides information about FA
+7b771f1b69a7560d0843,Q11,no_retrieval,"CORRECT
+
+The claim is supported by the reference"
+7c4d08f21a5a39cf05b3,Q11,no_retrieval,UNVERIFIABLE - The reference provides information about the
+7ba92807a4f1dc168fd4,Q11,no_retrieval,UNVERIFIABLE - The reference does not provide information
+4d337b6821f1e31180b0,Q11,no_retrieval,"CORRECT. The claim is supported by the reference,"
+fa01fe32bd142f261569,Q11,no_retrieval,UNVERIFIABLE - The reference provides information about SP
+e3c22cc5232ff8930f43,Q11,no_retrieval,UNVERIFIABLE. The reference provides information about the
+da3657f07e36e6ebfe05,Q11,no_retrieval,CORRECT. The claim is supported by the reference as
+cd360f9b5122848231b4,Q11,no_retrieval,"UNVERIFIABLE
+
+The claim suggests that R"
+78a3309720f097455f71,Q11,no_retrieval,"CORRECT. The claim is supported by the reference,"
+19c590f4c463c4d599d1,Q11,no_retrieval,"CORRECT
+
+The claim is supported by the reference"
+6d86d51d8d689532aee6,Q11,no_retrieval,UNVERIFIABLE. The reference provides information about the
+c9b688cd9f29c1164458,Q11,random5,"UNVERIFIABLE
+
+The provided reference does not"
+da18e942edcea133b2af,Q11,random5,UNVERIFIABLE. The claim does not provide a
+a18ae242592b79ede5bd,Q11,bm25_5,Constructing intra-chunk discourse trees (Dis
+dc66f71ad3b3cb2d83e2,Q11,bm25_5,UNVERIFIABLE - The reference provides information about how
+d2d9fc7350ef9a91ecee,Q11,bm25_5,UNVERIFIABLE - The reference provides detailed information about
+db014050d4332f78940d,Q11,bm25_5,UNVERIFIABLE - The reference provides information about SP
+6f022a69d373855e50b3,Q11,bm25_5,"UNVERIFIABLE
+
+The provided reference information does"
+c34a4cdd7b5730abd9f3,Q11,bm25_5,UNVERIFIABLE - The reference provides detailed information about
+4c5784fae505d8044402,Q11,bm25_5,"CORRECT. The claim is supported by the reference,"
+b7b1c4fd337402d3d40c,Q11,bm25_5,"UNVERIFIABLE
+
+The claim discusses an"
+86b4d0deb0125d7f822f,Q11,bm25_5,UNVERIFIABLE - The reference provides detailed information about
+632a141b77b645a74451,Q11,bm25_5,"UNVERIFIABLE
+
+The provided reference does not"
+d5b83f9cceb4b60db1ba,Q11,bm25_5,"CORRECT
+
+The claim is supported by the reference"
+45c768693353887bef2e,Q11,k3,UNVERIFIABLE - The passage provides information about the
+60052aacb94a2feca712,Q11,k3,UNVERIFIABLE. The claim does not provide a
+6a8aaa59ebf88950cb55,Q11,k5,UNVERIFIABLE - The passage provides information about the
+b8aa31ea7b4a61b04534,Q11,k5,"UNVERIFIABLE
+
+The claim provided does not"
+d72d619b88436d79e249,Q11,k10,UNVERIFIABLE. The passage provides specific information about
+430824c2a54058737176,Q12,no_retrieval,"UNVERIFIABLE
+
+The claim states that there"
+2986dd397fcc3cda0d9b,Q12,no_retrieval,UNVERIFIABLE. The claim is about the need
+5d2b7f21d086cd8622c9,Q12,random5,UNVERIFIABLE - The passage does not explicitly state
+53c4c720ee0f26705d46,Q12,random5,"UNVERIFIABLE
+
+The provided reference information does"
+15c868c6fbe2ab33f36a,Q12,bm25_5,CORRECT. The reference indicates that Vendi-RA
+6d7f8dc510d4d10d1a5a,Q12,bm25_5,"CORRECT
+
+The claim is supported by the reference"
+9b18e97346e9030d0b9e,Q12,bm25_5,UNVERIFIABLE - The reference provides information about the
+5959b25b693456d566a2,Q12,k1,"CORRECT
+
+The claim is supported by the reference"
+a4e4156b3ade5f6869d3,Q12,k1,UNVERIFIABLE - The reference provides information about the
+06e0642ee9776ae5d2d8,Q12,k1,CORRECT. The reference mentions that Vendi-RA
+d7db07af414f2ae8d164,Q12,k1,UNVERIFIABLE - The reference information does not provide
+ed147cb78d9cecb44186,Q12,k1,UNVERIFIABLE - The reference provides information about how
+31e78053cdb1503c0221,Q12,k5,UNVERIFIABLE - The evidence provided discusses the
+78d6978cacb127ee5ad6,Q12,k5,"UNVERIFIABLE
+
+The provided reference information does"
+0651f6041d068a89c266,Q12,k10,UNVERIFIABLE - The evidence provided discusses the
+fc051d62f04b85e1f239,Q12,k10,UNVERIFIABLE - The claim states that the systems
+eef899b42e7d5e16e8ce,Q12,k10,UNVERIFIABLE. The claim is not directly addressed
+ccda1cb2c671cac69d57,Q12,control,Using Vendi Score to improve semantic diversity and iter
+87dfd0e3df3b644f4897,Q12,control,"CORRECT
+
+The claim is supported by the reference"
+04fc3ba00ab637440d52,Q12,control,"CORRECT. The claim is supported by the reference,"
+631f8ac3bf30141fa0d1,Q12,control,"CORRECT
+
+The claim is supported by the reference"
+fb22750ef389accb05d0,Q12,control,"CORRECT
+
+The claim is supported by the reference"
+1bbabd58e6941ed384c6,Q12,control,"CORRECT
+
+The claim is supported by the reference"
+69d301459aecb081add0,Q13,no_retrieval,"CORRECT
+
+The claim is supported by the reference"
+6bedd533162a63382eb4,Q13,no_retrieval,INCORRECT. The reference states that FAIR-
+72f17fdb7bf727291347,Q13,no_retrieval,"CORRECT. The claim is supported by the reference,"
+1b52ab23f2e418c8190e,Q13,no_retrieval,"UNVERIFIABLE
+
+The claim about MAIN"
+4d3fde390d95922ce39c,Q13,no_retrieval,"CORRECT
+
+The claim is supported by the reference"
+86d9233e6c02dc32e766,Q13,no_retrieval,"CORRECT. The claim is supported by the reference,"
+49268d2328e794d1b33f,Q13,no_retrieval,"UNVERIFIABLE
+
+The reference provides information about"
+7b6c7dd293b80458e82f,Q13,no_retrieval,UNVERIFIABLE. The reference describes the methods and
+5453a565f630b7662723,Q13,no_retrieval,CORRECT. The reference indicates that MASS-RA
+7c4fa5970bd5b7f7b7bb,Q13,no_retrieval,"CORRECT
+
+The claim accurately summarizes the"
+479738bb4f0405b74650,Q13,no_retrieval,UNVERIFIABLE. The reference provides details about the
+29f04453b392ae4ede15,Q13,random5,"CORRECT
+
+The claim is supported by the reference"
+82b156267860a9aabf61,Q13,random5,UNVERIFIABLE. The reference states that FAIR
+0cc7370b59a6097e2ffb,Q13,random5,"UNVERIFIABLE
+
+The reference provides detailed information"
+e974c9d036054c24e716,Q13,random5,INCORRECT. The reference does not mention keyword-
+d86a10fb67c80d51ba56,Q13,random5,CORRECT. The reference indicates that these methods aim to
+da7b816a609ee68bf25d,Q13,random5,"CORRECT. The claim is supported by the reference,"
+d565db4d53039fa51a2f,Q13,random5,UNVERIFIABLE. The reference provides information about the
+a6141fad0543a3dddda3,Q13,random5,UNVERIFIABLE - The reference does not provide specific
+a6e90a9a2dac2b976109,Q13,random5,"CORRECT
+
+The claim is supported by the reference"
+9f1df01a147704221d2d,Q13,random5,UNVERIFIABLE. The reference provides information about the
+6a884a4411998469e0e7,Q13,random5,UNVERIFIABLE - The reference provides information about the
+ba262bb3157c0aa7183e,Q13,random5,UNVERIFIABLE - The reference provides details about the
+54eb5302d5644bdc20ab,Q13,random5,CORRECT. The reference supports the claim by stating that
+4534ab19dc0ee83fad64,Q13,random5,"CORRECT
+
+The claim is supported by the reference"
+bf3fe8d85d4478d1bc93,Q13,random5,CORRECT. The claim accurately reflects the different
+ec00408e7af63fae632d,Q13,bm25_5,UNVERIFIABLE - The reference provides information on the
+018b5abd857b7cfcb913,Q13,bm25_5,UNVERIFIABLE. The claim about insufficient
+49c67a44ddcd7231db5a,Q13,k1,"CORRECT. The claim is supported by the reference,"
+51b7bfc2ca85bf5bf1a1,Q13,k1,INCORRECT. The claim suggests a level of strict
+4ef1da92e0f46e8c3212,Q13,k1,UNVERIFIABLE - The reference discusses the methods
+1ffd2d27d8dab5462eae,Q13,k1,UNVERIFIABLE - The reference provided discusses the
+0a037fe998a1955a0153,Q13,k1,UNVERIFIABLE - The claim discusses the format
+07f4daf5660452e90cea,Q13,k1,CORRECT. The reference supports the claim by outlin
+94f762123b857e906a4e,Q13,k3,UNVERIFIABLE - The passage does not provide specific
+f1829594b692c2686284,Q13,k3,UNVERIFIABLE. The claim about insufficient
+fb077b09f065b52d5a9f,Q13,k5,"CORRECT. The claim is supported by the reference,"
+37448bb09df1ba3cf866,Q13,k5,UNVERIFIABLE. The reference states that FAIR
+f4848a188e7bcd5549e2,Q13,k5,CORRECT. The claim aligns with the reference information
+81812eeadaf4cb49c0f6,Q13,k5,"CORRECT
+
+The claim is supported by the reference"
+640d53f05a639d54cc9e,Q13,k5,UNVERIFIABLE - The reference information does not provide
+b55abb14d230a4bea149,Q13,k5,UNVERIFIABLE - The reference does not provide information
+c891e8dd237580b41f7f,Q13,k5,CORRECT. The reference supports the claim that FAIR
+26b347e06cd08b24aa6a,Q13,k5,UNVERIFIABLE - The claim suggests a loop system
+db576652232066f4fcfd,Q13,k5,UNVERIFIABLE. The reference describes the methods used
+9163e5676923c32f8afd,Q13,k5,CORRECT. The reference supports the claim by detailing
+fdb991414b6e6fca3de6,Q13,k10,CORRECT. The passage does not explicitly state that FA
+c41d63031161a5702d17,Q13,k10,UNVERIFIABLE. The claim about insufficient
+03e5d7587b9e09ebcec8,Q13,control,UNVERIFIABLE - The given passages do not
+d15c02247c3c42ea7986,Q13,control,CORRECT. The reference indicates that while these methods aim
+37201e1073c394a1b4f1,Q14,no_retrieval,"UNVERIFIABLE
+
+The reference provides information about"
+9fb008d9494fe8c65bdd,Q14,no_retrieval,UNVERIFIABLE. The claim does not directly relate
+902b8fbbc3839d49f299,Q14,random5,"CORRECT
+
+The passage indeed discusses various approaches"
+454384581aabf4ad22ee,Q14,random5,INCORRECT. The claim incorrectly labels SPD-
+88ac3f8ca9e9b416559f,Q14,random5,"UNVERIFIABLE
+
+The claim discusses semantic"
+0a7407efc355c51114cc,Q14,random5,"UNVERIFIABLE
+
+The claim suggests that the"
+b7bb42e318544201be1f,Q14,random5,INCORRECT. The claim describes MASS-RA
+cac3eb34d4b24f00a3a9,Q14,random5,"CORRECT. The claim is supported by the reference,"
+55056e2b007bd590155a,Q14,random5,"CORRECT
+
+The claim is correct as both SP"
+cdaf5d1b40c92a6f1cd7,Q14,random5,CORRECT. The reference supports the claim that SPD
+d1751a07d3a0ab17818d,Q14,random5,"CORRECT
+
+The claim is supported by the reference"
+1ffea12382d7fdf9070a,Q14,bm25_5,CORRECT. The evidence provided does not directly compare or
+ec834157e6dd86f1d3ac,Q14,bm25_5,INSUFFICIENT EVIDENCE
+d4f96da00b3016323672,Q14,k1,INCORRECT. The claim suggests that SPD-
+61b30ac6f67e2fd77ccf,Q14,k1,UNVERIFIABLE - The reference does not provide information
+7aab577d208fc06ad84e,Q14,k1,UNVERIFIABLE - The claim suggests a comparison of
+f2f4840d6eb3f061f8a3,Q14,k1,"CORRECT
+
+The claim is supported by the reference"
+4e7b301c5d540497e5d5,Q14,k1,"CORRECT. The claim is supported by the reference,"
+b94290cbd27f3d31649c,Q14,k1,"CORRECT
+
+The claim is supported by the reference"
+63aaae1cd849a3f43e18,Q14,k1,"CORRECT. The claim is supported by the reference,"
+a34d743ff30005d6ea25,Q14,k1,UNVERIFIABLE - The provided reference does not mention
+172ee48ab3091dd8ef34,Q14,k1,UNVERIFIABLE - The provided reference does not contain
+06f0c0549114f39201e8,Q14,k1,"CORRECT
+
+The claim accurately reflects the"
+070b2e890432d85b1904,Q14,k1,"CORRECT. The claim is supported by the reference,"
+2b57c15bea00ab368e45,Q14,k3,"CORRECT
+
+The claim is supported by the reference"
+1173d5d3d73ea8bd596d,Q14,k3,INCORRECT. The reference indicates that SPD-
+4257096b75eced5280e1,Q14,k3,"CORRECT. The claim aligns with the reference,"
+1c0ed01774552a313742,Q14,k3,"CORRECT
+
+The claim is supported by the reference"
+51a6191047860bd0892c,Q14,k3,INCORRECT. The claim suggests that SPD-
+c055d70703cf5331d890,Q14,k3,UNVERIFIABLE - The claim suggests that the method
+7138fb9a1316958f8ff0,Q14,k3,"CORRECT
+
+The claim is supported by the reference"
+293198c0203d7dec4b21,Q14,k3,"CORRECT. The claim is supported by the reference,"
+c66fe5d6ad2372dfb158,Q14,k3,UNVERIFIABLE - The reference provides detailed information about
+6b594de4e800da6d1a9e,Q14,k3,"CORRECT
+
+The claim accurately reflects the"
+00efa03ad1bbe3129a6a,Q14,k5,CORRECT. The evidence provided discusses the methodologies
+610b889ecb5e47a87475,Q14,k5,"CORRECT
+
+The claim is accurate as the reference"
+0432d4a8f0f5e2c6ef1f,Q14,k5,"UNVERIFIABLE
+
+The given reference provides information"
+f454de396bc4f2ad6559,Q14,control,CORRECT: SPD-RAG differs from
+d08594d392fa41ce2e22,Q14,control,INCORRECT. The claim suggests that MASS-
+1e18d683746a9476094a,Q14,control,UNVERIFIABLE - The provided reference does not contain
+d6875c21214350e51103,Q14,control,UNVERIFIABLE - The reference does not provide information
+63b8795344aff3b3c17b,Q14,control,INCORRECT. The claim suggests SPD-RA
+610e16d7fbcefc9d0cfe,Q14,control,INCORRECT. The claim suggests SPD-RA
+98f59c60a2c415af8805,Q14,control,UNVERIFIABLE - The reference does not provide specific
+787a2bd1fe77f7a0b216,Q14,control,UNVERIFIABLE - The provided reference does not contain
+ac11cc8521465b5cd439,Q14,control,"CORRECT
+
+The claim accurately reflects the"
+3ca302cab78ba404729e,Q15,no_retrieval,"CORRECT
+
+The claim is supported by the reference"
+504f2061ad45b461e566,Q15,no_retrieval,"CORRECT
+
+The claim is supported by the reference"
+fae7b8c318ded287663b,Q15,no_retrieval,UNVERIFIABLE. The reference provides information about G
+0198afa2fcf6a7030c83,Q15,no_retrieval,"CORRECT. The claim is supported by the reference,"
+91650423fb70e87c635e,Q15,no_retrieval,INCORRECT. The claim suggests that Bridge-RA
+59d053f7b3b244c904cd,Q15,no_retrieval,UNVERIFIABLE - The reference provides information about the
+f30765ddf688ec1c4ed2,Q15,no_retrieval,INCORRECT. The claim suggests that Walk&Ret
+77c87bd068117214f4b8,Q15,no_retrieval,UNVERIFIABLE - The claim discusses complex reasoning
+3201c8a7ddb2dc408fd2,Q15,no_retrieval,"CORRECT. The claim is supported by the reference,"
+36aab5046c7eab750550,Q15,no_retrieval,"CORRECT. The claim is supported by the reference,"
+760152a6705e17bf8c5d,Q15,random5,"CORRECT
+
+The passage supports the claim by detail"
+428d91088ffcb068aec4,Q15,random5,CORRECT. The reference indicates that GFM-RA
+da24b32144695f5cfd4b,Q15,random5,"CORRECT. The claim is supported by the reference,"
+21ca06e5455265d5b493,Q15,random5,CORRECT. The reference indicates that Bridge-RAG
+2a35db282d76595b81ac,Q15,random5,INCORRECT. The passage does not indicate that Bridge
+df134d9b34841a1389f7,Q15,random5,CORRECT. The reference states that Walk&Retr
+138bcbce9b6ebf93de21,Q15,random5,UNVERIFIABLE - The passage does not explicitly state
+6148019b6a3aa025f5e7,Q15,random5,"CORRECT
+
+The claim is supported by the reference"
+252782453f95240a2463,Q15,random5,"CORRECT
+
+The claim is supported by the reference"
+69ae3ed039145b32e04f,Q15,random5,CORRECT. The claim is supported by the reference as
+263228e7ddf07a298ec2,Q15,bm25_5,"CORRECT
+
+The claim is supported by the reference"
+da6fab3aee57e380e8f5,Q15,bm25_5,CORRECT. The reference indicates that GFM-RA
+a5b5bfc14eab96d9d713,Q15,bm25_5,CORRECT. The reference supports the claim by mentioning
+e5c0fb291d37de1e4662,Q15,bm25_5,UNVERIFIABLE - The reference information does not provide
+9f51572363483b959aaf,Q15,bm25_5,CORRECT
+39f0ce1c95e73fe4bdb1,Q15,bm25_5,CORRECT. The claim is supported by the reference as
+995c6778e08a9e6a0313,Q15,bm25_5,CORRECT. The reference mentions that Bridge-RAG
+7d2174b293c97efb751c,Q15,bm25_5,INCORRECT. The claim suggests that Walk&Ret
+399ee4b9c69a9eb853fc,Q15,bm25_5,"CORRECT. The claim is supported by the reference,"
+68c4300b524c4a03b8c6,Q15,bm25_5,"CORRECT. The claim is supported by the reference,"
+08bc7f65b0f507b8f266,Q15,bm25_5,"CORRECT
+
+The claim is supported by the reference"
+7f89effead8249f3be21,Q15,bm25_5,CORRECT. The reference indicates that GFM-RA
+1c0aefaf49b1ff5eaae3,Q15,k1,UNVERIFIABLE - The passage does not explicitly state
+950bbbe888be6413c8c7,Q15,k1,"UNVERIFIABLE
+
+The claim is not directly"
+98727832f5eb0b6d6312,Q15,k3,UNVERIFIABLE - The reference provides information about the
+474b855f03e3de9fbc0d,Q15,k3,UNVERIFIABLE. The claim is about the su
+e1e5ba05158c0e5edc41,Q15,k5,UNVERIFIABLE - The provided reference does not explicitly
+8d36d3f44f6e6f7fab01,Q15,k5,UNVERIFIABLE. The claim is about the su
+f5f5589056bc81fac019,Q15,k10,UNVERIFIABLE. The reference provides information about the
+cdcac69cba039f6bfdbc,Q15,k10,UNVERIFIABLE. The claim is about the ability
+12202017638948424450,Q15,control,"CORRECT
+
+The claim is supported by the reference"
+854e0529092ab30105d1,Q15,control,CORRECT. The reference states that GFM-RA
+54a6bbf7dd3ac6160b6a,Q15,control,INCORRECT. The claim suggests the use of a
+7e344267200e57f4aa38,Q15,control,"CORRECT
+
+The claim that Bridge-RAG"
+f6882405ae9fd6ab9381,Q15,control,CORRECT. The reference indicates that GFM-RA
+3ff9aa077cca4fb16772,Q15,control,UNVERIFIABLE - The reference mentions Walk&Ret
+ba65321239ba379c110a,Q15,control,UNVERIFIABLE - The reference provides information about the
+673bbd58513558a6869e,Q15,control,CORRECT. The claim is supported by the reference as
+d3e4316feb5620d312ff,Q17,no_retrieval,UNVERIFIABLE - The document does not explicitly state
+1085963b3a1d98141b51,Q17,no_retrieval,UNVERIFIABLE. The claim suggests a lack of
+4d84462f8b09907f1b48,Q17,random5,UNVERIFIABLE - The passage does not explicitly state
+ecaaafbbf7ecc2a762a4,Q17,random5,"UNVERIFIABLE
+
+The claim suggests that there"
+4e379494d35ea0f79c44,Q17,bm25_5,"INCORRECT
+
+The provided evidence does not identify"
+6c4f2f32497af1b57bca,Q17,bm25_5,UNVERIFIABLE - The reference does not provide information
+e53b0fcdadc2f4c44ae1,Q17,bm25_5,UNVERIFIABLE - The provided reference does not contain
+65e1803e7cc3ed704f3f,Q17,bm25_5,UNVERIFIABLE - The provided reference does not contain
+9505ea7a6eafc816991e,Q17,bm25_5,"CORRECT. The claim is supported by the reference,"
+07c3f7c017fd4b1d9cf9,Q17,bm25_5,UNVERIFIABLE - The provided reference does not contain
+2ac7b9b3a44486af2b42,Q17,bm25_5,UNVERIFIABLE - The provided reference does not contain
+501b6d6e2663d6c296b7,Q17,bm25_5,"CORRECT - The claim is supported by the reference,"
+47da61670c43aa4d04eb,Q17,bm25_5,CORRECT. The reference indicates that DF-RA
+28a12dc2a1865e4f54da,Q17,bm25_5,INCORRECT. The reference states that Disco-
+bd71a9d63219c846ddda,Q17,bm25_5,"CORRECT. The claim is supported by the reference,"
+179ba923eb85167a1ccf,Q17,bm25_5,CORRECT. The reference mentions that DF-RA
+70f49f29e4abeaf87a8d,Q17,bm25_5,"UNVERIFIABLE
+
+The reference does not provide"
+0efa0a28ecc794a5e5bc,Q17,bm25_5,INCORRECT. The reference states that Disco-
+6010012f8503db6c2837,Q17,bm25_5,"CORRECT. The claim is supported by the reference,"
+8a49432a9ae50718352c,Q17,bm25_5,UNVERIFIABLE - The reference discusses the performance
+47c2a740a1aba352ad67,Q17,bm25_5,"CORRECT. The claim is supported by the reference,"
+5f2efd1ae7058c9c2c32,Q17,bm25_5,"CORRECT. The claim is supported by the reference,"
+68146be0016d1c3f40f1,Q17,k1,INCORRECT - The claim suggests limitations related to longer
+f1b68fb98666212d5933,Q17,k1,INCORRECT. The reference does not directly support the
+76eafa9a09b8f0bcd619,Q17,k1,UNVERIFIABLE - The provided reference discusses the
+d3b48ef3c47a88bfc235,Q17,k1,UNVERIFIABLE - The reference discusses the performance
+a8a49b35d7af121fd877,Q17,k1,CORRECT. The reference discusses the challenges of
+e3e430028da9c312c6b4,Q17,k3,UNVERIFIABLE - The passage does not provide explicit
+2fc6040ca678a5644ec1,Q17,k3,"UNVERIFIABLE
+
+The claim suggests that there"
+7157f659c52e24620f71,Q17,k5,UNVERIFIABLE - The passage does not explicitly discuss
+db03d4c9afd640b0df63,Q17,k5,UNVERIFIABLE - The reference discusses the performance
+cfbc180fa421564f66bd,Q17,k5,UNVERIFIABLE - The reference discusses the trade
+474181989484b7c22376,Q17,k5,UNVERIFIABLE - The reference discusses the performance
+be7b5919cccc94690a1d,Q17,k5,INCORRECT. The reference indicates that while longer context
+37ede2638a99ce228829,Q17,k5,UNVERIFIABLE - The reference discusses the performance
+9094f662c636fbfce51a,Q17,k5,UNVERIFIABLE - The reference discusses the trade
+70dc37ed44611e383109,Q17,k5,UNVERIFIABLE. The claim suggests that longer retrieved
+c07493fecf30c9bfe6aa,Q17,k10,UNVERIFIABLE. The reference does mention that longer
+1fc21af03d34025eac0c,Q17,k10,CORRECT. The passage does not specifically mention the advantages
+983d8182233668549ad7,Q17,k10,"UNVERIFIABLE
+
+The claim suggests that there"
+cbd213ad95a6c3541bc4,Q17,control,"CORRECT - The claim is supported by the reference,"
+e77d327bdb3eb9275086,Q17,control,"CORRECT
+
+The reference states that ""Disco"
+ce1cc3bfb5108f7e7728,Q17,control,"CORRECT
+
+The reference states that ""Disco"
+eba19b17662885698f79,Q17,control,INCORRECT. The reference does not provide information supporting
+4588f9b1c0d67cefaf4a,Q17,control,"CORRECT - The claim is supported by the reference,"
+46ff4c497177cc225632,Q17,control,INCORRECT. The reference does not support the claim
+fea1f73fdfd5c13f710e,Q17,control,"CORRECT
+
+The claim states that Disco-"
+ce6ca29e32a8def767e9,Q17,control,UNVERIFIABLE - The reference does not provide specific
+23a3d0e3e49e12ba6ba1,Q18,no_retrieval,"CORRECT
+
+The claim is supported by the reference"
+e552017c097dd140ee30,Q18,no_retrieval,"CORRECT - The claim is supported by the reference,"
+747cf6f297cf6b691e44,Q18,no_retrieval,"CORRECT. The claim is supported by the reference,"
+f4f9b40a5817b86f9d7c,Q18,no_retrieval,"UNVERIFIABLE
+
+The reference provides information about"
+300f56e9ccf0efdecb1d,Q18,no_retrieval,"CORRECT
+
+The claim is supported by the reference"
+18ecaeae6204eea6e51d,Q18,no_retrieval,CORRECT. The claim describes MASS-RAG
+8c36a99eeebace746b7d,Q18,no_retrieval,UNVERIFIABLE - The reference provides information about the
+68985e3af0cd89c1b086,Q18,no_retrieval,"CORRECT
+
+The claim is supported by the reference"
+99385e158ae942d84ceb,Q18,no_retrieval,"UNVERIFIABLE
+
+The provided reference information does"
+76f3bbee0fe64a190bf9,Q18,no_retrieval,UNVERIFIABLE - The reference does not provide information
+fb37ed0b48663542babd,Q18,no_retrieval,CORRECT. The claim is supported by the reference as
+f3c3b5b49005ffae93ef,Q18,no_retrieval,CORRECT. The claim is supported by the reference as
+feb2b591dd4a132ca294,Q18,no_retrieval,CORRECT. The reference indicates that FAIR-RA
+9fe46ed311e59f9ce8c1,Q18,random5,INCORRECT. The provided reference does not support the
+248d9914d6d92301a3b2,Q18,random5,INCORRECT. The reference states that MASS-
+0c634579c6980b01f4c9,Q18,random5,UNVERIFIABLE - The reference does not provide information
+b4e7345ab879ecdc19f1,Q18,random5,"CORRECT
+
+The claim is supported by the reference"
+fbb1a5ce3cf7969dd137,Q18,bm25_5,INCORRECT. The reference states that FAIR-
+95a962f412f61703d698,Q18,bm25_5,"CORRECT
+
+The claim is supported by the reference"
+408bc209ebba3c238e40,Q18,bm25_5,CORRECT. The reference indicates that FAIR-RA
+efe18d69c8967fe6ff88,Q18,bm25_5,"UNVERIFIABLE
+
+The reference provides information about"
+ac9395fce46941ef3975,Q18,bm25_5,CORRECT. The claim is supported by the reference as
+01e2507994112cd5151e,Q18,bm25_5,UNVERIFIABLE. The reference provides information about the
+cab724bf01d7c02b28e2,Q18,bm25_5,"UNVERIFIABLE
+
+The provided reference information discuss"
+8bd40e73e7e79470f51d,Q18,bm25_5,UNVERIFIABLE. The reference information provided discusses
+aab15dea41ecb65c4902,Q18,bm25_5,"UNVERIFIABLE
+
+The claim about MOOC"
+d2fec073d601707bb5c3,Q18,bm25_5,UNVERIFIABLE. The reference information provided discusses
+48e339e5271e9a91e21b,Q18,k1,"CORRECT. The claim is supported by the reference,"
+4b6deb4c3569b7e0235c,Q18,k1,"CORRECT
+
+The reference clearly states that FAIR"
+0fbfbb0036f021735f37,Q18,k1,"CORRECT. The claim aligns with the reference,"
+865b782b61b9c7f52863,Q18,k1,UNVERIFIABLE - The reference information does not provide
+45ddc4fe7bebc501ebbe,Q18,k1,UNVERIFIABLE. The reference does not provide information
+73efe53167ad3e57b851,Q18,k1,"CORRECT
+
+The claim is supported by the reference"
+74a5f79eaf2c53d22f56,Q18,k1,UNVERIFIABLE. The reference provides detailed information about
+b096a934aee2b03dde5d,Q18,k1,CORRECT. The reference indicates that each system (FA
+58efd155abb588215872,Q18,k3,"CORRECT
+
+The claim is supported by the reference"
+3c9564d1bda3b3d84542,Q18,k3,CORRECT. The reference indicates that FAIR-RA
+539dfd13378e158500e8,Q18,k3,"UNVERIFIABLE
+
+The reference provides information about"
+4c71a2821713d01d8690,Q18,k3,UNVERIFIABLE - The reference provides information about the
+a60a0d643fd4b5fcbc19,Q18,k3,"CORRECT
+
+The claim is supported by the reference"
+1f36896902a7f840886f,Q18,k3,CORRECT. The claim is supported by the reference as
+f5be28c0aec416fb9115,Q18,k5,INCORRECT. The claim describes features of FAIR
+34c8cbb37b3e1d2b7827,Q18,k5,"CORRECT. The claim aligns with the reference,"
+9a222524ff4955c47a8c,Q18,k5,INCORRECT. The reference states that MASS-
+0a7af9213d743f1e30e6,Q18,k5,UNVERIFIABLE - The reference provides information about the
+0c678070e3e2397d9c5c,Q18,k5,"UNVERIFIABLE
+
+The reference provides information about"
+b28e35df4fffdea8758c,Q18,k10,CORRECT. The passage does not provide specific details about
+3e3e787da5c646c4440d,Q18,k10,UNVERIFIABLE. The reference provides information about how
+5cdf481e31ea6f3f9f3d,Q18,control,"CORRECT. The claim is supported by the reference,"
+0a1cacd8e958f5f2971a,Q18,control,CORRECT. The claim about Structured Evidence Ass
+d0927bd8902cfa27ee09,Q18,control,UNVERIFIABLE. The reference does not provide information
+45a4c5acf61d73e3755e,Q18,control,"CORRECT. The claim is supported by the reference,"
+b3ffbc908760e5495109,Q18,control,"UNVERIFIABLE
+
+The provided reference does not"
+d53f026505e49155fa6a,Q18,control,UNVERIFIABLE - The reference provides information about how
+5ea8996c0e4ef86b726b,Q18,control,"CORRECT. The claim is supported by the reference,"
+a6c13f5009d71da4a726,Q20,no_retrieval,UNVERIFIABLE - The reference provides information about the
+a2ee838b5e88085fd87e,Q20,no_retrieval,CORRECT. The reference discusses the complexity of evalu
+1ac26790a89f257c2498,Q20,no_retrieval,"CORRECT. The claim is supported by the reference,"
+1603ac3e09bb96ebc319,Q20,no_retrieval,CORRECT. The reference indicates that MultiHop-
+df4e2def98b96cfd89f0,Q20,no_retrieval,CORRECT. The reference indicates that MultiHop-
+c0292a199d2d5b70b7d1,Q20,no_retrieval,UNVERIFIABLE. The reference discusses the evaluation
+4d0250bacf217df6a261,Q20,no_retrieval,UNVERIFIABLE. The claim discusses the capabilities
+d8b8a0939761d026ee34,Q20,no_retrieval,INCORRECT. The claim suggests that RAG Found
+f5d0efc2648eb7bbcc18,Q20,no_retrieval,UNVERIFIABLE. The reference provides information about the
+4672763e2681a7480ed3,Q20,random5,"CORRECT - The claim is supported by the reference,"
+76796676832ca4dec7ed,Q20,random5,UNVERIFIABLE - The reference information does not provide
+c1a1495352f026214146,Q20,random5,UNVERIFIABLE - The claim discusses a method
+23f5f304ae9209be1874,Q20,random5,UNVERIFIABLE - The reference information discusses the
+3ce4323fe366e7aa780d,Q20,random5,UNVERIFIABLE - The reference discusses various R
+969e9c7e6337fb62e6e5,Q20,random5,"CORRECT - The claim is supported by the reference,"
+f6fec75d00e6c9b63a1a,Q20,random5,"UNVERIFIABLE
+
+The provided reference information does"
+f9f416dabd33f3d1598f,Q20,random5,UNVERIFIABLE - The claim discusses a method
+87fed2a2c9d16b30ca9a,Q20,random5,"UNVERIFIABLE
+
+The claim discusses adapt"
+b60919252fc6d7fb52cf,Q20,random5,UNVERIFIABLE - The reference discusses the evaluation
+0bbe4de97032a5cc9647,Q20,random5,"CORRECT. The claim is supported by the reference,"
+89c61b4a5c610468c79e,Q20,random5,"UNVERIFIABLE
+
+The provided reference information discuss"
+d79e389b8d611fdab17a,Q20,random5,"CORRECT. The claim aligns with the reference,"
+d2fdbcceea56c31966f4,Q20,random5,UNVERIFIABLE - The reference discusses the evaluation
+4d1ce81bbfd6e0a79009,Q20,random5,"CORRECT - The claim is supported by the reference,"
+2607bf081bca62e8cb94,Q20,random5,UNVERIFIABLE. The reference discusses various methods
+1af1279badacd8aa4b9e,Q20,random5,"UNVERIFIABLE
+
+The claim discusses evalu"
+58b5f35ae2e2bb460506,Q20,random5,UNVERIFIABLE - The reference discusses the evaluation
+aeba61a44ada5e0a04df,Q20,bm25_5,UNVERIFIABLE - The reference provides detailed information about
+1e52cac7bdd8aceb1942,Q20,bm25_5,"CORRECT - The claim is supported by the reference,"
+06d66080391ec8aefcc3,Q20,bm25_5,INCORRECT. The reference does not support the claim
+bb021045742d24d93cfe,Q20,bm25_5,"CORRECT. The claim is supported by the reference,"
+326356bce0104e9468c0,Q20,bm25_5,INCORRECT. The reference does not support the claim
+8234505dd6798f5645c7,Q20,bm25_5,"UNVERIFIABLE
+
+The claim suggests that the"
+f32511d806c50c34d24f,Q20,bm25_5,"UNVERIFIABLE
+
+The claim states that R"
+31c40ef8c79ca6d70362,Q20,bm25_5,UNVERIFIABLE - The reference provides detailed information about
+60e482a6d25df1a78b47,Q20,bm25_5,"CORRECT
+
+The claim is supported by the reference"
+cbd5b18451ed64da6c01,Q20,k1,"CORRECT - The claim is supported by the reference,"
+d37aebeef764020924da,Q20,k1,INCORRECT. The reference indicates that MultiHop
+5d7b8df64d62917e9f2a,Q20,k1,UNVERIFIABLE. The reference discusses the evaluation
+492359ac182075b8251c,Q20,k1,"CORRECT. The claim is supported by the reference,"
+204f75e4af2968924a62,Q20,k1,"CORRECT
+
+The claim is supported by the reference"
+d1f787bf1c329a62a6c9,Q20,k1,UNVERIFIABLE - The reference does not provide information
+4528e6fdf08bf158cef2,Q20,k1,UNVERIFIABLE - The reference does not provide information
+e61aee93e2a944aba322,Q20,k3,"CORRECT - The claim is supported by the reference,"
+5235e9198a5d014af879,Q20,k3,INCORRECT. The reference indicates that MultiHop
+f7ee513eb59dd7ecd441,Q20,k3,"UNVERIFIABLE
+
+The reference information provided does"
+a92f67279af6a7cdcd79,Q20,k3,INCORRECT. The claim suggests that tools like A
+dcf0ab274fe9b6d4fefd,Q20,k3,"CORRECT
+
+The claim is supported by the reference"
+f23b417c7054f42a414b,Q20,k3,"CORRECT
+
+The claim is supported by the reference"
+798f3a36ba5d41de6258,Q20,k5,"CORRECT - The claim is supported by the reference,"
+a6656b9fc4df56acca05,Q20,k5,CORRECT. The reference indicates that MultiHop-
+635b240d0a468b8f344a,Q20,k5,UNVERIFIABLE - The reference discusses the evaluation
+893f3b5f341cd39ace6e,Q20,k5,"CORRECT. The claim is supported by the reference,"
+774c09589e83a699ed78,Q20,k5,"CORRECT. The claim is supported by the reference,"
+4d248f3a04c44215b321,Q20,k10,"CORRECT - The claim is supported by the reference,"
+5794607081519c97c7c9,Q20,k10,INCORRECT. The reference indicates that MultiHop
+fe7a30c39dc1cae06ee2,Q20,k10,"CORRECT. The claim is supported by the reference,"
+2d0ec61a093278b3a11e,Q20,k10,UNVERIFIABLE. The reference provides information about the
+a3026a70e66fa43c9cde,Q20,k10,"CORRECT. The claim is supported by the reference,"
+75fb86c9924334b7cca6,Q20,k10,"CORRECT
+
+The claim is supported by the reference"
+b7f4f522f5497cc237ae,Q20,k10,UNVERIFIABLE - The reference mentions MASS-
+350abe5f2917e8f48abe,Q20,k10,INCORRECT. The claim suggests a combined process of
+cc58d8621150356631f4,Q20,k10,UNVERIFIABLE - The reference does not provide any
+41caeac50d5bcb4b55e8,Q20,k10,"UNVERIFIABLE
+
+The provided reference information does"
+1059fa86996f26978389,Q20,control,UNVERIFIABLE - The claim suggests there are evaluation
+181a5800cdd77269abb8,Q20,control,"CORRECT. The claim is supported by the reference,"
+8eca56be7ab62c4506ee,Q20,control,"CORRECT. The claim aligns with the reference,"
+819f92318ce1482ca847,Q20,control,UNVERIFIABLE - The reference mentions MultiHop
+dd867af99d9f8ef83b7e,Q20,control,UNVERIFIABLE - The reference discusses the evaluation
+25347a8aa504910f9ace,Q20,control,"CORRECT. The claim is supported by the reference,"
+936963647ce255b89bb4,Q20,control,CORRECT. The REFERENCE indicates that
+0f4aed3ab27d5a60c3dd,Q20,control,UNVERIFIABLE. The reference does not provide information
+87fea40e5534c8e1fa49,Q20,control,"CORRECT
+
+The claim is supported by the reference"

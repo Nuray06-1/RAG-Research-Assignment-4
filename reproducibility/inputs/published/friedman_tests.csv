@@ -1,0 +1,4 @@
+metric,n_complete_pairs,friedman_chi_square,p_value,kendalls_w,exploratory,significant
+completeness,15,8.858447488584517,0.06473666293750546,0.1476407914764086,True,False
+accuracy,11,7.752577319587604,0.10107380870169916,0.17619493908153647,True,False
+hallucination_rate,11,,,,True,False

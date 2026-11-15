@@ -1,0 +1,17 @@
+question_id,condition,answerable,question_type,generation_status,score_status,abstained,input_tokens,output_tokens,latency_sec,stop_reason,n_unique_papers,n_claims,n_uncited_claims,citation_rate,completeness,accuracy,hallucination_rate,correct_abstention,gold_paper_recall
+Q02,k5_no_citation,True,multi_source_synthesis,ok,judge_invalid,False,2983,231,11.222,eos,5,9,9,0.0,0.2,,1.0,,1.0
+Q03,k5_no_citation,True,multi_source_synthesis,ok,judge_invalid,False,2956,49,3.792,eos,5,2,2,0.0,,,1.0,,1.0
+Q04,k5_no_citation,True,multi_source_synthesis,ok,judge_invalid,False,2986,56,3.683,eos,5,2,2,0.0,,0.0,1.0,,1.0
+Q05,k5_no_citation,True,multi_source_synthesis,ok,judge_invalid,False,2965,157,7.94,eos,5,5,5,0.0,0.0,,1.0,,0.6666666666666666
+Q06,k5_no_citation,True,multi_source_synthesis,ok,judge_invalid,False,2985,47,3.895,eos,5,2,2,0.0,,,1.0,,0.6666666666666666
+Q07,k5_no_citation,True,multi_source_synthesis,ok,judge_invalid,False,2792,42,2.984,eos,5,2,2,0.0,,,1.0,,1.0
+Q08,k5_no_citation,True,multi_source_synthesis,ok,judge_invalid,False,2970,45,3.366,eos,5,2,2,0.0,,,1.0,,0.6666666666666666
+Q10,k5_no_citation,True,multi_source_synthesis,ok,judge_invalid,False,2864,68,4.534,eos,5,2,2,0.0,,0.0,1.0,,0.6666666666666666
+Q11,k5_no_citation,True,multi_source_synthesis,ok,ok,False,2978,45,3.525,eos,5,2,2,0.0,0.0,0.0,1.0,,1.0
+Q12,k5_no_citation,True,multi_source_synthesis,ok,judge_invalid,False,3001,49,3.576,eos,5,2,2,0.0,0.0,,1.0,,0.6666666666666666
+Q13,k5_no_citation,True,multi_source_synthesis,ok,judge_invalid,False,2809,52,3.439,eos,5,2,2,0.0,,,1.0,,0.3333333333333333
+Q14,k5_no_citation,True,multi_source_synthesis,ok,judge_invalid,False,2759,45,3.622,eos,5,2,2,0.0,0.2,,1.0,,1.0
+Q15,k5_no_citation,True,multi_source_synthesis,ok,judge_invalid,False,2970,42,3.177,eos,5,2,2,0.0,,,1.0,,0.6666666666666666
+Q17,k5_no_citation,True,multi_source_synthesis,ok,judge_invalid,False,2964,220,10.562,eos,5,7,7,0.0,0.8,,1.0,,0.6666666666666666
+Q18,k5_no_citation,True,multi_source_synthesis,ok,judge_invalid,False,2966,157,7.656,eos,5,4,4,0.0,0.8,,1.0,,1.0
+Q20,k5_no_citation,True,multi_source_synthesis,ok,judge_invalid,False,2679,105,5.612,eos,5,6,6,0.0,,,1.0,,0.6666666666666666

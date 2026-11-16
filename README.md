@@ -39,14 +39,23 @@ Two 144-claim label sets were compared. The first was produced by unaided manual
 - Independent reproduction and Moodle receipt are not verified.
 
 ## Reproduction
-Open `notebooks/Assignment4_Executed_2026-11-08.ipynb` in Colab, mount Drive, inspect paths, and follow the frozen configuration. Source corpus and index reside in the separate Assignment3 directory and are **not included** in this package. The notebook contains audit-only replacements for some steps, so use it as a record of the executed analysis rather than claiming a clean end-to-end reproduction from this ZIP.
+Use [`notebooks/Assignment4_Reproduce.ipynb`](notebooks/Assignment4_Reproduce.ipynb) for a **new computational run**, not the archived executed notebook. [Open the runnable copy in Colab](https://colab.research.google.com/github/Nuray06-1/RAG-Research-Assignment-4/blob/reproduction-isolated/notebooks/Assignment4_Reproduce.ipynb).
+
+1. Start a fresh Colab T4 GPU runtime. Your private Drive must contain the exact frozen `RAG_Assignment3` corpus/benchmark/index and the historical `RAG_Assignment4_BENCHMARK_V2` directory with `final_config.json`, `protocol_freeze.json`, and `selected_faiss.index`. These private source inputs are not bundled in the repository.
+2. Run the notebook in order. Step 1 defaults to a new timestamped `MyDrive/RAG_Assignment4_REPRO_<UTC>` folder and rejects output paths overlapping either source directory. Optional environment variables `RAG_A3_DATA_DIR`, `RAG_A4_CONFIG_SOURCE`, and `RAG_A4_RUN_DIR` must be set before Step 1; when resuming, reuse only the same reproduction folder.
+3. DEV selection is skipped; the archived config and selected index are reused without retuning. Step 15 writes **160 new TEST generations**, Step 16 writes 16 new ablations, and Step 19 makes a fresh judge cache. Existing reproduction records are preserved and checked on resume, including failed attempts; conflicting configs or duplicate records are rejected.
+4. Steps 20–25 export fresh unlabelled human-review candidates and keep validation pending. Historical human labels and disputed adjudications are not reused on new answers. Steps 22–26 export new exploratory tables, tests, and four figures. The categorical judge parser uses the documented leading-label restoration, records errors as invalid, and identifies its scorer version separately.
+5. Step 27 verifies that protected source files still match their pre-run hashes and saves `OUTPUT_STATUS.json`, environment details, a SHA-256 manifest and a ZIP next to the new run folder. Computational completion does not certify human validation, Moodle submission, byte-identical generations, or confirmed hypotheses. Compare fresh outputs with the historical results; never overwrite the historical tables to make them agree.
+
+`notebooks/Assignment4_Executed_2026-11-08.ipynb` remains an unchanged historical record. It contains audit-only replacement cells and old saved outputs, so it is not the runnable reproduction entry point. The existing `final` tag still identifies that archived release; the corrected notebook is a subsequent code revision.
 
 ### Recompute statistics from the included saved scores
-The saved-score audit is self-contained and was checked with Python 3.12.14. From the repository root:
+The saved-score audit is self-contained. It was checked with Python 3.12.14 locally and Python 3.13.16 in fresh Colab. Colab lacked a working stdlib `ensurepip`, so the commands below use `virtualenv`; the citation-tool requirements are needed by the test command. From the repository root:
 ```bash
-python3.12 -m venv .venv
+python3 -m pip install virtualenv
+python3 -m virtualenv .venv
 source .venv/bin/activate
-python -m pip install -r reproducibility/requirements-audit.txt
+python -m pip install -r reproducibility/requirements-audit.txt -r citation_tools/requirements.txt
 python reproducibility/recheck_statistics.py
 python -m unittest discover -s citation_tools -p 'test_*.py'
 ```

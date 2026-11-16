@@ -1,7 +1,17 @@
 # Assignment 4 — RAG for Scientific Literature Synthesis
 
-## Status (15 November 2026)
+## Status (16 November 2026)
 Computational runs are logged (160 main, 16 ablation); results are **exploratory**. This is a reproducibility package, not proof of independent reproduction or final Moodle submission.
+
+## Final reproducibility release
+The [`final` release](https://github.com/Nuray06-1/RAG-Research-Assignment-4/releases/tag/final) identifies the archived version of the code, documentation, and saved outputs. The tag does not certify unresolved annotations, confirm hypotheses, or establish independent reproduction.
+
+To obtain this version:
+```bash
+git clone --branch final --depth 1 https://github.com/Nuray06-1/RAG-Research-Assignment-4.git
+cd RAG-Research-Assignment-4
+git rev-parse HEAD
+```
 
 ## Study
 50 arXiv papers, 863 chunks; 20 TEST questions (16 answerable and 4 unanswerable) × 8 retrieval conditions. The 16 ablation runs are separate. The notebook includes outputs from the saved Colab execution.
@@ -30,6 +40,19 @@ Two 144-claim label sets were compared. The first was produced by unaided manual
 
 ## Reproduction
 Open `notebooks/Assignment4_Executed_2026-11-08.ipynb` in Colab, mount Drive, inspect paths, and follow the frozen configuration. Source corpus and index reside in the separate Assignment3 directory and are **not included** in this package. The notebook contains audit-only replacements for some steps, so use it as a record of the executed analysis rather than claiming a clean end-to-end reproduction from this ZIP.
+
+### Recompute statistics from the included saved scores
+The saved-score audit is self-contained and was checked with Python 3.12.14. From the repository root:
+```bash
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r reproducibility/requirements-audit.txt
+python reproducibility/recheck_statistics.py
+python -m unittest discover -s citation_tools -p 'test_*.py'
+```
+The audit writes to `reproducibility/recomputed/`; check `published_vs_recomputed.csv` for numeric comparisons against the preserved historical tables. **Ten mismatches in the historical ablation snapshot are expected**: that snapshot predates the documented correction to 16 pairs. The corrected table is `results/ablation_tests.csv`; see the [reanalysis explanation](docs/REANALYSIS_2026-11-15.md#corrected-ablation-table). This reproduces calculations from saved scores, not the generator, retriever, or judge runs. The root `requirements.txt` records the earlier Colab package versions; use the separate audit requirements for these commands.
+
+The unfinished full-corpus semantic review of 749 statements is not included in this release and supplies no new validation labels or metrics.
 
 ## Files
 - `results/`: exploratory metrics, tests, validation status

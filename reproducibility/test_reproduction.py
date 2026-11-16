@@ -12,6 +12,15 @@ class ReproductionTests(unittest.TestCase):
    s=''.join(c['source']);compile('\n'.join(x for x in s.splitlines() if not x.startswith('%')),str(i),'exec')
    self.assertNotIn('run_dir = "/content/drive/MyDrive/RAG_Assignment4_BENCHMARK_V2"',s)
   self.assertTrue(all(not c.get('outputs') for c in n['cells'] if c['cell_type']=='code'))
+ def test_output_cannot_overlap_protected_sources(self):
+  source=''.join(json.loads(NOTEBOOK.read_text())['cells'][2]['source'])
+  guard=source[source.index('output_root=Path'):source.index('REPRO_STARTED_UTC=')]
+  with tempfile.TemporaryDirectory() as directory:
+   root=Path(directory);a3=root/'source';historical=root/'historical';a3.mkdir();historical.mkdir()
+   for forbidden in [root,a3,a3/'nested',historical,historical/'nested']:
+    with self.subTest(path=forbidden),self.assertRaises(RuntimeError):
+     exec(guard,dict(Path=Path,run_dir=str(forbidden),base_dir=str(a3),CONFIG_SOURCE_DIR=str(historical)))
+   exec(guard,dict(Path=Path,run_dir=str(root/'new_run'),base_dir=str(a3),CONFIG_SOURCE_DIR=str(historical)))
  def test_160_new_records_resume_without_reusing_source_answers(self):
   with tempfile.TemporaryDirectory() as directory:
    root=Path(directory);source=root/'historical.jsonl';source.write_text('ARCHIVED ANSWER\n')

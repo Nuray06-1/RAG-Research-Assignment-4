@@ -1,0 +1,53 @@
+{
+  "status": {
+    "completed_utc": "2026-11-16T18:27:41.735170+00:00",
+    "reproduction_started_utc": "2026-11-16T17:53:03.752687+00:00",
+    "computational_pipeline_completed": true,
+    "new_main_generations": 160,
+    "new_ablation_generations": 16,
+    "main_successful": 160,
+    "ablation_successful": 16,
+    "new_figures": 4,
+    "protected_historical_files_unchanged": true,
+    "protected_files_checked": 165,
+    "human_validation_complete": false,
+    "independent_human_reproduction_claimed": false,
+    "published_scientific_results_changed": false,
+    "fresh_scorer_version": "A4_reproduction_leading_label_v2",
+    "valid_score_status_counts": {
+      "ok": 154,
+      "judge_invalid": 6
+    }
+  },
+  "runtime": {
+    "generator": "Qwen/Qwen2.5-1.5B-Instruct",
+    "generator_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "torch": "2.14.1+cu130",
+    "transformers": "4.57.6",
+    "python": "3.13.16",
+    "gpu": "Tesla T4",
+    "judge": "microsoft/Phi-3.5-mini-instruct",
+    "judge_revision": "2fe192450127e6a83f7441aef6e3ca586c338b77"
+  },
+  "executed_notebook_code_commit": "762d3a6",
+  "subsequent_changes": "949d136 adds frozen-parameter assertions and path-guard tests; saved Colab copy also corrects Step 22 explanatory markdown after execution.",
+  "archive_filename": "RAG_Assignment4_REPRO_20261116T175303Z_COMPUTATIONAL_REPRODUCTION.zip",
+  "archive_sha256": "5dffee6c2b37b049e087b2efae34cc6d2a117d1b80f4e24e25ae42073f7830cf",
+  "config_sha256": "dd8f5173eafa452833c559b96a8261a39cfeddd62502c1a74fe1d75e05be9583",
+  "manifest_files_verified": 47,
+  "statistics_numeric_fields_verified": 264,
+  "statistics_mismatches": 0,
+  "determinism_repeated_answers_identical": 6,
+  "historical_comparison": {
+    "main_records": 160,
+    "same_prompt_sha256": 160,
+    "same_config_sha256": 160,
+    "same_chunk_ids": 160,
+    "same_paper_ids": 160,
+    "byte_identical_answers": 120
+  },
+  "historical_results_replaced": false,
+  "human_validation_pending": true,
+  "original_computational_code_cells_matching_executed_copy": 29,
+  "errors_in_saved_executed_notebook": 0
+}

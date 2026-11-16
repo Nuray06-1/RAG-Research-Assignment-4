@@ -39,7 +39,9 @@ Two 144-claim label sets were compared. The first was produced by unaided manual
 - Independent reproduction and Moodle receipt are not verified.
 
 ## Reproduction
-Use [`notebooks/Assignment4_Reproduce.ipynb`](notebooks/Assignment4_Reproduce.ipynb) for a **new computational run**, not the archived executed notebook. [Open the runnable copy in Colab](https://colab.research.google.com/github/Nuray06-1/RAG-Research-Assignment-4/blob/reproduction-isolated/notebooks/Assignment4_Reproduce.ipynb).
+The [16 November fresh Colab run](docs/FRESH_COLAB_RUN_2026-11-16.md) completed the full computational pipeline in an isolated folder: 160 main generations, 16 ablations, four figures, and unchanged hashes for 165 protected source files. All 264 checked statistical fields match a separate local recalculation. Fresh human validation remains pending, and 40 of 160 generated answers differ from the historical run.
+
+Use [`notebooks/Assignment4_Reproduce.ipynb`](notebooks/Assignment4_Reproduce.ipynb) for a **new computational run**, not the archived executed notebook. [Open the runnable copy in Colab](https://colab.research.google.com/github/Nuray06-1/RAG-Research-Assignment-4/blob/main/notebooks/Assignment4_Reproduce.ipynb).
 
 1. Start a fresh Colab T4 GPU runtime. Your private Drive must contain the exact frozen `RAG_Assignment3` corpus/benchmark/index and the historical `RAG_Assignment4_BENCHMARK_V2` directory with `final_config.json`, `protocol_freeze.json`, and `selected_faiss.index`. These private source inputs are not bundled in the repository.
 2. Run the notebook in order. Step 1 defaults to a new timestamped `MyDrive/RAG_Assignment4_REPRO_<UTC>` folder and rejects output paths overlapping either source directory. Optional environment variables `RAG_A3_DATA_DIR`, `RAG_A4_CONFIG_SOURCE`, and `RAG_A4_RUN_DIR` must be set before Step 1; when resuming, reuse only the same reproduction folder.
